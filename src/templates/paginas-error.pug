@@ -1,0 +1,47 @@
+extends partials/layout.pug
+
+block append styles
+    link(href="files/css/bc-errorPage.min.css" rel="stylesheet")
+
+block title
+    title Bancolombia Movilidad
+
+block content  
+    .errorPage 
+        .breadCrumb.container
+            .bread-crumb
+                ul
+                    li
+                        a(title='movilidadco' href='/') Movilidad
+                    li.last
+                        strong
+                        a(title='Error' href='#') Error 500
+        .container
+            .containerPage
+                .infoError
+                    .expression
+                        p ¡Oops!
+                    .title 
+                        p La página que buscas no se encuentra disponible.
+                    .textError
+                        p Es posible que el producto o contenido que buscas ya no este disponible. Puedes realizar una nueva búsqueda para tener mejores resultados.
+                    .imgErrorMobile
+                        img(src="../arquivos/error-page.svg" alt="Movilidad Bancolombia")
+                    a(href="/").buttonReturn.bc-btn-primary Volver al inicio <!-- 404, 500 -->
+                    .contentLinks
+                        p Te puede interesar esto:
+                        div 
+                            a(href="/") Volver a explorar carros
+                            i 
+                        div
+                            a(href="/") Visitar centro de ayuda
+                            i
+                        div
+                            a(href="/") Visitar financiación
+                            i
+
+                .imgErrorDesktop
+                    img(src="../arquivos/new-error-page.svg" alt="Movilidad Bancolombia")
+
+block beforeScripts
+    include components/bc-pageloader.pug

@@ -1,0 +1,35 @@
+mixin bc-shelf-item
+    .bc-shelf-item
+        .bc-shelf-item__top
+            a.bc-shelf-item__img(href="#")
+                img(class="img-responsive" src="/arquivos/shelf-car-sample-mob.png" alt="Product Image")
+            .d-flex.flex-sb.flex-acenter
+                p.bc-shelf-item__satus Nuevo
+                i.fenix-icon-heart.js-add-to-wl
+        .bc-shelf-item__body
+            a.bc-shelf-item__name(href="#") Chevrolet Spark GT
+            .bc-shelf-item__specs.d-flex
+                div 2014
+                div 0 Km
+                div.last Cali
+            a.bc-shelf-item__price(href="#") $120.000.000
+        .bc-shelf-item__foot
+            button.bc-btn-icon-ghost.js-compare
+                //- i.icon-exchange
+                span Comparar
+            a.bc-btn-ghost(href="#") Conocer más
+
+mixin bc-shelf-container(title)
+    .bc-shelf-container.container
+        h4.bc-shelf-container__title.m-bottom-2.hidden-lg= title
+            span.bc-shelf-container__counter
+        .bc-shelf-container__wrap.row
+            .bc-shelf-container__title.visible-lg
+                h4= title
+                a.bc-btn-primary Conocer
+            .bc-shelf-container__items
+                ul
+                    +bc-shelf-item
+                    +bc-shelf-item
+                    +bc-shelf-item
+                    +bc-shelf-item

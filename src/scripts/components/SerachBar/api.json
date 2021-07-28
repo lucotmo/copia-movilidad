@@ -1,0 +1,2300 @@
+[
+    {
+        "productId": "9",
+        "productName": "Renault Zoe",
+        "brand": "Renault",
+        "brandId": 2000000,
+        "brandImageUrl": null,
+        "linkText": "bielas-monoplato-11-12-velocidades-105",
+        "productReference": "116",
+        "categoryId": "2",
+        "productTitle": "Bielas Monoplato 11 /12 Velocidades",
+        "metaTagDescription": "Compra en linea este producto",
+        "releaseDate": "2020-02-15T00:00:00",
+        "clusterHighlights": {},
+        "productClusters": { "137": "Test-shelf" },
+        "searchableClusters": { "137": "Test-shelf" },
+        "categories": ["/Carros y Automóviles/Sedán/", "/Carros y Automóviles/"],
+        "categoriesIds": ["/1/2/", "/1/"],
+        "link": "https://movilidadco.myvtex.com/bielas-monoplato-11-12-velocidades-105/p",
+        "Descripción": [
+            "El juego de bielas SRAM GX Eagle ™ ofrece un rendimiento constante en todo momento, está diseñado para el control completo de la cadena, con el plato de perfil de dientes X-SYNC ™ 2 de SRAM.El grosor de cada diente se tolera y controla con precisión para que funcione sin problemas con los eslabones internos y externos de la cadena. La tecnología SRAM DUB ™ cuenta con un soporte inferior mejor diseñado y un nuevo diseño de husillo. Juntos, estos permiten un enfoque más uniforme para el montaje del soporte inferior y mejor sellado contra la contaminación.Brazos de aluminio forjado optimizados serie 7000"
+        ],
+        "Color": ["Negro"],
+        "Suspensión": ["2"],
+        "Especificaciones tecnicas": [
+            "– Bielas de 175mm– Peso: 621gr– Dientes del plato: 32T– Material: Aluminio serie 7000– Velocidades: 11 y 12– Compatible con todos los componentes SRAM EAGLE."
+        ],
+        "Reserva": ["SI"],
+        "Valor para reservar": ["456000"],
+        "Contenido": ["Descripción", "Color", "Suspensión", "Especificaciones tecnicas", "Reserva", "Valor para reservar"],
+        "Condición": ["Nuevo"],
+        "Municipio": ["Pereira"],
+        "Marca": ["Renault"],
+        "Modelo": ["2020"],
+        "Categoría / Tipo de vehículo": ["Coupé"],
+        "KM": ["2000"],
+        "Rango-KM": ["2000-3000"],
+        "Filtros": ["Condición", "Municipio", "Marca", "Modelo", "Categoría / Tipo de vehículo", "KM", "Rango-KM"],
+        "allSpecifications": [
+            "Descripción",
+            "Color",
+            "Suspensión",
+            "Especificaciones tecnicas",
+            "Reserva",
+            "Valor para reservar",
+            "Condición",
+            "Municipio",
+            "Marca",
+            "Modelo",
+            "Categoría / Tipo de vehículo",
+            "KM",
+            "Rango-KM"
+        ],
+        "allSpecificationsGroups": ["Contenido", "Filtros"],
+        "description": "El juego de bielas SRAM GX Eagle ™ ofrece un rendimiento constante en todo momento, está diseñado para el control completo de la cadena, con el plato de perfil de dientes X-SYNC ™ 2 de SRAM.\r\nEl grosor de cada diente se tolera y controla con precisión para que funcione sin problemas con los eslabones internos y externos de la cadena. La tecnología SRAM DUB ™ cuenta con un soporte inferior mejor diseñado y un nuevo diseño de husillo. Juntos, estos permiten un enfoque más uniforme para el montaje del soporte inferior y mejor sellado contra la contaminación.\r\nBrazos de aluminio forjado optimizados serie 7000",
+        "items": [
+            {
+                "itemId": "16",
+                "name": "Renault Zoe",
+                "nameComplete": "Renault Zoe",
+                "complementName": "",
+                "ean": "",
+                "referenceId": [{ "Key": "RefId", "Value": "105-1" }],
+                "measurementUnit": "un",
+                "unitMultiplier": 1,
+                "modalType": null,
+                "isKit": false,
+                "images": [
+                    {
+                        "imageId": "155568",
+                        "imageLabel": "renault2",
+                        "imageTag": "<img src=\"~/arquivos/ids/155568-#width#-#height#/2018_Renault_ZOE2.jpg?v=637212920897100000\" width=\"#width#\" height=\"#height#\" alt=\"2\" id=\"\" />",
+                        "imageUrl": "https://movilidadco.vteximg.com.br/arquivos/ids/155568/2018_Renault_ZOE2.jpg?v=637212920897100000",
+                        "imageText": "2",
+                        "imageLastModified": "2020-03-31T22:54:49.7100000Z"
+                    },
+                    {
+                        "imageId": "155569",
+                        "imageLabel": "renault3",
+                        "imageTag": "<img src=\"~/arquivos/ids/155569-#width#-#height#/2018_Renault_ZOE1.jpg?v=637212921156130000\" width=\"#width#\" height=\"#height#\" alt=\"3\" id=\"\" />",
+                        "imageUrl": "https://movilidadco.vteximg.com.br/arquivos/ids/155569/2018_Renault_ZOE1.jpg?v=637212921156130000",
+                        "imageText": "3",
+                        "imageLastModified": "2020-03-31T22:55:15.6130000Z"
+                    },
+                    {
+                        "imageId": "155571",
+                        "imageLabel": "renault1",
+                        "imageTag": "<img src=\"~/arquivos/ids/155571-#width#-#height#/2018_Renault_ZOE.jpg?v=637212924530700000\" width=\"#width#\" height=\"#height#\" alt=\"1\" id=\"\" />",
+                        "imageUrl": "https://movilidadco.vteximg.com.br/arquivos/ids/155571/2018_Renault_ZOE.jpg?v=637212924530700000",
+                        "imageText": "1",
+                        "imageLastModified": "2020-03-31T23:00:53.0700000Z"
+                    }
+                ],
+                "sellers": [
+                    {
+                        "sellerId": "1",
+                        "sellerName": "BANCOLOMBIA S.A",
+                        "addToCartLink": "https://movilidadco.myvtex.com/checkout/cart/add?sku=16&qty=1&seller=1&sc=1&price=3560000000&cv=8fc481a9493a96bc597a036dae9e46eb_&sc=1",
+                        "sellerDefault": true,
+                        "commertialOffer": {
+                            "DeliverySlaSamplesPerRegion": { "0": { "DeliverySlaPerTypes": [], "Region": null } },
+                            "Installments": [
+                                {
+                                    "Value": 35600000,
+                                    "InterestRate": 0,
+                                    "TotalValuePlusInterestRate": 35600000,
+                                    "NumberOfInstallments": 1,
+                                    "PaymentSystemName": "Vale",
+                                    "PaymentSystemGroupName": "giftCardPaymentGroup",
+                                    "Name": "Vale à vista"
+                                },
+                                {
+                                    "Value": 35600000,
+                                    "InterestRate": 0,
+                                    "TotalValuePlusInterestRate": 35600000,
+                                    "NumberOfInstallments": 1,
+                                    "PaymentSystemName": "WompiCo",
+                                    "PaymentSystemGroupName": "WompiCoPaymentGroup",
+                                    "Name": "WompiCo à vista"
+                                },
+                                {
+                                    "Value": 35600000,
+                                    "InterestRate": 0,
+                                    "TotalValuePlusInterestRate": 35600000,
+                                    "NumberOfInstallments": 1,
+                                    "PaymentSystemName": "Pago Anticipado",
+                                    "PaymentSystemGroupName": "custom201PaymentGroupPaymentGroup",
+                                    "Name": "Pago Anticipado à vista"
+                                }
+                            ],
+                            "DiscountHighLight": [],
+                            "GiftSkuIds": [],
+                            "Teasers": [],
+                            "BuyTogether": [],
+                            "ItemMetadataAttachment": [],
+                            "Price": 35600000,
+                            "ListPrice": 35600000,
+                            "PriceWithoutDiscount": 35600000,
+                            "RewardValue": 0,
+                            "PriceValidUntil": "2021-06-16T17:50:12.9968998Z",
+                            "AvailableQuantity": 1000000,
+                            "Tax": 0,
+                            "DeliverySlaSamples": [{ "DeliverySlaPerTypes": [], "Region": null }],
+                            "GetInfoErrorMessage": null,
+                            "CacheVersionUsedToCallCheckout": "8fc481a9493a96bc597a036dae9e46eb_",
+                            "PaymentOptions": {
+                                "installmentOptions": [
+                                    {
+                                        "paymentSystem": "16",
+                                        "bin": null,
+                                        "paymentName": "Vale",
+                                        "paymentGroupName": "giftCardPaymentGroup",
+                                        "value": 3560000000,
+                                        "installments": [
+                                            {
+                                                "count": 1,
+                                                "hasInterestRate": false,
+                                                "interestRate": 0,
+                                                "value": 3560000000,
+                                                "total": 3560000000,
+                                                "sellerMerchantInstallments": [
+                                                    {
+                                                        "id": "MOVILIDADCO",
+                                                        "count": 1,
+                                                        "hasInterestRate": false,
+                                                        "interestRate": 0,
+                                                        "value": 3560000000,
+                                                        "total": 3560000000
+                                                    }
+                                                ]
+                                            }
+                                        ]
+                                    },
+                                    {
+                                        "paymentSystem": "111",
+                                        "bin": null,
+                                        "paymentName": "WompiCo",
+                                        "paymentGroupName": "WompiCoPaymentGroup",
+                                        "value": 3560000000,
+                                        "installments": [
+                                            {
+                                                "count": 1,
+                                                "hasInterestRate": false,
+                                                "interestRate": 0,
+                                                "value": 3560000000,
+                                                "total": 3560000000,
+                                                "sellerMerchantInstallments": [
+                                                    {
+                                                        "id": "MOVILIDADCO",
+                                                        "count": 1,
+                                                        "hasInterestRate": false,
+                                                        "interestRate": 0,
+                                                        "value": 3560000000,
+                                                        "total": 3560000000
+                                                    }
+                                                ]
+                                            }
+                                        ]
+                                    },
+                                    {
+                                        "paymentSystem": "201",
+                                        "bin": null,
+                                        "paymentName": "Pago Anticipado",
+                                        "paymentGroupName": "custom201PaymentGroupPaymentGroup",
+                                        "value": 3560000000,
+                                        "installments": [
+                                            {
+                                                "count": 1,
+                                                "hasInterestRate": false,
+                                                "interestRate": 0,
+                                                "value": 3560000000,
+                                                "total": 3560000000,
+                                                "sellerMerchantInstallments": [
+                                                    {
+                                                        "id": "MOVILIDADCO",
+                                                        "count": 1,
+                                                        "hasInterestRate": false,
+                                                        "interestRate": 0,
+                                                        "value": 3560000000,
+                                                        "total": 3560000000
+                                                    }
+                                                ]
+                                            }
+                                        ]
+                                    }
+                                ],
+                                "paymentSystems": [
+                                    {
+                                        "id": 16,
+                                        "name": "Vale",
+                                        "groupName": "giftCardPaymentGroup",
+                                        "validator": null,
+                                        "stringId": "16",
+                                        "template": "giftCardPaymentGroup-template",
+                                        "requiresDocument": false,
+                                        "isCustom": false,
+                                        "description": null,
+                                        "requiresAuthentication": false,
+                                        "dueDate": "2020-06-23T17:49:12.9738008Z",
+                                        "availablePayments": null
+                                    },
+                                    {
+                                        "id": 201,
+                                        "name": "Pago Anticipado",
+                                        "groupName": "custom201PaymentGroupPaymentGroup",
+                                        "validator": null,
+                                        "stringId": "201",
+                                        "template": "custom201PaymentGroupPaymentGroup-template",
+                                        "requiresDocument": false,
+                                        "isCustom": true,
+                                        "description": "Pago Anticipado",
+                                        "requiresAuthentication": false,
+                                        "dueDate": "2020-06-26T17:50:12.9738008Z",
+                                        "availablePayments": null
+                                    },
+                                    {
+                                        "id": 111,
+                                        "name": "WompiCo",
+                                        "groupName": "WompiCoPaymentGroup",
+                                        "validator": null,
+                                        "stringId": "111",
+                                        "template": "WompiCoPaymentGroup-template",
+                                        "requiresDocument": false,
+                                        "isCustom": false,
+                                        "description": null,
+                                        "requiresAuthentication": false,
+                                        "dueDate": "2020-06-23T17:49:12.9738008Z",
+                                        "availablePayments": null
+                                    }
+                                ],
+                                "payments": [],
+                                "giftCards": [],
+                                "giftCardMessages": [],
+                                "availableAccounts": [],
+                                "availableTokens": []
+                            }
+                        }
+                    }
+                ],
+                "Videos": ["https://www.youtube.com/watch?v=0TMutxumrUg"],
+                "estimatedDateArrival": null
+            }
+        ]
+    },
+    {
+        "productId": "34",
+        "productName": "Renault ZOE",
+        "brand": "Renault",
+        "brandId": 2000000,
+        "brandImageUrl": null,
+        "linkText": "e",
+        "productReference": "C042",
+        "categoryId": "2",
+        "productTitle": "Renault ZOE",
+        "metaTagDescription": "Compra en linea este producto",
+        "releaseDate": "2020-04-09T00:00:00",
+        "clusterHighlights": {},
+        "productClusters": { "137": "Test-shelf" },
+        "searchableClusters": { "137": "Test-shelf" },
+        "categories": ["/Carros y Automóviles/Sedán/", "/Carros y Automóviles/"],
+        "categoriesIds": ["/1/2/", "/1/"],
+        "link": "https://movilidadco.myvtex.com/e/p",
+        "Descripción": ["Renault Zoe ZE50"],
+        "Color": ["Blanco"],
+        "Peso (kg)": ["2500"],
+        "Capacidad": ["5"],
+        "Dirección": ["Asistida"],
+        "Tracción": ["4x2"],
+        "Multimedia": ["Si"],
+        "Rines de lujo": ["Si"],
+        "Cojineria": ["Cuero"],
+        "Asientos electricos": ["2"],
+        "Espejos Electricos": ["SI"],
+        "Suspensión": ["h"],
+        "Reserva": ["SI"],
+        "Valor para reservar": ["5000000"],
+        "Versión": ["ZE50"],
+        "Contenido": [
+            "Descripción",
+            "Color",
+            "Peso (kg)",
+            "Capacidad",
+            "Dirección",
+            "Tracción",
+            "Multimedia",
+            "Rines de lujo",
+            "Cojineria",
+            "Asientos electricos",
+            "Espejos Electricos",
+            "Suspensión",
+            "Reserva",
+            "Valor para reservar",
+            "Versión"
+        ],
+        "Condición": ["Nuevo"],
+        "Municipio": ["Bogotá"],
+        "Marca": ["Renault"],
+        "Modelo": ["2020"],
+        "Categoría / Tipo de vehículo": ["Sedán"],
+        "KM": ["0"],
+        "Transmisión": ["Automático"],
+        "Combustible": ["Electrico"],
+        "No. puertas": ["5"],
+        "ABS": ["Si"],
+        "Airbags": ["5"],
+        "Aire acondicionado": ["Si"],
+        "Vidrios eléctricos": ["Si"],
+        "Alarma": ["Si"],
+        "Keyless access": ["Si"],
+        "Línea": ["ZOE"],
+        "Filtros": [
+            "Condición",
+            "Municipio",
+            "Marca",
+            "Modelo",
+            "Categoría / Tipo de vehículo",
+            "KM",
+            "Transmisión",
+            "Combustible",
+            "No. puertas",
+            "ABS",
+            "Airbags",
+            "Aire acondicionado",
+            "Vidrios eléctricos",
+            "Alarma",
+            "Keyless access",
+            "Línea"
+        ],
+        "allSpecifications": [
+            "Descripción",
+            "Color",
+            "Peso (kg)",
+            "Capacidad",
+            "Dirección",
+            "Tracción",
+            "Multimedia",
+            "Rines de lujo",
+            "Cojineria",
+            "Asientos electricos",
+            "Espejos Electricos",
+            "Suspensión",
+            "Reserva",
+            "Valor para reservar",
+            "Versión",
+            "Condición",
+            "Municipio",
+            "Marca",
+            "Modelo",
+            "Categoría / Tipo de vehículo",
+            "KM",
+            "Transmisión",
+            "Combustible",
+            "No. puertas",
+            "ABS",
+            "Airbags",
+            "Aire acondicionado",
+            "Vidrios eléctricos",
+            "Alarma",
+            "Keyless access",
+            "Línea"
+        ],
+        "allSpecificationsGroups": ["Contenido", "Filtros"],
+        "description": "Renault Zoe ZE50",
+        "items": [
+            {
+                "itemId": "78",
+                "name": "Renault ZOE",
+                "nameComplete": "Renault ZOE",
+                "complementName": "",
+                "ean": "",
+                "referenceId": [{ "Key": "RefId", "Value": "C042" }],
+                "measurementUnit": "un",
+                "unitMultiplier": 1,
+                "modalType": null,
+                "isKit": false,
+                "images": [
+                    {
+                        "imageId": "155598",
+                        "imageLabel": "1",
+                        "imageTag": "<img src=\"~/arquivos/ids/155598-#width#-#height#/RenaultZoe-mkt-021-_1.JPG.jpg?v=637221614118900000\" width=\"#width#\" height=\"#height#\" alt=\"RenaultZoe-mkt-021-_1.JPG\" id=\"\" />",
+                        "imageUrl": "https://movilidadco.vteximg.com.br/arquivos/ids/155598/RenaultZoe-mkt-021-_1.JPG.jpg?v=637221614118900000",
+                        "imageText": "RenaultZoe-mkt-021-_1.JPG",
+                        "imageLastModified": "2020-04-11T00:23:31.8900000Z"
+                    }
+                ],
+                "sellers": [
+                    {
+                        "sellerId": "1",
+                        "sellerName": "BANCOLOMBIA S.A",
+                        "addToCartLink": "https://movilidadco.myvtex.com/checkout/cart/add?sku=78&qty=1&seller=1&sc=1&price=10000000000&cv=00bebb6175624388dac43303cc83d4ef_&sc=1",
+                        "sellerDefault": true,
+                        "commertialOffer": {
+                            "DeliverySlaSamplesPerRegion": { "0": { "DeliverySlaPerTypes": [], "Region": null } },
+                            "Installments": [
+                                {
+                                    "Value": 100000000,
+                                    "InterestRate": 0,
+                                    "TotalValuePlusInterestRate": 100000000,
+                                    "NumberOfInstallments": 1,
+                                    "PaymentSystemName": "Vale",
+                                    "PaymentSystemGroupName": "giftCardPaymentGroup",
+                                    "Name": "Vale à vista"
+                                },
+                                {
+                                    "Value": 100000000,
+                                    "InterestRate": 0,
+                                    "TotalValuePlusInterestRate": 100000000,
+                                    "NumberOfInstallments": 1,
+                                    "PaymentSystemName": "WompiCo",
+                                    "PaymentSystemGroupName": "WompiCoPaymentGroup",
+                                    "Name": "WompiCo à vista"
+                                },
+                                {
+                                    "Value": 100000000,
+                                    "InterestRate": 0,
+                                    "TotalValuePlusInterestRate": 100000000,
+                                    "NumberOfInstallments": 1,
+                                    "PaymentSystemName": "Pago Anticipado",
+                                    "PaymentSystemGroupName": "custom201PaymentGroupPaymentGroup",
+                                    "Name": "Pago Anticipado à vista"
+                                }
+                            ],
+                            "DiscountHighLight": [],
+                            "GiftSkuIds": [],
+                            "Teasers": [],
+                            "BuyTogether": [],
+                            "ItemMetadataAttachment": [],
+                            "Price": 100000000,
+                            "ListPrice": 100000000,
+                            "PriceWithoutDiscount": 100000000,
+                            "RewardValue": 0,
+                            "PriceValidUntil": "2021-06-16T17:50:12.9973486Z",
+                            "AvailableQuantity": 5,
+                            "Tax": 0,
+                            "DeliverySlaSamples": [{ "DeliverySlaPerTypes": [], "Region": null }],
+                            "GetInfoErrorMessage": null,
+                            "CacheVersionUsedToCallCheckout": "00bebb6175624388dac43303cc83d4ef_",
+                            "PaymentOptions": {
+                                "installmentOptions": [
+                                    {
+                                        "paymentSystem": "16",
+                                        "bin": null,
+                                        "paymentName": "Vale",
+                                        "paymentGroupName": "giftCardPaymentGroup",
+                                        "value": 10000000000,
+                                        "installments": [
+                                            {
+                                                "count": 1,
+                                                "hasInterestRate": false,
+                                                "interestRate": 0,
+                                                "value": 10000000000,
+                                                "total": 10000000000,
+                                                "sellerMerchantInstallments": [
+                                                    {
+                                                        "id": "MOVILIDADCO",
+                                                        "count": 1,
+                                                        "hasInterestRate": false,
+                                                        "interestRate": 0,
+                                                        "value": 10000000000,
+                                                        "total": 10000000000
+                                                    }
+                                                ]
+                                            }
+                                        ]
+                                    },
+                                    {
+                                        "paymentSystem": "111",
+                                        "bin": null,
+                                        "paymentName": "WompiCo",
+                                        "paymentGroupName": "WompiCoPaymentGroup",
+                                        "value": 10000000000,
+                                        "installments": [
+                                            {
+                                                "count": 1,
+                                                "hasInterestRate": false,
+                                                "interestRate": 0,
+                                                "value": 10000000000,
+                                                "total": 10000000000,
+                                                "sellerMerchantInstallments": [
+                                                    {
+                                                        "id": "MOVILIDADCO",
+                                                        "count": 1,
+                                                        "hasInterestRate": false,
+                                                        "interestRate": 0,
+                                                        "value": 10000000000,
+                                                        "total": 10000000000
+                                                    }
+                                                ]
+                                            }
+                                        ]
+                                    },
+                                    {
+                                        "paymentSystem": "201",
+                                        "bin": null,
+                                        "paymentName": "Pago Anticipado",
+                                        "paymentGroupName": "custom201PaymentGroupPaymentGroup",
+                                        "value": 10000000000,
+                                        "installments": [
+                                            {
+                                                "count": 1,
+                                                "hasInterestRate": false,
+                                                "interestRate": 0,
+                                                "value": 10000000000,
+                                                "total": 10000000000,
+                                                "sellerMerchantInstallments": [
+                                                    {
+                                                        "id": "MOVILIDADCO",
+                                                        "count": 1,
+                                                        "hasInterestRate": false,
+                                                        "interestRate": 0,
+                                                        "value": 10000000000,
+                                                        "total": 10000000000
+                                                    }
+                                                ]
+                                            }
+                                        ]
+                                    }
+                                ],
+                                "paymentSystems": [
+                                    {
+                                        "id": 16,
+                                        "name": "Vale",
+                                        "groupName": "giftCardPaymentGroup",
+                                        "validator": null,
+                                        "stringId": "16",
+                                        "template": "giftCardPaymentGroup-template",
+                                        "requiresDocument": false,
+                                        "isCustom": false,
+                                        "description": null,
+                                        "requiresAuthentication": false,
+                                        "dueDate": "2020-06-23T17:49:12.9784904Z",
+                                        "availablePayments": null
+                                    },
+                                    {
+                                        "id": 201,
+                                        "name": "Pago Anticipado",
+                                        "groupName": "custom201PaymentGroupPaymentGroup",
+                                        "validator": null,
+                                        "stringId": "201",
+                                        "template": "custom201PaymentGroupPaymentGroup-template",
+                                        "requiresDocument": false,
+                                        "isCustom": true,
+                                        "description": "Pago Anticipado",
+                                        "requiresAuthentication": false,
+                                        "dueDate": "2020-06-26T17:50:12.9784904Z",
+                                        "availablePayments": null
+                                    },
+                                    {
+                                        "id": 111,
+                                        "name": "WompiCo",
+                                        "groupName": "WompiCoPaymentGroup",
+                                        "validator": null,
+                                        "stringId": "111",
+                                        "template": "WompiCoPaymentGroup-template",
+                                        "requiresDocument": false,
+                                        "isCustom": false,
+                                        "description": null,
+                                        "requiresAuthentication": false,
+                                        "dueDate": "2020-06-23T17:49:12.9784904Z",
+                                        "availablePayments": null
+                                    }
+                                ],
+                                "payments": [],
+                                "giftCards": [],
+                                "giftCardMessages": [],
+                                "availableAccounts": [],
+                                "availableTokens": []
+                            }
+                        }
+                    }
+                ],
+                "Videos": [],
+                "estimatedDateArrival": null
+            }
+        ]
+    },
+    {
+        "productId": "30",
+        "productName": "Renault Logan Expression",
+        "brand": "Renault",
+        "brandId": 2000000,
+        "brandImageUrl": null,
+        "linkText": "f",
+        "productReference": "C022",
+        "categoryId": "2",
+        "productTitle": "Renault Logan Expression",
+        "metaTagDescription": "Compra en linea este producto",
+        "releaseDate": "2020-04-09T00:00:00",
+        "clusterHighlights": {},
+        "productClusters": { "137": "Test-shelf" },
+        "searchableClusters": { "137": "Test-shelf" },
+        "categories": ["/Carros y Automóviles/Sedán/", "/Carros y Automóviles/"],
+        "categoriesIds": ["/1/2/", "/1/"],
+        "link": "https://movilidadco.myvtex.com/f/p",
+        "Descripción": ["Renault - Logan Expression (L52) AT"],
+        "Color": ["Gris"],
+        "Peso (kg)": ["3000"],
+        "Capacidad": ["5"],
+        "Dirección": ["Asistida"],
+        "Tracción": ["4x2"],
+        "Multimedia": ["Si"],
+        "Rines de lujo": ["Si"],
+        "Cojineria": ["Cuero"],
+        "Asientos electricos": ["2"],
+        "Espejos Electricos": ["SI"],
+        "Ficha técnica": ["https://www.usadosrentingcolombia.com/file/thirdparty/usados/fichatecnica/DRY454.pdf"],
+        "Suspensión": ["h"],
+        "Reserva": ["SI"],
+        "Valor para reservar": ["1000000"],
+        "Versión": ["Expression L52"],
+        "Contenido": [
+            "Descripción",
+            "Color",
+            "Peso (kg)",
+            "Capacidad",
+            "Dirección",
+            "Tracción",
+            "Multimedia",
+            "Rines de lujo",
+            "Cojineria",
+            "Asientos electricos",
+            "Espejos Electricos",
+            "Ficha técnica",
+            "Suspensión",
+            "Reserva",
+            "Valor para reservar",
+            "Versión"
+        ],
+        "Condición": ["Usado"],
+        "Municipio": ["Medellín"],
+        "Ultimo dígito placa": ["4"],
+        "Marca": ["Renault"],
+        "Modelo": ["2019"],
+        "Categoría / Tipo de vehículo": ["Sedán"],
+        "KM": ["27390"],
+        "Transmisión": ["Automático"],
+        "Combustible": ["Gasolina"],
+        "No. puertas": ["5"],
+        "ABS": ["Si"],
+        "Airbags": ["2"],
+        "Aire acondicionado": ["Si"],
+        "Vidrios eléctricos": ["Si"],
+        "Alarma": ["Si"],
+        "Keyless access": ["Si"],
+        "Línea": ["Logan"],
+        "Filtros": [
+            "Condición",
+            "Municipio",
+            "Ultimo dígito placa",
+            "Marca",
+            "Modelo",
+            "Categoría / Tipo de vehículo",
+            "KM",
+            "Transmisión",
+            "Combustible",
+            "No. puertas",
+            "ABS",
+            "Airbags",
+            "Aire acondicionado",
+            "Vidrios eléctricos",
+            "Alarma",
+            "Keyless access",
+            "Línea"
+        ],
+        "allSpecifications": [
+            "Descripción",
+            "Color",
+            "Peso (kg)",
+            "Capacidad",
+            "Dirección",
+            "Tracción",
+            "Multimedia",
+            "Rines de lujo",
+            "Cojineria",
+            "Asientos electricos",
+            "Espejos Electricos",
+            "Ficha técnica",
+            "Suspensión",
+            "Reserva",
+            "Valor para reservar",
+            "Versión",
+            "Condición",
+            "Municipio",
+            "Ultimo dígito placa",
+            "Marca",
+            "Modelo",
+            "Categoría / Tipo de vehículo",
+            "KM",
+            "Transmisión",
+            "Combustible",
+            "No. puertas",
+            "ABS",
+            "Airbags",
+            "Aire acondicionado",
+            "Vidrios eléctricos",
+            "Alarma",
+            "Keyless access",
+            "Línea"
+        ],
+        "allSpecificationsGroups": ["Contenido", "Filtros"],
+        "description": "Renault - Logan Expression (L52) AT",
+        "items": [
+            {
+                "itemId": "74",
+                "name": "Renault Logan Expression",
+                "nameComplete": "Renault Logan Expression",
+                "complementName": "",
+                "ean": "",
+                "referenceId": [{ "Key": "RefId", "Value": "C022" }],
+                "measurementUnit": "un",
+                "unitMultiplier": 1,
+                "modalType": null,
+                "isKit": false,
+                "images": [
+                    {
+                        "imageId": "155574",
+                        "imageLabel": "1",
+                        "imageTag": "<img src=\"~/arquivos/ids/155574-#width#-#height#/RenaultLoganLife-mkt-004-_1.JPG.jpg?v=637220805156800000\" width=\"#width#\" height=\"#height#\" alt=\"RenaultLoganLife-mkt-004-_1.JPG\" id=\"\" />",
+                        "imageUrl": "https://movilidadco.vteximg.com.br/arquivos/ids/155574/RenaultLoganLife-mkt-004-_1.JPG.jpg?v=637220805156800000",
+                        "imageText": "RenaultLoganLife-mkt-004-_1.JPG",
+                        "imageLastModified": "2020-04-10T01:55:15.6800000Z"
+                    },
+                    {
+                        "imageId": "155575",
+                        "imageLabel": "2",
+                        "imageTag": "<img src=\"~/arquivos/ids/155575-#width#-#height#/RenaultLoganExpression-mkt-007-_2.JPG.jpg?v=637220805346370000\" width=\"#width#\" height=\"#height#\" alt=\"RenaultLoganExpression-mkt-007-_2.JPG\" id=\"\" />",
+                        "imageUrl": "https://movilidadco.vteximg.com.br/arquivos/ids/155575/RenaultLoganExpression-mkt-007-_2.JPG.jpg?v=637220805346370000",
+                        "imageText": "RenaultLoganExpression-mkt-007-_2.JPG",
+                        "imageLastModified": "2020-04-10T01:55:34.6370000Z"
+                    }
+                ],
+                "sellers": [
+                    {
+                        "sellerId": "1",
+                        "sellerName": "BANCOLOMBIA S.A",
+                        "addToCartLink": "https://movilidadco.myvtex.com/checkout/cart/add?sku=74&qty=1&seller=1&sc=1&price=3350000000&cv=7afb63cda6602a63b7513f5adfb3d98e_&sc=1",
+                        "sellerDefault": true,
+                        "commertialOffer": {
+                            "DeliverySlaSamplesPerRegion": { "0": { "DeliverySlaPerTypes": [], "Region": null } },
+                            "Installments": [
+                                {
+                                    "Value": 33500000,
+                                    "InterestRate": 0,
+                                    "TotalValuePlusInterestRate": 33500000,
+                                    "NumberOfInstallments": 1,
+                                    "PaymentSystemName": "Vale",
+                                    "PaymentSystemGroupName": "giftCardPaymentGroup",
+                                    "Name": "Vale à vista"
+                                },
+                                {
+                                    "Value": 33500000,
+                                    "InterestRate": 0,
+                                    "TotalValuePlusInterestRate": 33500000,
+                                    "NumberOfInstallments": 1,
+                                    "PaymentSystemName": "WompiCo",
+                                    "PaymentSystemGroupName": "WompiCoPaymentGroup",
+                                    "Name": "WompiCo à vista"
+                                },
+                                {
+                                    "Value": 33500000,
+                                    "InterestRate": 0,
+                                    "TotalValuePlusInterestRate": 33500000,
+                                    "NumberOfInstallments": 1,
+                                    "PaymentSystemName": "Pago Anticipado",
+                                    "PaymentSystemGroupName": "custom201PaymentGroupPaymentGroup",
+                                    "Name": "Pago Anticipado à vista"
+                                }
+                            ],
+                            "DiscountHighLight": [],
+                            "GiftSkuIds": [],
+                            "Teasers": [],
+                            "BuyTogether": [],
+                            "ItemMetadataAttachment": [],
+                            "Price": 33500000,
+                            "ListPrice": 33500000,
+                            "PriceWithoutDiscount": 33500000,
+                            "RewardValue": 0,
+                            "PriceValidUntil": "2021-06-16T17:50:13.0120102Z",
+                            "AvailableQuantity": 7,
+                            "Tax": 0,
+                            "DeliverySlaSamples": [{ "DeliverySlaPerTypes": [], "Region": null }],
+                            "GetInfoErrorMessage": null,
+                            "CacheVersionUsedToCallCheckout": "7afb63cda6602a63b7513f5adfb3d98e_",
+                            "PaymentOptions": {
+                                "installmentOptions": [
+                                    {
+                                        "paymentSystem": "16",
+                                        "bin": null,
+                                        "paymentName": "Vale",
+                                        "paymentGroupName": "giftCardPaymentGroup",
+                                        "value": 3350000000,
+                                        "installments": [
+                                            {
+                                                "count": 1,
+                                                "hasInterestRate": false,
+                                                "interestRate": 0,
+                                                "value": 3350000000,
+                                                "total": 3350000000,
+                                                "sellerMerchantInstallments": [
+                                                    {
+                                                        "id": "MOVILIDADCO",
+                                                        "count": 1,
+                                                        "hasInterestRate": false,
+                                                        "interestRate": 0,
+                                                        "value": 3350000000,
+                                                        "total": 3350000000
+                                                    }
+                                                ]
+                                            }
+                                        ]
+                                    },
+                                    {
+                                        "paymentSystem": "111",
+                                        "bin": null,
+                                        "paymentName": "WompiCo",
+                                        "paymentGroupName": "WompiCoPaymentGroup",
+                                        "value": 3350000000,
+                                        "installments": [
+                                            {
+                                                "count": 1,
+                                                "hasInterestRate": false,
+                                                "interestRate": 0,
+                                                "value": 3350000000,
+                                                "total": 3350000000,
+                                                "sellerMerchantInstallments": [
+                                                    {
+                                                        "id": "MOVILIDADCO",
+                                                        "count": 1,
+                                                        "hasInterestRate": false,
+                                                        "interestRate": 0,
+                                                        "value": 3350000000,
+                                                        "total": 3350000000
+                                                    }
+                                                ]
+                                            }
+                                        ]
+                                    },
+                                    {
+                                        "paymentSystem": "201",
+                                        "bin": null,
+                                        "paymentName": "Pago Anticipado",
+                                        "paymentGroupName": "custom201PaymentGroupPaymentGroup",
+                                        "value": 3350000000,
+                                        "installments": [
+                                            {
+                                                "count": 1,
+                                                "hasInterestRate": false,
+                                                "interestRate": 0,
+                                                "value": 3350000000,
+                                                "total": 3350000000,
+                                                "sellerMerchantInstallments": [
+                                                    {
+                                                        "id": "MOVILIDADCO",
+                                                        "count": 1,
+                                                        "hasInterestRate": false,
+                                                        "interestRate": 0,
+                                                        "value": 3350000000,
+                                                        "total": 3350000000
+                                                    }
+                                                ]
+                                            }
+                                        ]
+                                    }
+                                ],
+                                "paymentSystems": [
+                                    {
+                                        "id": 16,
+                                        "name": "Vale",
+                                        "groupName": "giftCardPaymentGroup",
+                                        "validator": null,
+                                        "stringId": "16",
+                                        "template": "giftCardPaymentGroup-template",
+                                        "requiresDocument": false,
+                                        "isCustom": false,
+                                        "description": null,
+                                        "requiresAuthentication": false,
+                                        "dueDate": "2020-06-23T17:49:12.9784904Z",
+                                        "availablePayments": null
+                                    },
+                                    {
+                                        "id": 201,
+                                        "name": "Pago Anticipado",
+                                        "groupName": "custom201PaymentGroupPaymentGroup",
+                                        "validator": null,
+                                        "stringId": "201",
+                                        "template": "custom201PaymentGroupPaymentGroup-template",
+                                        "requiresDocument": false,
+                                        "isCustom": true,
+                                        "description": "Pago Anticipado",
+                                        "requiresAuthentication": false,
+                                        "dueDate": "2020-06-26T17:50:12.9784904Z",
+                                        "availablePayments": null
+                                    },
+                                    {
+                                        "id": 111,
+                                        "name": "WompiCo",
+                                        "groupName": "WompiCoPaymentGroup",
+                                        "validator": null,
+                                        "stringId": "111",
+                                        "template": "WompiCoPaymentGroup-template",
+                                        "requiresDocument": false,
+                                        "isCustom": false,
+                                        "description": null,
+                                        "requiresAuthentication": false,
+                                        "dueDate": "2020-06-23T17:49:12.9784904Z",
+                                        "availablePayments": null
+                                    }
+                                ],
+                                "payments": [],
+                                "giftCards": [],
+                                "giftCardMessages": [],
+                                "availableAccounts": [],
+                                "availableTokens": []
+                            }
+                        }
+                    }
+                ],
+                "Videos": [],
+                "estimatedDateArrival": null
+            }
+        ]
+    },
+    {
+        "productId": "32",
+        "productName": "Renault Logan Life",
+        "brand": "Renault",
+        "brandId": 2000000,
+        "brandImageUrl": null,
+        "linkText": "c",
+        "productReference": "C025",
+        "categoryId": "2",
+        "productTitle": "Renault Logan Life",
+        "metaTagDescription": "Compra en linea este producto",
+        "releaseDate": "2020-04-09T00:00:00",
+        "clusterHighlights": {},
+        "productClusters": { "137": "Test-shelf" },
+        "searchableClusters": { "137": "Test-shelf" },
+        "categories": ["/Carros y Automóviles/Sedán/", "/Carros y Automóviles/"],
+        "categoriesIds": ["/1/2/", "/1/"],
+        "link": "https://movilidadco.myvtex.com/c/p",
+        "Descripción": ["Renault - Logan Life"],
+        "Color": ["Gris"],
+        "Peso (kg)": ["3000"],
+        "Capacidad": ["5"],
+        "Dirección": ["Asistida"],
+        "Tracción": ["4x2"],
+        "Multimedia": ["Si"],
+        "Rines de lujo": ["No"],
+        "Cojineria": ["Textil"],
+        "Espejos Electricos": ["NO"],
+        "Ficha técnica": ["https://www.usadosrentingcolombia.com/file/thirdparty/usados/fichatecnica/DRW534.pdf"],
+        "Suspensión": ["h"],
+        "Reserva": ["SI"],
+        "Valor para reservar": ["1000000"],
+        "Versión": ["Life"],
+        "Contenido": [
+            "Descripción",
+            "Color",
+            "Peso (kg)",
+            "Capacidad",
+            "Dirección",
+            "Tracción",
+            "Multimedia",
+            "Rines de lujo",
+            "Cojineria",
+            "Espejos Electricos",
+            "Ficha técnica",
+            "Suspensión",
+            "Reserva",
+            "Valor para reservar",
+            "Versión"
+        ],
+        "Condición": ["Usado"],
+        "Municipio": ["Medellín"],
+        "Ultimo dígito placa": ["4"],
+        "Marca": ["Renault"],
+        "Modelo": ["2018"],
+        "Categoría / Tipo de vehículo": ["Sedán"],
+        "KM": ["38766"],
+        "Transmisión": ["Mecánico"],
+        "Combustible": ["Gasolina"],
+        "No. puertas": ["5"],
+        "ABS": ["Si"],
+        "Airbags": ["2"],
+        "Aire acondicionado": ["Si"],
+        "Vidrios eléctricos": ["Si"],
+        "Alarma": ["No"],
+        "Keyless access": ["No"],
+        "Línea": ["Logan"],
+        "Filtros": [
+            "Condición",
+            "Municipio",
+            "Ultimo dígito placa",
+            "Marca",
+            "Modelo",
+            "Categoría / Tipo de vehículo",
+            "KM",
+            "Transmisión",
+            "Combustible",
+            "No. puertas",
+            "ABS",
+            "Airbags",
+            "Aire acondicionado",
+            "Vidrios eléctricos",
+            "Alarma",
+            "Keyless access",
+            "Línea"
+        ],
+        "allSpecifications": [
+            "Descripción",
+            "Color",
+            "Peso (kg)",
+            "Capacidad",
+            "Dirección",
+            "Tracción",
+            "Multimedia",
+            "Rines de lujo",
+            "Cojineria",
+            "Espejos Electricos",
+            "Ficha técnica",
+            "Suspensión",
+            "Reserva",
+            "Valor para reservar",
+            "Versión",
+            "Condición",
+            "Municipio",
+            "Ultimo dígito placa",
+            "Marca",
+            "Modelo",
+            "Categoría / Tipo de vehículo",
+            "KM",
+            "Transmisión",
+            "Combustible",
+            "No. puertas",
+            "ABS",
+            "Airbags",
+            "Aire acondicionado",
+            "Vidrios eléctricos",
+            "Alarma",
+            "Keyless access",
+            "Línea"
+        ],
+        "allSpecificationsGroups": ["Contenido", "Filtros"],
+        "description": "Renault - Logan Life",
+        "items": [
+            {
+                "itemId": "76",
+                "name": "Renault Logan Life",
+                "nameComplete": "Renault Logan Life",
+                "complementName": "",
+                "ean": "",
+                "referenceId": [{ "Key": "RefId", "Value": "C025" }],
+                "measurementUnit": "un",
+                "unitMultiplier": 1,
+                "modalType": null,
+                "isKit": false,
+                "images": [
+                    {
+                        "imageId": "155596",
+                        "imageLabel": "1",
+                        "imageTag": "<img src=\"~/arquivos/ids/155596-#width#-#height#/RenaultLoganLife-mkt-004-_1.JPG.jpg?v=637221613314670000\" width=\"#width#\" height=\"#height#\" alt=\"RenaultLoganLife-mkt-004-_1.JPG\" id=\"\" />",
+                        "imageUrl": "https://movilidadco.vteximg.com.br/arquivos/ids/155596/RenaultLoganLife-mkt-004-_1.JPG.jpg?v=637221613314670000",
+                        "imageText": "RenaultLoganLife-mkt-004-_1.JPG",
+                        "imageLastModified": "2020-04-11T00:22:11.4670000Z"
+                    },
+                    {
+                        "imageId": "155597",
+                        "imageLabel": "2",
+                        "imageTag": "<img src=\"~/arquivos/ids/155597-#width#-#height#/RenaultLoganLife-mkt-004-_2.JPG.jpg?v=637221613548200000\" width=\"#width#\" height=\"#height#\" alt=\"RenaultLoganLife-mkt-004-_2.JPG\" id=\"\" />",
+                        "imageUrl": "https://movilidadco.vteximg.com.br/arquivos/ids/155597/RenaultLoganLife-mkt-004-_2.JPG.jpg?v=637221613548200000",
+                        "imageText": "RenaultLoganLife-mkt-004-_2.JPG",
+                        "imageLastModified": "2020-04-11T00:22:34.8200000Z"
+                    }
+                ],
+                "sellers": [
+                    {
+                        "sellerId": "1",
+                        "sellerName": "BANCOLOMBIA S.A",
+                        "addToCartLink": "https://movilidadco.myvtex.com/checkout/cart/add?sku=76&qty=1&seller=1&sc=1&price=2900000000&cv=b94f56199a5e6e3e4f9cd7a965dfee5d_&sc=1",
+                        "sellerDefault": true,
+                        "commertialOffer": {
+                            "DeliverySlaSamplesPerRegion": { "0": { "DeliverySlaPerTypes": [], "Region": null } },
+                            "Installments": [
+                                {
+                                    "Value": 29000000,
+                                    "InterestRate": 0,
+                                    "TotalValuePlusInterestRate": 29000000,
+                                    "NumberOfInstallments": 1,
+                                    "PaymentSystemName": "Vale",
+                                    "PaymentSystemGroupName": "giftCardPaymentGroup",
+                                    "Name": "Vale à vista"
+                                },
+                                {
+                                    "Value": 29000000,
+                                    "InterestRate": 0,
+                                    "TotalValuePlusInterestRate": 29000000,
+                                    "NumberOfInstallments": 1,
+                                    "PaymentSystemName": "WompiCo",
+                                    "PaymentSystemGroupName": "WompiCoPaymentGroup",
+                                    "Name": "WompiCo à vista"
+                                },
+                                {
+                                    "Value": 29000000,
+                                    "InterestRate": 0,
+                                    "TotalValuePlusInterestRate": 29000000,
+                                    "NumberOfInstallments": 1,
+                                    "PaymentSystemName": "Pago Anticipado",
+                                    "PaymentSystemGroupName": "custom201PaymentGroupPaymentGroup",
+                                    "Name": "Pago Anticipado à vista"
+                                }
+                            ],
+                            "DiscountHighLight": [],
+                            "GiftSkuIds": [],
+                            "Teasers": [],
+                            "BuyTogether": [],
+                            "ItemMetadataAttachment": [],
+                            "Price": 29000000,
+                            "ListPrice": 29000000,
+                            "PriceWithoutDiscount": 29000000,
+                            "RewardValue": 0,
+                            "PriceValidUntil": "2021-06-16T17:50:13.1090195Z",
+                            "AvailableQuantity": 6,
+                            "Tax": 0,
+                            "DeliverySlaSamples": [{ "DeliverySlaPerTypes": [], "Region": null }],
+                            "GetInfoErrorMessage": null,
+                            "CacheVersionUsedToCallCheckout": "b94f56199a5e6e3e4f9cd7a965dfee5d_",
+                            "PaymentOptions": {
+                                "installmentOptions": [
+                                    {
+                                        "paymentSystem": "16",
+                                        "bin": null,
+                                        "paymentName": "Vale",
+                                        "paymentGroupName": "giftCardPaymentGroup",
+                                        "value": 2900000000,
+                                        "installments": [
+                                            {
+                                                "count": 1,
+                                                "hasInterestRate": false,
+                                                "interestRate": 0,
+                                                "value": 2900000000,
+                                                "total": 2900000000,
+                                                "sellerMerchantInstallments": [
+                                                    {
+                                                        "id": "MOVILIDADCO",
+                                                        "count": 1,
+                                                        "hasInterestRate": false,
+                                                        "interestRate": 0,
+                                                        "value": 2900000000,
+                                                        "total": 2900000000
+                                                    }
+                                                ]
+                                            }
+                                        ]
+                                    },
+                                    {
+                                        "paymentSystem": "111",
+                                        "bin": null,
+                                        "paymentName": "WompiCo",
+                                        "paymentGroupName": "WompiCoPaymentGroup",
+                                        "value": 2900000000,
+                                        "installments": [
+                                            {
+                                                "count": 1,
+                                                "hasInterestRate": false,
+                                                "interestRate": 0,
+                                                "value": 2900000000,
+                                                "total": 2900000000,
+                                                "sellerMerchantInstallments": [
+                                                    {
+                                                        "id": "MOVILIDADCO",
+                                                        "count": 1,
+                                                        "hasInterestRate": false,
+                                                        "interestRate": 0,
+                                                        "value": 2900000000,
+                                                        "total": 2900000000
+                                                    }
+                                                ]
+                                            }
+                                        ]
+                                    },
+                                    {
+                                        "paymentSystem": "201",
+                                        "bin": null,
+                                        "paymentName": "Pago Anticipado",
+                                        "paymentGroupName": "custom201PaymentGroupPaymentGroup",
+                                        "value": 2900000000,
+                                        "installments": [
+                                            {
+                                                "count": 1,
+                                                "hasInterestRate": false,
+                                                "interestRate": 0,
+                                                "value": 2900000000,
+                                                "total": 2900000000,
+                                                "sellerMerchantInstallments": [
+                                                    {
+                                                        "id": "MOVILIDADCO",
+                                                        "count": 1,
+                                                        "hasInterestRate": false,
+                                                        "interestRate": 0,
+                                                        "value": 2900000000,
+                                                        "total": 2900000000
+                                                    }
+                                                ]
+                                            }
+                                        ]
+                                    }
+                                ],
+                                "paymentSystems": [
+                                    {
+                                        "id": 16,
+                                        "name": "Vale",
+                                        "groupName": "giftCardPaymentGroup",
+                                        "validator": null,
+                                        "stringId": "16",
+                                        "template": "giftCardPaymentGroup-template",
+                                        "requiresDocument": false,
+                                        "isCustom": false,
+                                        "description": null,
+                                        "requiresAuthentication": false,
+                                        "dueDate": "2020-06-23T17:49:12.9784904Z",
+                                        "availablePayments": null
+                                    },
+                                    {
+                                        "id": 201,
+                                        "name": "Pago Anticipado",
+                                        "groupName": "custom201PaymentGroupPaymentGroup",
+                                        "validator": null,
+                                        "stringId": "201",
+                                        "template": "custom201PaymentGroupPaymentGroup-template",
+                                        "requiresDocument": false,
+                                        "isCustom": true,
+                                        "description": "Pago Anticipado",
+                                        "requiresAuthentication": false,
+                                        "dueDate": "2020-06-26T17:50:12.9784904Z",
+                                        "availablePayments": null
+                                    },
+                                    {
+                                        "id": 111,
+                                        "name": "WompiCo",
+                                        "groupName": "WompiCoPaymentGroup",
+                                        "validator": null,
+                                        "stringId": "111",
+                                        "template": "WompiCoPaymentGroup-template",
+                                        "requiresDocument": false,
+                                        "isCustom": false,
+                                        "description": null,
+                                        "requiresAuthentication": false,
+                                        "dueDate": "2020-06-23T17:49:12.9784904Z",
+                                        "availablePayments": null
+                                    }
+                                ],
+                                "payments": [],
+                                "giftCards": [],
+                                "giftCardMessages": [],
+                                "availableAccounts": [],
+                                "availableTokens": []
+                            }
+                        }
+                    }
+                ],
+                "Videos": [],
+                "estimatedDateArrival": null
+            }
+        ]
+    },
+    {
+        "productId": "29",
+        "productName": "Renault Logan Expression",
+        "brand": "Renault",
+        "brandId": 2000000,
+        "brandImageUrl": null,
+        "linkText": "renault-logan-expression-l52-at1",
+        "productReference": "028",
+        "categoryId": "2",
+        "productTitle": "Renault Logan Expression",
+        "metaTagDescription": "Compra en linea este producto",
+        "releaseDate": "2020-04-09T00:00:00",
+        "clusterHighlights": {},
+        "productClusters": { "137": "Test-shelf" },
+        "searchableClusters": { "137": "Test-shelf" },
+        "categories": ["/Carros y Automóviles/Sedán/", "/Carros y Automóviles/"],
+        "categoriesIds": ["/1/2/", "/1/"],
+        "link": "https://movilidadco.myvtex.com/renault-logan-expression-l52-at1/p",
+        "Descripción": ["Renault - Logan Expression (L52) AT"],
+        "Color": ["Gris"],
+        "Peso (kg)": ["3000"],
+        "Capacidad": ["5"],
+        "Dirección": ["Asistida"],
+        "Tracción": ["4x2"],
+        "Multimedia": ["Si"],
+        "Rines de lujo": ["No"],
+        "Cojineria": ["Textil"],
+        "Espejos Electricos": ["NO"],
+        "Ficha técnica": ["https://www.usadosrentingcolombia.com/file/thirdparty/usados/fichatecnica/ENZ861.pdf"],
+        "Suspensión": ["H"],
+        "Reserva": ["No"],
+        "Versión": ["Expression (L52) AT"],
+        "Contenido": [
+            "Descripción",
+            "Color",
+            "Peso (kg)",
+            "Capacidad",
+            "Dirección",
+            "Tracción",
+            "Multimedia",
+            "Rines de lujo",
+            "Cojineria",
+            "Espejos Electricos",
+            "Ficha técnica",
+            "Suspensión",
+            "Reserva",
+            "Versión"
+        ],
+        "Condición": ["Usado"],
+        "Municipio": ["Medellín"],
+        "Ultimo dígito placa": ["1"],
+        "Marca": ["Renault"],
+        "Modelo": ["2019"],
+        "Categoría / Tipo de vehículo": ["Sedán"],
+        "KM": ["18074"],
+        "Transmisión": ["Automático"],
+        "Combustible": ["Gasolina"],
+        "No. puertas": ["5"],
+        "ABS": ["Si"],
+        "Airbags": ["2"],
+        "Aire acondicionado": ["Si"],
+        "Vidrios eléctricos": ["Si"],
+        "Alarma": ["No"],
+        "Keyless access": ["No"],
+        "Línea": ["Logan"],
+        "Filtros": [
+            "Condición",
+            "Municipio",
+            "Ultimo dígito placa",
+            "Marca",
+            "Modelo",
+            "Categoría / Tipo de vehículo",
+            "KM",
+            "Transmisión",
+            "Combustible",
+            "No. puertas",
+            "ABS",
+            "Airbags",
+            "Aire acondicionado",
+            "Vidrios eléctricos",
+            "Alarma",
+            "Keyless access",
+            "Línea"
+        ],
+        "allSpecifications": [
+            "Descripción",
+            "Color",
+            "Peso (kg)",
+            "Capacidad",
+            "Dirección",
+            "Tracción",
+            "Multimedia",
+            "Rines de lujo",
+            "Cojineria",
+            "Espejos Electricos",
+            "Ficha técnica",
+            "Suspensión",
+            "Reserva",
+            "Versión",
+            "Condición",
+            "Municipio",
+            "Ultimo dígito placa",
+            "Marca",
+            "Modelo",
+            "Categoría / Tipo de vehículo",
+            "KM",
+            "Transmisión",
+            "Combustible",
+            "No. puertas",
+            "ABS",
+            "Airbags",
+            "Aire acondicionado",
+            "Vidrios eléctricos",
+            "Alarma",
+            "Keyless access",
+            "Línea"
+        ],
+        "allSpecificationsGroups": ["Contenido", "Filtros"],
+        "description": "Renault - Logan Expression (L52) AT",
+        "items": [
+            {
+                "itemId": "73",
+                "name": "Renault Logan Expression",
+                "nameComplete": "Renault Logan Expression",
+                "complementName": "",
+                "ean": "",
+                "referenceId": [{ "Key": "RefId", "Value": "C028" }],
+                "measurementUnit": "un",
+                "unitMultiplier": 1,
+                "modalType": null,
+                "isKit": false,
+                "images": [
+                    {
+                        "imageId": "155594",
+                        "imageLabel": "1",
+                        "imageTag": "<img src=\"~/arquivos/ids/155594-#width#-#height#/RenaultLoganExpression-mkt-001-_1.JPG.jpg?v=637221612380670000\" width=\"#width#\" height=\"#height#\" alt=\"RenaultLoganExpression-mkt-001-_1.JPG\" id=\"\" />",
+                        "imageUrl": "https://movilidadco.vteximg.com.br/arquivos/ids/155594/RenaultLoganExpression-mkt-001-_1.JPG.jpg?v=637221612380670000",
+                        "imageText": "RenaultLoganExpression-mkt-001-_1.JPG",
+                        "imageLastModified": "2020-04-11T00:20:38.0670000Z"
+                    },
+                    {
+                        "imageId": "155595",
+                        "imageLabel": "2",
+                        "imageTag": "<img src=\"~/arquivos/ids/155595-#width#-#height#/RenaultLoganExpression-mkt-001-_2.JPG.jpg?v=637221612685170000\" width=\"#width#\" height=\"#height#\" alt=\"RenaultLoganExpression-mkt-001-_2.JPG\" id=\"\" />",
+                        "imageUrl": "https://movilidadco.vteximg.com.br/arquivos/ids/155595/RenaultLoganExpression-mkt-001-_2.JPG.jpg?v=637221612685170000",
+                        "imageText": "RenaultLoganExpression-mkt-001-_2.JPG",
+                        "imageLastModified": "2020-04-11T00:21:08.5170000Z"
+                    }
+                ],
+                "sellers": [
+                    {
+                        "sellerId": "1",
+                        "sellerName": "BANCOLOMBIA S.A",
+                        "addToCartLink": "https://movilidadco.myvtex.com/checkout/cart/add?sku=73&qty=1&seller=1&sc=1&price=3350000000&cv=20fb94c9af533e9866e88bc2e4b15d39_&sc=1",
+                        "sellerDefault": true,
+                        "commertialOffer": {
+                            "DeliverySlaSamplesPerRegion": { "0": { "DeliverySlaPerTypes": [], "Region": null } },
+                            "Installments": [
+                                {
+                                    "Value": 33500000,
+                                    "InterestRate": 0,
+                                    "TotalValuePlusInterestRate": 33500000,
+                                    "NumberOfInstallments": 1,
+                                    "PaymentSystemName": "Vale",
+                                    "PaymentSystemGroupName": "giftCardPaymentGroup",
+                                    "Name": "Vale à vista"
+                                },
+                                {
+                                    "Value": 33500000,
+                                    "InterestRate": 0,
+                                    "TotalValuePlusInterestRate": 33500000,
+                                    "NumberOfInstallments": 1,
+                                    "PaymentSystemName": "WompiCo",
+                                    "PaymentSystemGroupName": "WompiCoPaymentGroup",
+                                    "Name": "WompiCo à vista"
+                                },
+                                {
+                                    "Value": 33500000,
+                                    "InterestRate": 0,
+                                    "TotalValuePlusInterestRate": 33500000,
+                                    "NumberOfInstallments": 1,
+                                    "PaymentSystemName": "Pago Anticipado",
+                                    "PaymentSystemGroupName": "custom201PaymentGroupPaymentGroup",
+                                    "Name": "Pago Anticipado à vista"
+                                }
+                            ],
+                            "DiscountHighLight": [],
+                            "GiftSkuIds": [],
+                            "Teasers": [],
+                            "BuyTogether": [],
+                            "ItemMetadataAttachment": [],
+                            "Price": 33500000,
+                            "ListPrice": 33500000,
+                            "PriceWithoutDiscount": 33500000,
+                            "RewardValue": 0,
+                            "PriceValidUntil": "2021-06-16T17:50:53.0396946Z",
+                            "AvailableQuantity": 7,
+                            "Tax": 0,
+                            "DeliverySlaSamples": [{ "DeliverySlaPerTypes": [], "Region": null }],
+                            "GetInfoErrorMessage": null,
+                            "CacheVersionUsedToCallCheckout": "20fb94c9af533e9866e88bc2e4b15d39_",
+                            "PaymentOptions": {
+                                "installmentOptions": [
+                                    {
+                                        "paymentSystem": "16",
+                                        "bin": null,
+                                        "paymentName": "Vale",
+                                        "paymentGroupName": "giftCardPaymentGroup",
+                                        "value": 3350000000,
+                                        "installments": [
+                                            {
+                                                "count": 1,
+                                                "hasInterestRate": false,
+                                                "interestRate": 0,
+                                                "value": 3350000000,
+                                                "total": 3350000000,
+                                                "sellerMerchantInstallments": [
+                                                    {
+                                                        "id": "MOVILIDADCO",
+                                                        "count": 1,
+                                                        "hasInterestRate": false,
+                                                        "interestRate": 0,
+                                                        "value": 3350000000,
+                                                        "total": 3350000000
+                                                    }
+                                                ]
+                                            }
+                                        ]
+                                    },
+                                    {
+                                        "paymentSystem": "111",
+                                        "bin": null,
+                                        "paymentName": "WompiCo",
+                                        "paymentGroupName": "WompiCoPaymentGroup",
+                                        "value": 3350000000,
+                                        "installments": [
+                                            {
+                                                "count": 1,
+                                                "hasInterestRate": false,
+                                                "interestRate": 0,
+                                                "value": 3350000000,
+                                                "total": 3350000000,
+                                                "sellerMerchantInstallments": [
+                                                    {
+                                                        "id": "MOVILIDADCO",
+                                                        "count": 1,
+                                                        "hasInterestRate": false,
+                                                        "interestRate": 0,
+                                                        "value": 3350000000,
+                                                        "total": 3350000000
+                                                    }
+                                                ]
+                                            }
+                                        ]
+                                    },
+                                    {
+                                        "paymentSystem": "201",
+                                        "bin": null,
+                                        "paymentName": "Pago Anticipado",
+                                        "paymentGroupName": "custom201PaymentGroupPaymentGroup",
+                                        "value": 3350000000,
+                                        "installments": [
+                                            {
+                                                "count": 1,
+                                                "hasInterestRate": false,
+                                                "interestRate": 0,
+                                                "value": 3350000000,
+                                                "total": 3350000000,
+                                                "sellerMerchantInstallments": [
+                                                    {
+                                                        "id": "MOVILIDADCO",
+                                                        "count": 1,
+                                                        "hasInterestRate": false,
+                                                        "interestRate": 0,
+                                                        "value": 3350000000,
+                                                        "total": 3350000000
+                                                    }
+                                                ]
+                                            }
+                                        ]
+                                    }
+                                ],
+                                "paymentSystems": [
+                                    {
+                                        "id": 16,
+                                        "name": "Vale",
+                                        "groupName": "giftCardPaymentGroup",
+                                        "validator": null,
+                                        "stringId": "16",
+                                        "template": "giftCardPaymentGroup-template",
+                                        "requiresDocument": false,
+                                        "isCustom": false,
+                                        "description": null,
+                                        "requiresAuthentication": false,
+                                        "dueDate": "2020-06-23T17:49:12.9784904Z",
+                                        "availablePayments": null
+                                    },
+                                    {
+                                        "id": 201,
+                                        "name": "Pago Anticipado",
+                                        "groupName": "custom201PaymentGroupPaymentGroup",
+                                        "validator": null,
+                                        "stringId": "201",
+                                        "template": "custom201PaymentGroupPaymentGroup-template",
+                                        "requiresDocument": false,
+                                        "isCustom": true,
+                                        "description": "Pago Anticipado",
+                                        "requiresAuthentication": false,
+                                        "dueDate": "2020-06-26T17:50:12.9784904Z",
+                                        "availablePayments": null
+                                    },
+                                    {
+                                        "id": 111,
+                                        "name": "WompiCo",
+                                        "groupName": "WompiCoPaymentGroup",
+                                        "validator": null,
+                                        "stringId": "111",
+                                        "template": "WompiCoPaymentGroup-template",
+                                        "requiresDocument": false,
+                                        "isCustom": false,
+                                        "description": null,
+                                        "requiresAuthentication": false,
+                                        "dueDate": "2020-06-23T17:49:12.9784904Z",
+                                        "availablePayments": null
+                                    }
+                                ],
+                                "payments": [],
+                                "giftCards": [],
+                                "giftCardMessages": [],
+                                "availableAccounts": [],
+                                "availableTokens": []
+                            }
+                        }
+                    }
+                ],
+                "Videos": [],
+                "estimatedDateArrival": null
+            }
+        ]
+    },
+    {
+        "productId": "28",
+        "productName": "Volkswagen Voyage Trendline",
+        "brand": "Renault",
+        "brandId": 2000000,
+        "brandImageUrl": null,
+        "linkText": "volkswagen-voyage-trendline-1-6-l-mecanico",
+        "productReference": "041",
+        "categoryId": "2",
+        "productTitle": "Volkswagen Voyage Trendline",
+        "metaTagDescription": "Compra en linea este producto",
+        "releaseDate": "2020-04-09T00:00:00",
+        "clusterHighlights": {},
+        "productClusters": { "137": "Test-shelf" },
+        "searchableClusters": { "137": "Test-shelf" },
+        "categories": ["/Carros y Automóviles/Sedán/", "/Carros y Automóviles/"],
+        "categoriesIds": ["/1/2/", "/1/"],
+        "link": "https://movilidadco.myvtex.com/volkswagen-voyage-trendline-1-6-l-mecanico/p",
+        "Descripción": ["Volkswagen - Voyage Trendline 1.6 L Mecánico"],
+        "Color": ["Plata"],
+        "Peso (kg)": ["3000"],
+        "Capacidad": ["5"],
+        "Dirección": ["Asistida"],
+        "Tracción": ["4x2"],
+        "Multimedia": ["NO"],
+        "Rines de lujo": ["No"],
+        "Cojineria": ["Textil"],
+        "Espejos Electricos": ["NO"],
+        "Suspensión": ["H"],
+        "Reserva": ["SI"],
+        "Versión": ["Trendline 1.6 L"],
+        "Contenido": [
+            "Descripción",
+            "Color",
+            "Peso (kg)",
+            "Capacidad",
+            "Dirección",
+            "Tracción",
+            "Multimedia",
+            "Rines de lujo",
+            "Cojineria",
+            "Espejos Electricos",
+            "Suspensión",
+            "Reserva",
+            "Versión"
+        ],
+        "Condición": ["Nuevo"],
+        "Municipio": ["Bogotá"],
+        "Marca": ["Volkswagen"],
+        "Modelo": ["2019"],
+        "Categoría / Tipo de vehículo": ["Sedán"],
+        "KM": ["0"],
+        "Transmisión": ["Mecánica"],
+        "Combustible": ["Gasolina"],
+        "No. puertas": ["5"],
+        "ABS": ["Si"],
+        "Airbags": ["3"],
+        "Aire acondicionado": ["NO"],
+        "Vidrios eléctricos": ["No"],
+        "Alarma": ["No"],
+        "Keyless access": ["No"],
+        "Filtros": [
+            "Condición",
+            "Municipio",
+            "Marca",
+            "Modelo",
+            "Categoría / Tipo de vehículo",
+            "KM",
+            "Transmisión",
+            "Combustible",
+            "No. puertas",
+            "ABS",
+            "Airbags",
+            "Aire acondicionado",
+            "Vidrios eléctricos",
+            "Alarma",
+            "Keyless access"
+        ],
+        "allSpecifications": [
+            "Descripción",
+            "Color",
+            "Peso (kg)",
+            "Capacidad",
+            "Dirección",
+            "Tracción",
+            "Multimedia",
+            "Rines de lujo",
+            "Cojineria",
+            "Espejos Electricos",
+            "Suspensión",
+            "Reserva",
+            "Versión",
+            "Condición",
+            "Municipio",
+            "Marca",
+            "Modelo",
+            "Categoría / Tipo de vehículo",
+            "KM",
+            "Transmisión",
+            "Combustible",
+            "No. puertas",
+            "ABS",
+            "Airbags",
+            "Aire acondicionado",
+            "Vidrios eléctricos",
+            "Alarma",
+            "Keyless access"
+        ],
+        "allSpecificationsGroups": ["Contenido", "Filtros"],
+        "description": "Volkswagen - Voyage Trendline 1.6 L Mecánico",
+        "items": [
+            {
+                "itemId": "80",
+                "name": "Volkswagen Voyage Trendline",
+                "nameComplete": "Volkswagen Voyage Trendline",
+                "complementName": "",
+                "ean": "",
+                "referenceId": [{ "Key": "RefId", "Value": "C041" }],
+                "measurementUnit": "un",
+                "unitMultiplier": 1,
+                "modalType": null,
+                "isKit": false,
+                "images": [
+                    {
+                        "imageId": "155606",
+                        "imageLabel": "1",
+                        "imageTag": "<img src=\"~/arquivos/ids/155606-#width#-#height#/VolkswagenVoyageTrendline-mkt-020-_2.jpg?v=637221646246200000\" width=\"#width#\" height=\"#height#\" alt=\"VolkswagenVoyageTrendline-mkt-020-_2\" id=\"\" />",
+                        "imageUrl": "https://movilidadco.vteximg.com.br/arquivos/ids/155606/VolkswagenVoyageTrendline-mkt-020-_2.jpg?v=637221646246200000",
+                        "imageText": "VolkswagenVoyageTrendline-mkt-020-_2",
+                        "imageLastModified": "2020-04-11T01:17:04.6200000Z"
+                    },
+                    {
+                        "imageId": "155607",
+                        "imageLabel": "2",
+                        "imageTag": "<img src=\"~/arquivos/ids/155607-#width#-#height#/VolkswagenVoyageTrendline-mkt-020-_1.jpg?v=637221646641570000\" width=\"#width#\" height=\"#height#\" alt=\"VolkswagenVoyageTrendline-mkt-020-_1\" id=\"\" />",
+                        "imageUrl": "https://movilidadco.vteximg.com.br/arquivos/ids/155607/VolkswagenVoyageTrendline-mkt-020-_1.jpg?v=637221646641570000",
+                        "imageText": "VolkswagenVoyageTrendline-mkt-020-_1",
+                        "imageLastModified": "2020-04-11T01:17:44.1570000Z"
+                    }
+                ],
+                "sellers": [
+                    {
+                        "sellerId": "1",
+                        "sellerName": "BANCOLOMBIA S.A",
+                        "addToCartLink": "https://movilidadco.myvtex.com/checkout/cart/add?sku=80&qty=1&seller=1&sc=1&price=3100000000&cv=64ef340740445d01a58b824cac17a5ec_&sc=1",
+                        "sellerDefault": true,
+                        "commertialOffer": {
+                            "DeliverySlaSamplesPerRegion": { "0": { "DeliverySlaPerTypes": [], "Region": null } },
+                            "Installments": [
+                                {
+                                    "Value": 31000000,
+                                    "InterestRate": 0,
+                                    "TotalValuePlusInterestRate": 31000000,
+                                    "NumberOfInstallments": 1,
+                                    "PaymentSystemName": "Vale",
+                                    "PaymentSystemGroupName": "giftCardPaymentGroup",
+                                    "Name": "Vale à vista"
+                                },
+                                {
+                                    "Value": 31000000,
+                                    "InterestRate": 0,
+                                    "TotalValuePlusInterestRate": 31000000,
+                                    "NumberOfInstallments": 1,
+                                    "PaymentSystemName": "WompiCo",
+                                    "PaymentSystemGroupName": "WompiCoPaymentGroup",
+                                    "Name": "WompiCo à vista"
+                                },
+                                {
+                                    "Value": 31000000,
+                                    "InterestRate": 0,
+                                    "TotalValuePlusInterestRate": 31000000,
+                                    "NumberOfInstallments": 1,
+                                    "PaymentSystemName": "Pago Anticipado",
+                                    "PaymentSystemGroupName": "custom201PaymentGroupPaymentGroup",
+                                    "Name": "Pago Anticipado à vista"
+                                }
+                            ],
+                            "DiscountHighLight": [],
+                            "GiftSkuIds": [],
+                            "Teasers": [],
+                            "BuyTogether": [],
+                            "ItemMetadataAttachment": [],
+                            "Price": 31000000,
+                            "ListPrice": 31000000,
+                            "PriceWithoutDiscount": 31000000,
+                            "RewardValue": 0,
+                            "PriceValidUntil": "2021-06-16T17:50:53.0261478Z",
+                            "AvailableQuantity": 8,
+                            "Tax": 0,
+                            "DeliverySlaSamples": [{ "DeliverySlaPerTypes": [], "Region": null }],
+                            "GetInfoErrorMessage": null,
+                            "CacheVersionUsedToCallCheckout": "64ef340740445d01a58b824cac17a5ec_",
+                            "PaymentOptions": {
+                                "installmentOptions": [
+                                    {
+                                        "paymentSystem": "16",
+                                        "bin": null,
+                                        "paymentName": "Vale",
+                                        "paymentGroupName": "giftCardPaymentGroup",
+                                        "value": 3100000000,
+                                        "installments": [
+                                            {
+                                                "count": 1,
+                                                "hasInterestRate": false,
+                                                "interestRate": 0,
+                                                "value": 3100000000,
+                                                "total": 3100000000,
+                                                "sellerMerchantInstallments": [
+                                                    {
+                                                        "id": "MOVILIDADCO",
+                                                        "count": 1,
+                                                        "hasInterestRate": false,
+                                                        "interestRate": 0,
+                                                        "value": 3100000000,
+                                                        "total": 3100000000
+                                                    }
+                                                ]
+                                            }
+                                        ]
+                                    },
+                                    {
+                                        "paymentSystem": "111",
+                                        "bin": null,
+                                        "paymentName": "WompiCo",
+                                        "paymentGroupName": "WompiCoPaymentGroup",
+                                        "value": 3100000000,
+                                        "installments": [
+                                            {
+                                                "count": 1,
+                                                "hasInterestRate": false,
+                                                "interestRate": 0,
+                                                "value": 3100000000,
+                                                "total": 3100000000,
+                                                "sellerMerchantInstallments": [
+                                                    {
+                                                        "id": "MOVILIDADCO",
+                                                        "count": 1,
+                                                        "hasInterestRate": false,
+                                                        "interestRate": 0,
+                                                        "value": 3100000000,
+                                                        "total": 3100000000
+                                                    }
+                                                ]
+                                            }
+                                        ]
+                                    },
+                                    {
+                                        "paymentSystem": "201",
+                                        "bin": null,
+                                        "paymentName": "Pago Anticipado",
+                                        "paymentGroupName": "custom201PaymentGroupPaymentGroup",
+                                        "value": 3100000000,
+                                        "installments": [
+                                            {
+                                                "count": 1,
+                                                "hasInterestRate": false,
+                                                "interestRate": 0,
+                                                "value": 3100000000,
+                                                "total": 3100000000,
+                                                "sellerMerchantInstallments": [
+                                                    {
+                                                        "id": "MOVILIDADCO",
+                                                        "count": 1,
+                                                        "hasInterestRate": false,
+                                                        "interestRate": 0,
+                                                        "value": 3100000000,
+                                                        "total": 3100000000
+                                                    }
+                                                ]
+                                            }
+                                        ]
+                                    }
+                                ],
+                                "paymentSystems": [
+                                    {
+                                        "id": 16,
+                                        "name": "Vale",
+                                        "groupName": "giftCardPaymentGroup",
+                                        "validator": null,
+                                        "stringId": "16",
+                                        "template": "giftCardPaymentGroup-template",
+                                        "requiresDocument": false,
+                                        "isCustom": false,
+                                        "description": null,
+                                        "requiresAuthentication": false,
+                                        "dueDate": "2020-06-23T17:49:12.9784904Z",
+                                        "availablePayments": null
+                                    },
+                                    {
+                                        "id": 201,
+                                        "name": "Pago Anticipado",
+                                        "groupName": "custom201PaymentGroupPaymentGroup",
+                                        "validator": null,
+                                        "stringId": "201",
+                                        "template": "custom201PaymentGroupPaymentGroup-template",
+                                        "requiresDocument": false,
+                                        "isCustom": true,
+                                        "description": "Pago Anticipado",
+                                        "requiresAuthentication": false,
+                                        "dueDate": "2020-06-26T17:50:12.9784904Z",
+                                        "availablePayments": null
+                                    },
+                                    {
+                                        "id": 111,
+                                        "name": "WompiCo",
+                                        "groupName": "WompiCoPaymentGroup",
+                                        "validator": null,
+                                        "stringId": "111",
+                                        "template": "WompiCoPaymentGroup-template",
+                                        "requiresDocument": false,
+                                        "isCustom": false,
+                                        "description": null,
+                                        "requiresAuthentication": false,
+                                        "dueDate": "2020-06-23T17:49:12.9784904Z",
+                                        "availablePayments": null
+                                    }
+                                ],
+                                "payments": [],
+                                "giftCards": [],
+                                "giftCardMessages": [],
+                                "availableAccounts": [],
+                                "availableTokens": []
+                            }
+                        }
+                    }
+                ],
+                "Videos": [],
+                "estimatedDateArrival": null
+            }
+        ]
+    },
+    {
+        "productId": "19",
+        "productName": "Volkswagen Virtus Trendline",
+        "brand": "Renault",
+        "brandId": 2000000,
+        "brandImageUrl": null,
+        "linkText": "volkswagen-virtus-trendline-1-6-at",
+        "productReference": "040",
+        "categoryId": "2",
+        "productTitle": "Volkswagen Virtus Trendline",
+        "metaTagDescription": "Compra en linea este producto",
+        "releaseDate": "2020-04-09T00:00:00",
+        "clusterHighlights": {},
+        "productClusters": { "137": "Test-shelf" },
+        "searchableClusters": { "137": "Test-shelf" },
+        "categories": ["/Carros y Automóviles/Sedán/", "/Carros y Automóviles/"],
+        "categoriesIds": ["/1/2/", "/1/"],
+        "link": "https://movilidadco.myvtex.com/volkswagen-virtus-trendline-1-6-at/p",
+        "Descripción": ["Volkswagen - Virtus Trendline 1.6 AT"],
+        "Color": ["Plata"],
+        "Peso (kg)": ["3000"],
+        "Capacidad": ["5"],
+        "Dirección": ["Asistida"],
+        "Tracción": ["4x2"],
+        "Multimedia": ["Si"],
+        "Rines de lujo": ["Si"],
+        "Espejos Electricos": ["SI"],
+        "Suspensión": ["H"],
+        "Reserva": ["No"],
+        "Valor para reservar": ["890000"],
+        "Versión": ["Trendline 1.6 AT"],
+        "Contenido": [
+            "Descripción",
+            "Color",
+            "Peso (kg)",
+            "Capacidad",
+            "Dirección",
+            "Tracción",
+            "Multimedia",
+            "Rines de lujo",
+            "Espejos Electricos",
+            "Suspensión",
+            "Reserva",
+            "Valor para reservar",
+            "Versión"
+        ],
+        "Condición": ["Usado"],
+        "Municipio": ["Medellín"],
+        "Ultimo dígito placa": ["9"],
+        "Marca": ["Volkswagen"],
+        "Modelo": ["2019"],
+        "Categoría / Tipo de vehículo": ["Sedán"],
+        "KM": ["12108"],
+        "Transmisión": ["Automático"],
+        "Combustible": ["Gasolina"],
+        "No. puertas": ["5"],
+        "ABS": ["Si"],
+        "Airbags": ["3"],
+        "Aire acondicionado": ["Si"],
+        "Alarma": ["Si"],
+        "Keyless access": ["No"],
+        "Filtros": [
+            "Condición",
+            "Municipio",
+            "Ultimo dígito placa",
+            "Marca",
+            "Modelo",
+            "Categoría / Tipo de vehículo",
+            "KM",
+            "Transmisión",
+            "Combustible",
+            "No. puertas",
+            "ABS",
+            "Airbags",
+            "Aire acondicionado",
+            "Alarma",
+            "Keyless access"
+        ],
+        "allSpecifications": [
+            "Descripción",
+            "Color",
+            "Peso (kg)",
+            "Capacidad",
+            "Dirección",
+            "Tracción",
+            "Multimedia",
+            "Rines de lujo",
+            "Espejos Electricos",
+            "Suspensión",
+            "Reserva",
+            "Valor para reservar",
+            "Versión",
+            "Condición",
+            "Municipio",
+            "Ultimo dígito placa",
+            "Marca",
+            "Modelo",
+            "Categoría / Tipo de vehículo",
+            "KM",
+            "Transmisión",
+            "Combustible",
+            "No. puertas",
+            "ABS",
+            "Airbags",
+            "Aire acondicionado",
+            "Alarma",
+            "Keyless access"
+        ],
+        "allSpecificationsGroups": ["Contenido", "Filtros"],
+        "description": "Volkswagen - Virtus Trendline 1.6 AT",
+        "items": [
+            {
+                "itemId": "50",
+                "name": "Volkswagen Virtus Trendline",
+                "nameComplete": "Volkswagen Virtus Trendline",
+                "complementName": "",
+                "ean": "",
+                "referenceId": [{ "Key": "RefId", "Value": "C038" }],
+                "measurementUnit": "un",
+                "unitMultiplier": 1,
+                "modalType": null,
+                "isKit": false,
+                "images": [
+                    {
+                        "imageId": "155605",
+                        "imageLabel": "1",
+                        "imageTag": "<img src=\"~/arquivos/ids/155605-#width#-#height#/VolkswagenVirtusTrendline-mkt-018-_1.JPG.jpg?v=637221643721600000\" width=\"#width#\" height=\"#height#\" alt=\"VolkswagenVirtusTrendline-mkt-018-_1.JPG\" id=\"\" />",
+                        "imageUrl": "https://movilidadco.vteximg.com.br/arquivos/ids/155605/VolkswagenVirtusTrendline-mkt-018-_1.JPG.jpg?v=637221643721600000",
+                        "imageText": "VolkswagenVirtusTrendline-mkt-018-_1.JPG",
+                        "imageLastModified": "2020-04-11T01:12:52.1600000Z"
+                    }
+                ],
+                "sellers": [
+                    {
+                        "sellerId": "1",
+                        "sellerName": "BANCOLOMBIA S.A",
+                        "addToCartLink": "https://movilidadco.myvtex.com/checkout/cart/add?sku=50&qty=1&seller=1&sc=1&price=4800000000&cv=a3ec5d59e0f9a95b8f774fbbd2d31a6b_&sc=1",
+                        "sellerDefault": true,
+                        "commertialOffer": {
+                            "DeliverySlaSamplesPerRegion": { "0": { "DeliverySlaPerTypes": [], "Region": null } },
+                            "Installments": [
+                                {
+                                    "Value": 48000000,
+                                    "InterestRate": 0,
+                                    "TotalValuePlusInterestRate": 48000000,
+                                    "NumberOfInstallments": 1,
+                                    "PaymentSystemName": "Vale",
+                                    "PaymentSystemGroupName": "giftCardPaymentGroup",
+                                    "Name": "Vale à vista"
+                                },
+                                {
+                                    "Value": 48000000,
+                                    "InterestRate": 0,
+                                    "TotalValuePlusInterestRate": 48000000,
+                                    "NumberOfInstallments": 1,
+                                    "PaymentSystemName": "WompiCo",
+                                    "PaymentSystemGroupName": "WompiCoPaymentGroup",
+                                    "Name": "WompiCo à vista"
+                                },
+                                {
+                                    "Value": 48000000,
+                                    "InterestRate": 0,
+                                    "TotalValuePlusInterestRate": 48000000,
+                                    "NumberOfInstallments": 1,
+                                    "PaymentSystemName": "Pago Anticipado",
+                                    "PaymentSystemGroupName": "custom201PaymentGroupPaymentGroup",
+                                    "Name": "Pago Anticipado à vista"
+                                }
+                            ],
+                            "DiscountHighLight": [],
+                            "GiftSkuIds": [],
+                            "Teasers": [],
+                            "BuyTogether": [],
+                            "ItemMetadataAttachment": [],
+                            "Price": 48000000,
+                            "ListPrice": 48000000,
+                            "PriceWithoutDiscount": 48000000,
+                            "RewardValue": 0,
+                            "PriceValidUntil": "2021-06-16T17:50:53.1597912Z",
+                            "AvailableQuantity": 7,
+                            "Tax": 0,
+                            "DeliverySlaSamples": [{ "DeliverySlaPerTypes": [], "Region": null }],
+                            "GetInfoErrorMessage": null,
+                            "CacheVersionUsedToCallCheckout": "a3ec5d59e0f9a95b8f774fbbd2d31a6b_",
+                            "PaymentOptions": {
+                                "installmentOptions": [
+                                    {
+                                        "paymentSystem": "16",
+                                        "bin": null,
+                                        "paymentName": "Vale",
+                                        "paymentGroupName": "giftCardPaymentGroup",
+                                        "value": 4800000000,
+                                        "installments": [
+                                            {
+                                                "count": 1,
+                                                "hasInterestRate": false,
+                                                "interestRate": 0,
+                                                "value": 4800000000,
+                                                "total": 4800000000,
+                                                "sellerMerchantInstallments": [
+                                                    {
+                                                        "id": "MOVILIDADCO",
+                                                        "count": 1,
+                                                        "hasInterestRate": false,
+                                                        "interestRate": 0,
+                                                        "value": 4800000000,
+                                                        "total": 4800000000
+                                                    }
+                                                ]
+                                            }
+                                        ]
+                                    },
+                                    {
+                                        "paymentSystem": "111",
+                                        "bin": null,
+                                        "paymentName": "WompiCo",
+                                        "paymentGroupName": "WompiCoPaymentGroup",
+                                        "value": 4800000000,
+                                        "installments": [
+                                            {
+                                                "count": 1,
+                                                "hasInterestRate": false,
+                                                "interestRate": 0,
+                                                "value": 4800000000,
+                                                "total": 4800000000,
+                                                "sellerMerchantInstallments": [
+                                                    {
+                                                        "id": "MOVILIDADCO",
+                                                        "count": 1,
+                                                        "hasInterestRate": false,
+                                                        "interestRate": 0,
+                                                        "value": 4800000000,
+                                                        "total": 4800000000
+                                                    }
+                                                ]
+                                            }
+                                        ]
+                                    },
+                                    {
+                                        "paymentSystem": "201",
+                                        "bin": null,
+                                        "paymentName": "Pago Anticipado",
+                                        "paymentGroupName": "custom201PaymentGroupPaymentGroup",
+                                        "value": 4800000000,
+                                        "installments": [
+                                            {
+                                                "count": 1,
+                                                "hasInterestRate": false,
+                                                "interestRate": 0,
+                                                "value": 4800000000,
+                                                "total": 4800000000,
+                                                "sellerMerchantInstallments": [
+                                                    {
+                                                        "id": "MOVILIDADCO",
+                                                        "count": 1,
+                                                        "hasInterestRate": false,
+                                                        "interestRate": 0,
+                                                        "value": 4800000000,
+                                                        "total": 4800000000
+                                                    }
+                                                ]
+                                            }
+                                        ]
+                                    }
+                                ],
+                                "paymentSystems": [
+                                    {
+                                        "id": 16,
+                                        "name": "Vale",
+                                        "groupName": "giftCardPaymentGroup",
+                                        "validator": null,
+                                        "stringId": "16",
+                                        "template": "giftCardPaymentGroup-template",
+                                        "requiresDocument": false,
+                                        "isCustom": false,
+                                        "description": null,
+                                        "requiresAuthentication": false,
+                                        "dueDate": "2020-06-23T17:49:12.9784904Z",
+                                        "availablePayments": null
+                                    },
+                                    {
+                                        "id": 201,
+                                        "name": "Pago Anticipado",
+                                        "groupName": "custom201PaymentGroupPaymentGroup",
+                                        "validator": null,
+                                        "stringId": "201",
+                                        "template": "custom201PaymentGroupPaymentGroup-template",
+                                        "requiresDocument": false,
+                                        "isCustom": true,
+                                        "description": "Pago Anticipado",
+                                        "requiresAuthentication": false,
+                                        "dueDate": "2020-06-26T17:50:12.9784904Z",
+                                        "availablePayments": null
+                                    },
+                                    {
+                                        "id": 111,
+                                        "name": "WompiCo",
+                                        "groupName": "WompiCoPaymentGroup",
+                                        "validator": null,
+                                        "stringId": "111",
+                                        "template": "WompiCoPaymentGroup-template",
+                                        "requiresDocument": false,
+                                        "isCustom": false,
+                                        "description": null,
+                                        "requiresAuthentication": false,
+                                        "dueDate": "2020-06-23T17:49:12.9784904Z",
+                                        "availablePayments": null
+                                    }
+                                ],
+                                "payments": [],
+                                "giftCards": [],
+                                "giftCardMessages": [],
+                                "availableAccounts": [],
+                                "availableTokens": []
+                            }
+                        }
+                    }
+                ],
+                "Videos": [],
+                "estimatedDateArrival": null
+            }
+        ]
+    }
+]

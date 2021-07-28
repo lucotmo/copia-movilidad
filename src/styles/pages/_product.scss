@@ -1,0 +1,5180 @@
+.header__bread-crumb {
+    display: none !important;
+}
+.header__nav {
+    display: none;
+}
+
+.product-page {
+    .search-bar__wrapper {
+        @media screen and (max-width: $breakpoint-tablet){
+            display: none;
+        }
+    }
+}
+
+.product {
+    display: block;
+    position: relative;
+    &-image {
+        @mixin productImage-content {
+            position: absolute;
+            top: 0;
+            left: 0;
+            width: 100%;
+        }
+        &__wrapper {
+            position: relative;
+            padding-bottom: 55%;
+            width: 100%;
+            iframe {
+                @include productImage-content;
+            }
+        }
+        &__img {
+            @include productImage-content;
+        }
+        &__thumb {
+            img {
+                width: 100%;
+            }
+        }
+    }
+    .productSection {
+        display: flex;
+        position: relative;
+        width: 100%;
+        flex-wrap: wrap;
+        flex-basis: 100%;
+        max-width: 1440px;
+        margin: 0px;
+        padding: 0px 4%;
+        .bc-modal__wrapper {
+            display: none;
+            &.active_modal {
+                display: block;
+            }
+            .bc-modal {
+                max-width: 1440px;
+                max-height: 95%;
+                width: 91.7%;
+                padding: 3vh 70px 4vh;
+                top: 50%;
+                left: 50%;
+                transform: translate(-50%, -50%);
+                background-color: white;
+                box-shadow: 0px 0px 20px $color-bg-10;
+                animation: bc-modal-expand-gallery 300ms ease-in-out;
+
+                @media screen and (max-width: $breakpoint-mobile) {
+                    padding: 23px 16px;
+                }
+                .product-name {
+                    font-family: 'cibfont_sansbold';
+                    font-size: 40px;
+                    text-align: center;
+                    letter-spacing: -0.6px;
+                    font-weight: 500;
+                    color: $color-black;
+                    width: 100%;
+
+                    @media screen and (max-width: $breakpoint-mobile) {
+                        font-size: 20px;
+                        line-height: 24px;
+                        letter-spacing: -0.375px;
+                        text-align: left;
+                        width: 90%;
+                    }
+                }
+                .expand__gallery {
+                    width: 100%;
+                    margin-top: 15px;
+                    position: relative;
+                    .expand-btn {
+                        display: none;
+                    }
+                    .productSection__slider__imageFull  {
+                        border: 1px solid $color-status-09;
+                        .slick-list {
+                            max-width: 70%;
+                            margin: 7vh auto;
+                            .product-image__wrapper {
+                                padding-bottom: 48vh;
+                                img {
+                                    left: 50%;
+                                    transform: translateX(-50%);
+                                    height: 100%;
+                                    width: auto;
+                                }
+                            }
+                            .easyzoom-notice {
+                                display: none;
+                            }
+                        }
+
+                        @media screen and (max-width: $breakpoint-mobile) {
+                            border: none;
+                            .easyzoom {
+                                width: 100%;
+                                margin: 8px 0px;
+                            }
+                        }
+                    }
+                    .productSection__slider__imageCarrusel {
+                        max-width: none;
+                        margin-top: 13px;
+                        position: initial;
+
+                        @media screen and (max-width: $breakpoint-mobile) {
+                            display: none;
+                        }
+                        .slick-list {
+                            height: 12.7vh;
+                            .product-image__thumb {
+                                height: 12.7vh !important;
+                                img {
+                                    height: 12.7vh;
+                                }
+                            }
+                        }
+                        .slick-prev, .slick-next {
+                            width: auto;
+                            height: auto;
+                            top: 40%;
+                            &::before {
+                                font-size: 54px;
+                            }
+                        }
+                        .slick-prev {
+                            left: 5%;
+                        }
+                        .slick-next {
+                            right: 5%;
+                        }
+                        .product-image__thumb {
+                            border: 1px solid $color-status-10;
+                            margin: 0px 2px;
+                        }
+                        .slick-current::after {
+                            border-bottom: 3px solid $color-status-03;
+                        }
+                        .product-image__thumb-indicatorNumber {
+                            display: none;
+                        }
+                    }
+                }
+            }
+        }
+        &__slider {
+            display: block;
+            width: 100%;
+            padding: 0px;
+            position: relative;
+            .expand-btn {
+                display: block;
+                position: absolute;
+                right: 8%;
+                top: 20px;
+                color: $color-status-03;
+                font-size: 29px;
+                z-index: 100;
+                cursor: pointer;
+
+                @media screen and (max-width: $breakpoint-desktopPDP) {
+                    width: 100%;
+                    height: 89%;
+                    top: 0px;
+                    right: 0px;
+                    &::before {
+                        position: absolute;
+                        top: 20px;
+                        right: 20px;
+                    }
+                }
+            }
+            .slick-list {
+                padding: 0px !important;
+            }
+            &__imageFull {
+                margin-bottom: 8px;
+                figure {
+                    picture {
+                        a,
+                        img {
+                            width: 100%;
+                        }
+                    }
+                }
+                .slick-prev:before {
+                    content: $fenix-icon-arrow2-left;
+                    font-family: "#{$icomoon-font-family}";
+                    color: $color-white;
+                    text-shadow: 0px 1px 4px rgba(0, 0, 0, 0.6);
+                    font-size: 25px;
+                    font-weight: 600;
+                    opacity: 1;
+                }
+                .slick-next:before {
+                    content: $fenix-icon-arrow2-right;
+                    font-family: "#{$icomoon-font-family}";
+                    color: $color-white;
+                    text-shadow: 0px 1px 4px rgba(0, 0, 0, 0.6);
+                    font-size: 25px;
+                    font-weight: 600;
+                    opacity: 1;
+                }
+                .slick-next {
+                    height: 28px;
+                    width: 24px;
+                    right: 5px;
+                    z-index: 200;
+                }
+                .slick-prev {
+                    height: 28px;
+                    left: 5px;
+                    z-index: 200;
+                }
+            }
+            &__imageCarrusel {
+                position: relative;
+                width: 100%;
+                z-index: 100;
+                div.product-image__thumb {
+                    width: 77px;
+                    height: 60px;
+                    display: block;
+                    position: relative;
+                    overflow: hidden;
+                    margin: 0px 0.5px;
+                    img {
+                        opacity: 0.5;
+                        object-fit: cover;
+                        height: 60px;
+                        width: 100%;
+                        left: 0;
+                        position: absolute;
+                        top: 0;
+                    }
+                    &.slick-current {
+                        position: relative;
+                        &::after {
+                            content: "";
+                            border-bottom: 3px solid $color-brand-01;
+                            position: absolute;
+                            right: 0;
+                            left: 0;
+                            bottom: 0;
+                            -webkit-box-sizing: border-box;
+                            box-sizing: border-box;
+                            border-bottom-right-radius: 5px;
+                            border-bottom-left-radius: 5px;
+                        }
+                        img {
+                            opacity: 1;
+                        }
+                        & + .slick-active + .slick-active + .slick-active + .slick-active {
+                            img {
+                                opacity: 0.2 !important;
+                            }
+                        }
+                    }
+                    &-indicatorNumber {
+                        position: absolute;
+                        font-size: 28px;
+                        line-height: 30px;
+                        letter-spacing: -0.6px;
+                        font-weight: bold;
+                        top: 20%;
+                        right: 4%;
+                    }
+                }
+                div.product-image__thumb__one__product {
+                    margin-left: -180% !important;
+                    width: 77px;
+                    height: 60px;
+                    display: block;
+                    position: relative;
+                    overflow: hidden;
+                    margin: 0px 0.5px;
+                    img {
+                        opacity: 0.5;
+                        border-radius: 5px;
+                        object-fit: cover;
+                        height: 60px;
+                        width: 100%;
+                        left: 0;
+                        position: absolute;
+                        top: 0;
+                    }
+                    &.slick-current {
+                        position: relative;
+                        max-width: 100%;
+                        
+                        &::after {
+                            content: "";
+                            border-bottom: 3px solid $color-brand-01;
+                            position: absolute;
+                            right: 0;
+                            left: 0;
+                            bottom: 0;
+                            -webkit-box-sizing: border-box;
+                            box-sizing: border-box;
+                            border-bottom-right-radius: 5px;
+                            border-bottom-left-radius: 5px;
+                        }
+                        img {
+                            opacity: 1;
+                        }
+                        & + .slick-active + .slick-active + .slick-active + .slick-active {
+                            img {
+                                opacity: 0.2 !important;
+                            }
+                        }
+                    }
+                    &-indicatorNumber {
+                        position: absolute;
+                        font-size: 28px;
+                        line-height: 30px;
+                        letter-spacing: -0.6px;
+                        font-weight: bold;
+                        top: 20%;
+                        right: 4%;
+                    }
+                }
+                .slick-prev:before {
+                    content: $fenix-icon-arrow2-left;
+                    font-family: "#{$icomoon-font-family}";
+                    color: $color-status-03;
+                    font-size: 32px;
+                    opacity: 1;
+                }
+                .slick-next:before {
+                    content: $fenix-icon-arrow2-right;
+                    font-family: "#{$icomoon-font-family}";
+                    color: $color-status-03;
+                    font-size: 32px;
+                    opacity: 1;
+                }
+            }
+        }
+        &__info {
+            display: block;
+            padding: 0px;
+            max-width: none;
+            width: 100%;
+            // min-height: 479px;  //Esta medida para cuando se incluya el boton "Separar este carro online"
+            min-height: 398px;
+            &__principal {
+                padding: 16px 0px 8px;
+                h1 {
+                    font-family: 'cibfont_sansbold';
+                    font-weight: 500;
+                    font-size: 28px;
+                    line-height: 30px;
+                    letter-spacing: -0.6px;
+                    color: $color-text-00;
+                }
+                .seller {
+                    display: block;
+                    position: relative;
+                    font-size: 16px;
+                    line-height: 22px;
+                    letter-spacing: -0.3px;
+                    color: $color-status-03;
+                    margin: 8px 0px 0px;
+                    span {
+                        display: inline-block;
+                        font-family: "Open Sans", sans-serif;
+                    }
+                    .nameSeller {
+                        @include font-link-dark-left;
+                        display: inline-block;
+                        cursor: pointer;
+                        appearance: none;
+                        text-transform: capitalize;
+                        color: $color-status-03;
+                        padding: 0px 8px;
+                        text-decoration: underline;
+                        &:hover {
+                            text-decoration: underline;
+                        }
+                    }
+                }
+            }
+            &__secondary {
+                position: relative;
+                display: block;
+                .price {
+                    @include font-h-2-heading-blue-left;
+                    font-family: 'cibfont_sansbold';
+                    font-weight: 500;
+                    display: inline-block;
+                    position: relative;
+                    color: #2C2A29;
+                    margin-top: 0px;
+                    width: 100%;
+                }
+                
+                .wishlistIcon {
+                    cursor: pointer;
+                    position: absolute;
+                    right: 0;
+                    top: -20px;
+                    width: fit-content;
+                    width: 34px;
+                    height: 34px;
+                    display: flex;
+                    align-items: center;
+                    justify-content: center;
+                    border-radius: 17px;
+                    @media screen and (max-width: 768px) {
+                        font-weight: 100 !important;
+                        color: #979797 !important;
+                    }
+                    &:before {
+                        content: $fenix-icon-heart;
+                        font-family: "#{$icomoon-font-family}";
+                        font-size: 20px;
+                        color: $color-status-03;
+                    }
+                    &:hover {
+                        background: $color-hover-favorite;
+                    }
+                    &.active {
+                        background: $color-hover-favorite;
+                    }
+                }
+                .productDescription {
+                    @include font-body-gray-01-left;
+                    margin: 24px 0px 0px;
+                    font-size: 14px;
+                    line-height: 18px;
+                    letter-spacing: -0.2px;
+                    font-weight: normal;
+                    color: #000000;
+                    text-overflow: hidden;
+                    overflow: hidden;
+                    max-height: 70px;
+                    p {
+                        margin: 0px;
+                        strong {
+                            color: $color-black;
+                            font-weight: 600;
+                        }
+                    }
+                }
+                .productShare {
+                    text-align: left;
+                    margin: 20px 0px;
+                    button {
+                        text-decoration: none;
+                        cursor: pointer;
+                        position: relative;
+                        display: flex;
+                        align-items: center;
+                        justify-content: left;
+                        appearance: none;
+                        margin: 0px;
+                        padding: 0px;
+                        &:before {
+                            content: $fenix-icon-share-external-link;
+                            font-family: "#{$icomoon-font-family}";
+                            font-size: 21.62px;
+                            font-weight: normal;
+                            color: $color-status-03;
+                            text-decoration: none;
+                        }
+                        p {
+                            @include font-link-dark-left;
+                            text-decoration-line: underline;
+                            color: $color-black;
+                            text-transform: initial;
+                            margin: 0px 0px 0px 13.33px;
+                        }
+                    }
+                }
+            }
+            &__actionSection {
+                display: flex;
+                position: relative;
+                flex-wrap: wrap;
+                flex-basis: 100%;
+                width: 100%;
+                justify-content: center;
+                padding: 17px 0px 0px;
+                .agendarCita {
+                    cursor: pointer;
+                    display: block;
+                    position: relative;
+                    width: 100%;
+                    height: 38px;
+                    border-radius: 1000px;
+                    margin: 0px 10px 16px;
+                    font-family: 'cibfont_sansbold';
+                    font-weight: 500;
+                    font-size: 20px;
+                    line-height: 24px;
+                    text-align: center;
+                    letter-spacing: -0.375px;
+                    color: $color-black;
+
+                    @media screen and (max-width: 554px) {
+                        max-width: none;
+                        margin: 0px auto 16px;
+                    }
+
+                    @media screen and (min-width: 555px) and (max-width: $breakpoint-desktopPDP) {
+                        margin: 0px 10px 16px;
+                    }
+                }
+                .financiacion {
+                    cursor: pointer;
+                    display: block;
+                    position: relative;
+                    max-width: 250px;
+                    width: 100%;
+                    height: 38px;
+                    font-family: 'cibfont_sansbold';
+                    font-weight: 500;
+                    font-size: 20px;
+                    line-height: 24px;
+                    letter-spacing: -0.375px;
+                    text-align: center;
+                    color: $color-black;
+                    margin: 0px;
+                    
+                    @media screen and (max-width: 554px) {
+                        max-width: none;
+                    }
+
+                }
+
+                &.active {
+                    @media screen and (max-width: 554px) {
+                        .agendarCita {
+                            margin: 0px auto 16px 10px;
+                        }
+
+                        .financiacion {
+                            margin: 0px 10px 16px auto;
+                        }
+                    }
+                }
+
+                button,
+                div {
+                    &.reservaOnline {
+                        appearance: none;
+                        -webkit-appearance: none;
+                        border: none;
+                        background-color: transparent;
+                        padding: 25px 0px 34px;
+                        width:100%;
+                        ////////////////////
+                        display: none;
+                    }
+                    &.linkReserva {
+                        display: flex;
+                        flex-wrap: wrap;
+                        width: 100%;
+                        appearance: none;
+                        -webkit-appearance: none;
+                        border: none;
+                        align-items: center;
+                        max-width: fit-content;
+                        margin: 0 auto;
+                        span {
+                            display: block;
+                            position: relative;
+                            font-size: 27px;
+                            margin-right: 10px;
+                            &.fenix-icon-info {
+                                color: $color-status-03;
+                            }
+                        }
+                        p {
+                            font-family: 'Open Sans';
+                            font-style: normal;
+                            font-weight: 600;
+                            font-size: 16px;
+                            line-height: 24px;
+                            letter-spacing: -0.3px;
+                            text-decoration-line: underline;
+                            text-transform: none;
+                            color: $color-black;
+                            margin: 0px;
+                        }
+                        &:after {
+                            content: $fenix-icon-arrow2-right;
+                            font-family: "#{$icomoon-font-family}";
+                            margin-left: 10px;
+                            color: $color-status-03;
+                            font-size: 17.8px;
+                        }
+                    }
+                }
+
+                &.active {
+                    @media screen and (max-width: $breakpoint-mobile) {
+                        position: fixed;
+                        bottom: 0px;
+                        left: 0px;
+                        z-index: 1000;
+                        background-color: white;
+                        width: 100%;
+                        padding: 23px 0px 0px;
+                        border-radius: 20px 20px 0px 0px;
+                        box-shadow: 0px -3px 14px rgba(0, 0, 0, 0.1);
+                        .agendarCita {
+                            width: 45%;
+                            height: 38px;
+                            font-size: 16px;
+                            line-height: 21px;
+                            letter-spacing: -0.3px;
+                            display: flex;
+                            justify-content: center;
+                            align-items: center;
+                        }
+                        .financiacion {
+                            width: 45%;
+                            height: 38px;
+                            font-size: 16px;
+                            line-height: 21px;
+                            letter-spacing: -0.3px;
+                            display: flex;
+                            justify-content: center;
+                            align-items: center;
+                        }
+                        .reservaOnline {
+                            padding: 0px 0px 20px;
+                        }
+                    }
+                }
+            }
+        }
+        &__tabsMoreInfo {
+            display: block;
+            position: relative;
+            width: 100%;
+            padding: 54px 0px 0px;
+            .tabs {
+                display: flex;
+                flex-basis: 100%;
+                position: relative;
+                width: 100%;
+                text-align: center;
+                @include font-h-4-heading-gray-01-center;
+                font-weight: bold;
+                box-shadow: none;
+                margin: 0px;
+                .tab {
+                    position: relative;
+                    width: 50%;
+                    display: block;
+                    border-bottom: 1px solid $color-status-03;
+                    padding: 17px 0 10px;
+                    font-family: 'Open Sans';
+                    font-size: 16px;
+                    line-height: 22px;
+                    letter-spacing: -0, 3;
+                    font-weight: 100;
+                    text-align: center;
+                    color: $color-status-03;
+                    cursor: pointer;
+
+                    &.active {
+                        border-bottom: 2px solid $color-brand-01;
+                        font-family: 'Open Sans';
+                        font-weight: 600;
+                        line-height: 22px;
+                        text-align: center;
+                        font-size: 16px;
+                        letter-spacing: -0, 3;
+                        color: $color-status-03;
+                    }
+                    &:hover {
+                        border-bottom: 2px solid $color-brand-01;
+                    }
+                }
+            }
+            &__informacionBasica {
+                display: block;
+                position: relative;
+                width: 100%;
+                flex-basis: 100%;
+                border-bottom: 2px solid $color-text-06;
+                ul {
+                    display: flex;
+                    flex-wrap: wrap;
+                    flex-basis: 100%;
+                    width: 100%;
+                    position: relative;
+                    padding: 10px 20px;
+
+                    li {
+                        width: 50%;
+                        display: block;
+                        position: relative;
+                        font-family: 'Open Sans';
+                        font-weight: normal;
+                        font-size: 14px;
+                        line-height: 18px;
+                        letter-spacing: -0.2px;
+                        color: $color-status-03;
+                        min-width: auto;
+                        padding: 0px 0px 8px 15px;
+                        .content {
+                            font-family: 'cibfont_sansbold';
+                            font-weight: 500;
+                            font-size: 20px;
+                            line-height: 26px;
+                            letter-spacing: -0.45px;
+                            color: #2C2A29;
+                            margin: 0px;
+                        }
+                    }
+                }
+                .spec-brand > div {
+                    width: 40px;
+                    position: relative;
+                    top: 0px;
+                    img {
+                        width: 100%;
+                    }
+                }
+            }
+            &__equipamiento {
+                display: block;
+                position: relative;
+                width: 100%;
+                flex-basis: 100%;
+                border-bottom: 2px solid $color-text-06;
+                ul {
+                    display: flex;
+                    flex-wrap: wrap;
+                    flex-basis: 100%;
+                    width: 100%;
+                    position: relative;
+                    padding: 10px;
+                    li {
+                        font-family: 'cibfont_sansligth';
+                        font-size: 15px;
+                        line-height: 18px;
+                        letter-spacing: -0.2px;
+                        color: $color-status-03;
+                        width: 50%;
+                        display: block;
+                        position: relative;
+                        margin: 10px 0px;
+                        &::before {
+                            font-family: "#{$icomoon-font-family}";
+                            content: $fenix-icon-successful;
+                            font-size: 24px;
+                            font-weight: 100;
+                            color: $color-status-03;
+                            margin-right: 10px;
+                            position: relative;
+                            top: 5px;
+                        }
+                    }
+                }
+            }
+            .contentDownload {
+                display: block;
+                justify-content: center;
+                position: relative;
+                padding: 19px 0px 0px;
+                h3 {
+                    display: flex;
+                    align-items: center;
+                    margin: 0px;
+                    font-family: 'Open Sans', Arial;
+                    font-weight: normal;
+                    font-size: 14px;
+                    line-height: 18px;
+                    letter-spacing: -0.2px;
+                    color: $color-status-03;
+                    &:before {
+                        content: $fenix-icon-info;
+                        font-family: "#{$icomoon-font-family}";
+                        margin-right: 10px;
+                        color: $color-status-03;
+                        font-size: 20px;
+                    }
+                }
+                span {
+                    display: none;
+                }
+                .descarga {
+                    display: flex;
+                    align-items: center;
+                    position: relative;
+                    font-family: 'Open Sans', Arial;
+                    font-weight: 600;
+                    font-size: 16px;
+                    line-height: 22px;
+                    letter-spacing: -0.3px;
+                    color: $color-black;
+                    width: 100%;
+                    text-align: left;
+                    appearance: none;
+                    -webkit-appearance: none;
+                    border: none;
+                    background-color: transparent;
+                    cursor: pointer;
+                    margin: 15px 0px 0px;
+
+                    &:before {
+                        content: $fenix-icon-download;
+                        font-family: "#{$icomoon-font-family}";
+                        color: $color-status-03;
+                        font-size: 19.5px;
+                        font-weight: normal;
+                        position: absolute;
+                        right: -29px;
+                    }
+
+                    &:after {
+                        content: '';
+                        width: 98px;
+                        height: 1px;
+                        background-color: $color-status-03;
+                        position: absolute;
+                        left: 0px;
+                        bottom: 0px;
+                    }
+
+                    @media screen and (max-width: 799px) {
+                        &:before {
+                            position: relative;
+                            left: 0px;
+                            right: none;
+                            margin-right: 10px;
+                        }
+    
+                        &:after {
+                            left: 29px;
+                        }
+                    }
+                }
+            }
+        }
+        &__solicitudDeFinanciacion {
+            display: block;
+            position: relative;
+            width: 100%;
+            padding: 43px 0px 0px;
+            h2 {
+                font-family: 'cibfont_sansbold';
+                font-weight: 500;
+                font-size: 24px;
+                line-height: 26px;
+                letter-spacing: -0.45px;
+                text-align: center;
+                color: $color-text-00;
+                margin: 0 auto;
+                display: block;
+            }
+            &__content {
+                .tabs {
+                    box-shadow: none;
+                    max-width: 322px;
+                    box-shadow: 0px 1px 2px rgba(0, 0, 0, 0.1);
+                    border-radius: 24px;
+                    margin: 15px auto 0px;
+                    .tab {
+                        font-family: 'Open Sans';
+                        font-size: 16px;
+                        font-weight: normal;
+                        line-height: 21px;
+                        letter-spacing: -0.3px;
+                        color: $color-text-00;
+                        padding: 7px 0px;
+                        border: none;
+                        cursor: pointer;
+
+                        &.active,
+                        &:active,&:hover {
+                            box-shadow: 0px 0px 2px rgba(0, 0, 0, 0.16), 0px 1px 3px rgba(0, 0, 0, 0.100515);
+                            border-radius: 24px;
+                            border: 1px solid $color-text-01;
+                            font-weight: 600;
+                        }
+                    }
+                }
+                &__options {
+                    display: block;
+                    position: relative;
+                    width: 100%;
+                    margin: 26px 0 0;
+                    &__Credito {
+                        display: flex;
+                        position: relative;
+                        width: 100%;
+                        flex-basis: 100%;
+                        flex-wrap: wrap;
+                        title {
+                            text-transform: uppercase;
+                            position: relative;
+                            display: block;
+                            font-weight: bold;
+                            font-size: 22px;
+                            letter-spacing: -0.31px;
+                            line-height: 18px;
+                            margin-left: 10px;
+                            margin-bottom: 30px;
+                        }
+                        .label-title-simulador {
+                            font-family: "Open Sans";
+                            font-weight: normal;
+                            font-size: 12px;
+                            line-height: 16px;
+                            letter-spacing: -0.171429px;
+                            color: $color-status-03;
+                        }
+                        .result-title-simulator-select {
+                            font-family: Open Sans;
+                            font-weight: 600;
+                            font-size: 16px;
+                            line-height: 21px;
+                            letter-spacing: -0.3px;
+                            color: $color-status-03;
+                        }
+                        .CreditoForm {
+                            display: block;
+                            position: relative;
+                            flex-basis: 100%;
+                            width: 100%;
+                            max-width: none;
+                            margin: 0px 15px 0px;
+                            // padding: 10px;
+                            .bc-select__wrapper {
+                                .bc-select {
+                                    padding: 10px 0 20px 4px;
+                                    position: relative;
+                                    width: 100%;
+                                    &__input {
+                                        p {
+                                            color: #292929;
+                                            font-size: 18px;
+                                            padding: 10px 3px;
+                                            font-weight: 600;
+                                        }
+                                        i {
+                                            bottom: 7px;
+                                            font-size: 17.8px;
+                                            // padding-right: 10px;
+                                        }
+                                    }
+                                    &__options {
+                                        width: 100%;
+                                        top: 75px;
+                                        left: 5px;
+                                    }
+                                }
+                            }
+                            .rc-slider-handle {
+                                /* border: 10px solid #ffd200; */
+                                border: 5px solid $color-brand-01;
+                                margin-top: -11px;
+                                height: 28px;
+                                width: 28px;
+                            }
+                            .qouta-credit-simulator-container, .qouta-init-credit-simulator-container {
+                                .rc-slider-handle {
+                                    transform: translateX(-50%) !important;
+                                }
+                            }
+                            .bc-slider-secondary {
+                                // padding-bottom: 25px;
+                                div {
+                                    .bc-slider-secondary {
+                                        &__label {
+                                            max-width: 100%;
+                                            // flex: 0 50%;
+                                        }
+                                    }
+                                }
+                            }
+                            .bc-select--active {
+                                box-shadow: none;
+                                background-color: transparent;
+                            }
+                            .moreInfo {
+                                text-align: justify;
+                                position: relative;
+                                display: block;
+                                @include font-small-gray-01-left;
+                                margin: 30px 0px;
+                                letter-spacing: -0.19px;
+                                line-height: 18px;
+                                font-size: 13px;
+                                margin-top: 0px;
+                            }
+                            .js-slider-in-fee,
+                            .js-slider-mon-fee {
+                                padding: 10px 0px;
+                            }
+                        }
+                        .title-finance-container {
+                            display: grid;
+                            grid-template-columns: 70% 30%;
+                            margin: 0px 0px 8px;
+                            // padding-top: 25px;
+                            .container-title-summary-simulator{
+                                display: flex;
+
+                                .fenix-icon-info {
+                                    font-size: 15px;
+                                    color: $color-status-03;
+                                    font-weight: normal;
+                                    margin-left: 5.5px;
+                                }
+                            }
+                        }
+                        .logo-sufi-simulador {
+                            position: absolute;
+                            top: 15px;
+                            right: 18px;
+                            margin-top: -5px;
+                            text-align: right;
+
+                            .sufi-title {
+                                margin: 0px 0px 1px;
+                                font-size: 9px;
+                                display: block;
+
+                                @media screen and (max-width: 800px) {
+                                    display: none;
+                                }
+                            }
+                        }
+                        .header-finance-container {
+                            position: relative;
+                            padding: 18px;
+                            // padding-left: 18px;
+                            // width: 500px;
+                            // margin-top: 45px;
+                            // box-shadow: 0 3px 6px 0 #cdced0;
+                            // padding-bottom: 18px;
+                            // padding-right: 24px;
+                        }
+                        .logo-simulator {
+                            margin-left: 5px;
+                            margin-bottom: 7px;
+                        }
+                        .logo-sufi-summary-simulator {
+                            height: 33px;
+                        }
+                        .footer-finance-container {
+                            margin: 0px;
+                            padding: 0px 18px;
+                            // margin: 13px 17px 0px 15px;
+                            justify-content: center;
+
+                            p {
+                                color: #292929;
+                                font-family: Open Sans;
+                                font-size: 16px;
+                                font-weight: bold;
+                                letter-spacing: -0.23px;
+                                line-height: 22px;
+                                width: 100%;
+                            }
+                        }
+
+                        // .finance-simulador {
+                        //     margin-top: 45px;
+                        //     margin-left: 74px;
+                        //     height: 545px;
+                        //   }
+                        // .summary-finance-simulator {
+                            // width: 90%
+                        // }
+                        .icon-down {
+                            &:before {
+                                content: "\f078";
+                                font-weight: 100;
+                            }
+                        }
+                        .numeroDeCuotas {
+                            width: 100px;
+                        }
+                        .result-value-title-simulator1 {
+                            // margin-top: 7px;
+                            // width: 180%;
+                            border-bottom: 2px solid #979797;
+                            padding: 5px 0px 3px 3px;
+                        }
+                        .result-text-value-title-simulator {
+                            font-family: "Open Sans";
+                            font-weight: 520;
+                            letter-spacing: -0.2px;
+                            font-size: 19px;
+                        }
+                        .values-credit-simulator {
+                            display: grid;
+                            grid-template-columns: 100%;
+                            margin-left: 6px;
+                        }
+                        .label-share-summary-simulator {
+                            font-family: 'Open Sans';
+                            font-weight: 600;
+                            font-size: 16px;
+                            line-height: 21px;
+                            text-align: justify;
+                            letter-spacing: -0.3px;
+                            color: $color-text-00;
+                            padding: 4px 0px 0px;
+                            // color: #808285;
+                            // font-family: "Open Sans";
+                            // font-weight: bold;
+                            // size: 16px;
+                        }
+                        .label-share-summary-simulator-leasing {
+                            font-family: 'Open Sans';
+                            font-weight: 600;
+                            font-size: 16px;
+                            line-height: 21px;
+                            text-align: justify;
+                            letter-spacing: -0.3px;
+                            color: $color-text-00;
+                            padding: 4px 0px 0px;
+                            display: block;
+                            margin-block-start: 0em !important;
+                            margin-block-end: 0.5em !important;
+                            margin-inline-start: 0px !important;
+                        }
+                        .option-purchase-container {
+                            margin-left: 20px;
+                        }
+                        .label-option-purchase {
+                            height: 24px;
+                            width: 143px;
+                            font-family: Open Sans;
+                            font-style: normal;
+                            font-weight: normal;
+                            font-size: 12px;
+                            line-height: 16px;
+                            letter-spacing: -0.171429px;
+                            color: $color-status-03;
+                            margin-bottom: 20px;
+                        }
+                        .label-pay {
+                            width: 100%;
+                        }
+                        .porc-purchase-container {
+                            display: grid;
+                            grid-template-columns: 26px 51px 26px 32px;
+                            margin-left: 2px;
+                            margin-top: 10px;
+                        }
+                        .porc-radio-option {
+                            font-family: Open Sans;
+                            font-weight: 600;
+                            font-size: 16px;
+                            line-height: 21px;
+                            letter-spacing: -0.3px;
+                            color: $color-text-00;
+                        }
+                        .qouta-leasing-simulator-container-credit {
+                            display: grid;
+                            grid-template-columns: 60% 40%;
+                        }
+                        .bar-summary {
+                            margin: 24px 0px 16px;
+                            border: none;
+                            border-top: 1px solid #CCCCCC;
+                        }
+                        .btn-margin {
+                            text-align: center;
+                            max-width: 200px;
+                            margin: 16px auto 0px;
+                        }
+                        .types-share-summary-container {
+                            display: flex;
+                            margin-top: 15px;
+                        }
+                        .title-types-share-summary {
+                            height: 20px;
+                            color: #292929;
+                            font-family: Open Sans;
+                            font-size: 13px;
+                            font-weight: 700;
+                            letter-spacing: -0.22px;
+                            line-height: 20px;
+                        }
+                        .p-simulator {
+                            display: block;
+                            margin-block-start: 0em !important;
+                            margin-block-end: 0em !important;
+                            margin-inline-start: 0px !important;
+                        }
+                        .bar-summary1 {
+                            border: 0;
+                            border-left: 1px solid #9a9a9a;
+                            height: 40px;
+                            margin-right: 12px;
+                        }
+                        .footer-form-simulator1 {
+                            color: #000000;
+                            font-weight: 600;
+                            text-decoration: underline;
+                        }
+                        .radioPorc {
+                            width: 30px !important;
+                            height: 30px !important;
+                            background: #ececec !important;
+                            border-radius: 100px !important;
+                            border: none !important;
+                            -webkit-transition: color 8ms linear 0.2s !important;
+                            transition: color 8ms linear 0.2s !important;
+                        }
+                        .info {
+                            display: flex;
+                            position: relative;
+                            flex-basis: 100%;
+                            width: 100%;
+                            max-width: none;
+                            margin: 0px;
+                            &__Sufi {
+                                &__contentPrice {
+                                    &__containerInfo {
+                                        position: relative;
+                                        background-color: $color-bg-01;
+                                        padding: 30px 25px;
+                                        .icon-sufi {
+                                            background-image: url(/arquivos/icon-sufi.svg);
+                                            width: 50px;
+                                            height: 50px;
+                                            background-repeat: no-repeat;
+                                            background-size: contain;
+                                            margin-right: 10px;
+                                            position: absolute;
+                                            display: block;
+                                            right: 4%;
+                                            top: 8%;
+                                        }
+                                        label {
+                                            @include font-h-5-heading-dark-left;
+                                            display: block;
+                                        }
+                                        &__price {
+                                            @include font-h-1-heading-blue-left;
+                                            display: inline-block;
+                                            position: relative;
+                                            font-size: 30px;
+                                        }
+                                        span {
+                                            display: inline-block;
+                                            position: relative;
+                                            @include font-h-4-heading-blue-left;
+                                            font-size: 30px;
+                                        }
+                                        &__descriptionPayment {
+                                            font-family: 'Open Sans';
+                                            font-weight: normal;
+                                            font-size: 16px;
+                                            line-height: 22px;
+                                            letter-spacing: -0.3px;
+                                            color: $color-text-00;
+                                            // @include font-h-6-heading-dark-left;
+                                            // font-family: Open Sans;
+                                        }
+                                        &__additionalInfo {
+                                            @include font-small-gray-01-left;
+                                            margin: 20px 0px;
+                                            font-size: 13px;
+                                        }
+                                        &__additionalInfoLink {
+                                            @include font-label-dark-left;
+                                            margin: 20px 0px;
+                                            font-size: 14px;
+                                            line-height: 24px;
+                                            letter-spacing: -0, 26;
+                                            text-decoration: none;
+                                            font-weight: 600;
+                                            cursor: pointer;
+                                            &:hover {
+                                                text-decoration: underline;
+                                            }
+                                        }
+                                    }
+                                    button {
+                                        margin: 0 auto;
+                                        position: relative;
+                                        display: block;
+                                        margin-top: -20px;
+                                    }
+                                    .bc-btn-primary {
+                                        height: 38px;
+                                        width: 70%;
+                                        font-size: 20px;
+                                        color: #292929;
+                                        font-family: "Open Sans";
+                                        font-size: 15px;
+                                        letter-spacing: -0.28px;
+                                        line-height: 24px;
+                                        margin-top: 15px;
+                                    }
+                                }
+                            }
+                        }
+                    }
+                }
+            }
+        }
+    }
+    .contentAttributesPrincipales {
+        background: rgba(230, 231, 232, 0.2);
+        padding: 22px 21px;
+        .attributesPrincipales {
+            display: flex;
+            position: relative;
+            flex-wrap: wrap;
+            flex-basis: 100%;
+            width: 100%;
+            justify-content: center;
+            margin: 0px;
+            // margin: 10px auto;
+            .item {
+                max-width: 100%;
+                &:not(:last-child) {
+                    border-right: 2px solid $color-status-06;
+                }
+                display: block;
+                width: max-content;
+                position: relative;
+                min-width: auto;
+                font-weight: 400;
+                padding: 0px !important;
+                transform: none !important;
+                padding: 0px 20px;
+                .contentAttribute {
+                    display: flex;
+                    position: relative;
+                    flex-direction: column;
+                    justify-content: center;
+                    align-items: center;
+                    padding: 1.5px 65px 1.5px 16px;
+                    // padding: 1.5px 74px 1.5px 48px;
+                    &.first {
+                        padding-left: 20px;
+                    }
+                    span {
+                        font-family: 'cibfont_sansligth';
+                        font-size: 20px;
+                        line-height: 24px;
+                        letter-spacing: -0.375px;
+                        color: $color-status-03;
+                        display: block;
+                        position: relative;
+                        width: auto;
+                        width: 100% !important;
+                        // font-size: 15px;
+                        // font-weight: 400;
+                        // line-height: 26px;
+                        // letter-spacing: -0, 28;
+                        // color: $color-text-08;
+                    }
+                    p {
+                        font-family: 'cibfont_sansbold';
+                        font-weight: 500;
+                        font-size: 24px;
+                        line-height: 26px;
+                        letter-spacing: -0.45px;
+                        color: $color-status-03;
+                        margin: 0px;
+                        display: block;
+                        position: relative;
+                        width: 100% !important;
+                        overflow: hidden;
+                        text-overflow: ellipsis;
+                        // @include font-h-5-heading-dark-left;
+                        // font-size: 26px;
+                        // margin: 5px 0px;
+                        // color: $color-text-08;
+                        // opacity: 0.8;
+                    }
+                }
+            }
+            .slick-dots {
+                bottom: -34px;
+                li {
+                    position: relative;
+                    display: inline-block;
+                    width: 15px;
+                    height: 15px;
+                    margin: 2px 20px 0px;
+                    // margin: 0 5px;
+                    padding: 0;
+                    cursor: pointer;
+                    border-radius: 100px;
+                    button {
+                        &:before {
+                            font-size: 10px;
+                            top: 18px;
+                            content: '';
+                            width: 40px;
+                            height: 8px;
+                            background-color: $color-status-03;
+                            border-radius: 4px;
+                            margin-left: -12px;
+                            opacity: 1;
+                        }
+                    }
+                }
+                .slick-active {
+                    button {
+                        &:before {
+                            background-color: $color-brand-01;
+                        }
+                    }
+                }
+            }
+        }
+    }
+    .actionSectionStickyMobile {
+        position: fixed;
+        display: block;
+        bottom: 0px;
+        left: 0px;
+        right: 0px;
+        box-shadow: 0px 0px 20px $color-bg-10;
+        background-color: $color-white;
+        padding: 10px 0px;
+        z-index: 10;
+        &__content {
+            display: flex;
+            flex-basis: 50%;
+            flex-wrap: wrap;
+            justify-content: center;
+            .agendarCita {
+                cursor: pointer;
+                display: block;
+                position: relative;
+                width: 45%;
+                margin: 10px 5px;
+                color: $color-text-02;
+                max-width: 250px;
+            }
+            .financiacion {
+                cursor: pointer;
+                display: block;
+                position: relative;
+                width: 45%;
+                margin: 10px 5px;
+                max-width: 250px;
+            }
+            button,
+            div {
+                &.reservaOnline {
+                    appearance: none;
+                    -webkit-appearance: none;
+                    border: none;
+                    background-color: transparent;
+                    padding: 15px 0px;
+                    display: flex;
+                    width: 100%;
+                    justify-content: center;
+                    margin: 0 auto;
+                }
+                &.linkReserva {
+                    display: flex;
+                    flex-wrap: wrap;
+                    width: 100%;
+                    // margin: 25px;
+                    appearance: none;
+                    -webkit-appearance: none;
+                    border: none;
+                    align-items: center;
+                    font-family: Open Sans;
+                    font-weight: 700;
+                    font-size: 18px;
+                    line-height: 20px;
+                    letter-spacing: -0, 3;
+                    justify-content: center;
+                    span {
+                        display: block;
+                        position: relative;
+                        &.fenix-icon-info {
+                            color: $color-icon-02;
+                            &:before {
+                                margin-right: 5px;
+                            }
+                        }
+                    }
+                    p {
+                        color: $color-text-02;
+                        text-transform: initial;
+                        margin: 0px;
+                    }
+                    &:after {
+                        content: "\f054";
+                        font-family: $font-icons !important;
+                        margin-left: 5px;
+                        color: $color-icon-02;
+                        font-size: 20px;
+                        top: 2px;
+                        position: relative;
+                    }
+                }
+            }
+        }
+    }
+}
+
+.procesoAgendarCita {
+    .optionsAgendarCita,
+    .optionsIniciarSesion,
+    .optionsSelectAppointmentCalendar,
+    .optionsCalendar,
+    .userData,
+    .confirmedAppointmentCalendar,
+    .shareProduct {
+        background-color: $color-white;
+        display: block;
+        position: relative;
+        max-width: 700px;
+        right: auto;
+        left: auto;
+        margin: 0 auto;
+        width: 85%;
+        box-shadow: 0px 3px 12px $color-bg-11;
+        // box-shadow: 0px 0px 20px $color-bg-10;
+        //max-width: max-content;
+        title {
+            font-family: 'cibfont_sansbold';
+            font-weight: 500;
+            font-size: 20px;
+            line-height: 24px;
+            letter-spacing: -0.375px;
+            text-align: center;
+            color: #2C2A29;
+            position: relative;
+            display: block;
+            // @include font-h-3-heading-dark-center;
+            // font-size: 18px;
+            // letter-spacing: -0.3px;
+            // line-height: 20px;
+            // margin-bottom: 24px;
+            // margin-top: 24px;
+        }
+    }
+    .optionsCalendar {
+        // box-shadow: none;
+        width: 100%;
+    }
+    .close-modal {
+        font-size: 20px;
+        color: $color-status-03;
+        top: 24px;
+        right: 24px;
+        // font-weight: 200 !important;
+        // font-size: 31px;
+        // font-weight: 100 !important;
+        // color: $color-status-02;
+    }
+    .optionsAgendarCita {
+        &__selectCitaYestDrive {
+            padding: 55px 9.6% 48px;
+            // padding: 32px;
+            .options {
+                display: flex;
+                position: relative;
+                flex-wrap: wrap;
+                flex-basis: 100%;
+                width: 100%;
+                justify-content: center;
+                margin: 24px 0px 0px;
+                .agendarCita,
+                .testDrive {
+                    display: flex;
+                    position: relative;
+                    align-items: center;
+                    box-sizing: border-box;
+                    max-width: 280px;
+                    padding: 22px 25px;
+                    box-sizing: border-box;
+                    box-shadow: 1px 0px 10px $color-bg-05;
+                    border-radius: 5px;
+                    border: none;
+                    border: 1px solid transparent;
+                    cursor: pointer;
+                    // margin: 8px 10px 16px;
+                    // padding: 24px 24px;
+                    // padding: 10px;
+                    & > * {
+                        user-select: none;
+                        pointer-events: none;
+                    }
+                    .icon {
+                        position: relative;
+                        display: block;
+                        // font-size: 32px;
+                        // margin: 16px;
+                    }
+                    p {
+                        @include font-h-6-heading-dark-left;
+                        font-weight: normal;
+                        font-size: 14px;
+                        line-height: 18px;
+                        letter-spacing: -0.2px;
+                        text-align: left;
+                        margin: 0px;
+                        // font-size: 14px;
+                        // letter-spacing: -0.2px;
+                        // line-height: 18px;
+                        // font-weight: 600;
+                        // margin-bottom: 0px;
+                        // margin-top: 0px;
+                    }
+                    &:hover,
+                    &.active {
+                        border: 1px solid $color-brand-01;
+                    }
+                }
+                .agendarCita {
+                    .icon {
+                        margin: 0px 20px 0px 0px;
+                        &:before {
+                            content: $fenix-icon-calendar;
+                            font-family: "#{$icomoon-font-family}";
+                            font-size: 30px;
+                            color: $color-status-03;
+                            font-weight: 100;
+                        }
+                        // background-image: url(/arquivos/calendario.svg);
+                        // width: 48px;
+                        // height: 30px;
+                        // background-repeat: no-repeat;
+                        // background-size: contain;
+                        // margin-right: 10px;
+                    }
+                }
+                .testDrive {
+                    .icon {
+                        margin: 0px 20px 0px 0px;
+                        &:before {
+                            content: $fenix-icon-car;
+                            font-family: "#{$icomoon-font-family}";
+                            font-size: 30px;
+                            color: $color-status-03;
+                            font-weight: 100;
+                        }
+                        // background-image: url(/arquivos/icon-drive.svg);
+                        // width: 40px;
+                        // height: 30px;
+                        // background-repeat: no-repeat;
+                        // background-size: contain;
+                        // margin-right: 10px;
+                    }
+                }
+            }
+        }
+        &.bc-modal {
+            overflow-y: auto;
+            bottom: auto;
+        }
+    }
+    .optionsIniciarSesion {
+        &.bc-modal {
+            overflow-y: auto;
+            max-height: 100vh;
+            max-width: 563px;
+            bottom: auto;
+        }
+        .selectIngreso {
+            padding: 80px 8% 39px;
+            max-width: 562px;
+            // padding: 32px 24px;
+            // max-width: 563px;
+            .return-modal {
+                &.fenix-icon-arrow2-left {
+                    &:before {
+                        margin-right: 16px;
+                        font-size: 18px;
+                        color: $color-status-03;
+                        font-weight: 100;
+                    }
+                }
+                p {
+                    font-weight: 600;
+                    font-size: 17px;
+                    line-height: 24px;
+                    color: $color-status-03;
+                    margin: 0px;
+                }
+
+                @media screen and (max-width: $breakpoint-mobile) {
+                    top: 23px;
+                    left: 35px;
+                }
+            }
+            .options {
+                display: block;
+                position: relative;
+                width: 100%;
+                // flex-wrap: wrap;
+                // flex-basis: 100%;
+                // justify-content: center;
+                // margin: 32px 0px 16px;
+                .button-profile{
+                    padding: 0px;
+                    margin-right: auto;
+                    width: 100%;
+                }
+                .inicioBancolombia,
+                .invitado {
+                    display: flex;
+                    position: relative;
+                    align-items: center;
+                    margin: 0px;
+                    box-sizing: border-box;
+                    box-shadow: 1px 0px 10px $color-bg-05;
+                    border-radius: 5px;
+                    border: none;
+                    cursor: pointer;
+                    border: 2px solid transparent;
+                    max-width: 280px;
+                    padding: 22px 25px;
+                    width: 100%;
+                    // min-width: 178px;
+                    // padding: 14px;
+                    // margin: 8px 10px 16px;
+                    .icon {
+                        position: relative;
+                        display: block;
+                        // font-size: 32px;
+                        // margin: 16px;
+                    }
+                    p {
+                        @include font-h-6-heading-dark-left;
+                        font-weight: normal;
+                        font-size: 14px;
+                        line-height: 18px;
+                        letter-spacing: -0.2px;
+                        text-align: left;
+                        margin: 0px;
+                        // font-size: 14px;
+                        // letter-spacing: -0.2px;
+                        // line-height: 18px;
+                        // margin-bottom: 0px;
+                    }
+                    &:hover,
+                    &.active {
+                        border: 2px solid $color-brand-01;
+                    }
+                }
+                .inicioBancolombia {
+                    margin: 0px auto 24px;
+                    .icon {
+                        margin: 0px 20px 0px 0px;
+                        &:before{
+                            content: $fenix-icon-user;
+                            font-family: "#{$icomoon-font-family}";
+                            font-size: 30px;
+                            color: $color-status-03;
+                            font-weight: 100;
+                        }
+                        // background-image: url(/arquivos/icon-bancolombia.svg);
+                        // width: 48px;
+                        // height: 30px;
+                        // margin-left: 10px;
+                        // background-repeat: no-repeat;
+                        // background-size: contain;
+                    }
+                }
+                .invitado {
+                    margin: 0px auto 24px;
+                    .icon {
+                        margin: 0px 20px 0px 0px;
+                        &:before{
+                            content: $fenix-icon-mail;
+                            font-family: "#{$icomoon-font-family}";
+                            font-size: 30px;
+                            color: $color-status-03;
+                            font-weight: 100;
+                        }
+                        // background-image: url(/arquivos/mas.svg);
+                        // width: 35px;
+                        // height: 35px;
+                        // margin-left: 5px;
+                        // background-repeat: no-repeat;
+                        // background-size: contain;
+                    }
+                }
+            }
+            p {
+                @include font-body-gray-01-left;
+                margin: 9px 0px 0px;
+                font-size: 14px;
+                line-height: 18px;
+                letter-spacing: -0.2px;
+                text-align: center;
+                font-weight: normal;
+                color: $color-black;
+                padding: 0px;
+                margin: 15px 0px 45px;
+                // text-align: center;
+                // font-size: 16px;
+                // font-size: 14px;
+                // text-align: left;
+                // line-height: 18px;
+                // font-weight: 400;
+                // letter-spacing: -0.2px;
+                // &.infoProcess {
+                //     padding: 0 16px;
+                // }
+            }
+        }
+    }
+    .optionsSelectAppointmentCalendar {
+        &.bc-modal {
+            overflow-y: auto;
+            bottom: auto;
+            left: 0;
+            position: fixed;
+            right: 0;
+            top: 5%;
+            max-height: 90vh;
+        }
+        .selectCalendar {
+            padding: 24px;
+            max-width: 690px;
+            .contentCalendar {
+                padding: 0px;
+                title {
+                    @include font-h-3-heading-dark-center;
+                    font-size: 18px;
+                    letter-spacing: -0.3px;
+                    line-height: 20px;
+                    position: relative;
+                    display: block;
+                    margin-bottom: 24px;
+                    margin-top: 24px;
+                }
+                .optionsCalendar {
+                    max-width: 523px;
+                    margin: 0 auto;
+                    .listAgenda {
+                        margin: 25px 10px;
+                        border-bottom: 0.5px solid $color-bg-60;
+                        padding: 20px 0px;
+                        display: flex;
+                        &:first-child {
+                            border-top: 0.5px solid $color-bg-60;
+                        }
+                        .icon {
+                            background-image: url(/arquivos/localizacion.svg);
+                            width: 48px;
+                            height: 30px;
+                            background-repeat: no-repeat;
+                            background-size: contain;
+                            margin-right: 10px;
+                        }
+                        .title {
+                            @include font-h-6-heading-dark-left;
+                        }
+                        .address {
+                            @include font-body-gray-01-left;
+                        }
+                        .selector {
+                            display: flex;
+                            align-items: center;
+                            margin: 20px 0px;
+                            input {
+                                /* appearance: radio;
+                                -webkit-appearance: radio;
+                                width: 20px; */
+                                display: inline-block;
+                                position: relative;
+                                margin-right: 10px;
+                                cursor: pointer;
+                            }
+                            label {
+                                display: inline-block;
+                                position: relative;
+                            }
+                        }
+                    }
+                    .sectionButtons {
+                        .bc-btn-secundary-white,
+                        .bc-btn-primary {
+                            display: block;
+                            position: relative;
+                            margin: 20px auto 0px;
+                        }
+                    }
+                }
+            }
+        }
+    }
+    .optionsCalendar {
+        width: 90%;
+        &.bc-modal {
+            overflow-y: auto;
+            overflow-x: hidden;
+            left: 0;
+            position: fixed;
+            right: 0;
+            top: 50%;
+            transform: translateY(-50%);
+            max-width: 562px;
+            max-height: 95vh;
+            .return-modal{
+                display: none;
+            }
+        }
+        &__contentCalendar {
+            padding: 80px 24px;
+            max-width: 690px;
+
+            title {
+                font-family: 'cibfont_sansbold';
+                font-weight: 500;
+                font-size: 18px;
+                line-height: 20px;
+                letter-spacing: -0.3px;
+                color: $color-status-03;
+                margin-bottom: 24px;
+            }
+            .addressInfo {
+                display: flex;
+                flex-wrap: wrap;
+                margin: 0 auto 37px;
+                justify-content: center;
+                .contentAddress {
+                    display: flex;
+                    position: relative;
+                    max-width: 65%;
+                    width: 100%;
+                    width: auto;
+                    flex-wrap: wrap;
+                    .icon {
+                        position: absolute;
+                        top: 0px;
+                        left: -30px;
+                        &::before{
+                            content: $fenix-icon-location;
+                            display: block;
+                            font-family: "#{$icomoon-font-family}";
+                            font-size: 23.5px;
+                            color: $color-status-02;
+                        }
+                    }
+                    .title {
+                        font-family: 'Open Sans';
+                        font-weight: normal;
+                        font-size: 14px;
+                        line-height: 18px;
+                        letter-spacing: -0.2px;
+                        color: $color-status-03;
+                        margin-bottom: 5px;
+                        width: 100%;
+                    }
+
+                    .address {
+                        font-family: 'Open Sans';
+                        font-weight: normal;
+                        font-size: 14px;
+                        line-height: 18px;
+                        letter-spacing: -0.2px;
+                        color: #2C2A29;
+                        width: 100%;
+                    }
+                }
+            }
+            .calendarConcessionaire {
+                display: block;
+                position: relative;
+                .infoPrincipal {
+                    display: flex;
+                    position: relative;
+                    flex-wrap: wrap;
+                    align-items: center;
+                    flex-basis: 100%;
+                    width: 100%;
+                    margin: 0px 0px 5px;
+
+                    .js-datepicker {
+                        height: 0;
+                        margin: 0;
+                        overflow: hidden;
+                        padding: 0;
+                    }
+
+                    .date {
+                        display: flex;
+                        position: relative;
+                        width: 50%;
+                        flex-basis: 50%;
+                        .date-picker {
+                            font-family: 'cibfont_sansbold';
+                            font-weight: 500;
+                            font-size: 20px;
+                            line-height: 24px;
+                            letter-spacing: -0.38px;
+                            text-align: left;
+                            color: $color-status-03;
+                        }
+                    }
+                    .seeAllCalendar {
+                        position: relative;
+                        width: 50%;
+                        flex-basis: 50%;
+                        display: flex;
+                        justify-content: flex-end;
+                        .js-datepicker {
+                            width: 0 !important;
+                        }
+                        button {
+                            -webkit-appearance: none;
+                            appearance: none;
+                            display: flex;
+                            position: relative;
+                            border: none;
+                            display: flex;
+                            align-items: center;
+                            p {
+                                font-family: 'Open Sans';
+                                font-weight: 600;
+                                font-size: 14px;
+                                line-height: 24px;
+                                letter-spacing: -0.3px;
+                                text-align: start;
+                                text-decoration-line: underline;
+                                color: #2C2A29;
+                                margin: 0px;
+                            }
+                            .icon-calendar-alt {
+                                margin-left: 10px;
+                                &:before {
+                                    content: $fenix-icon-calendar;
+                                    font-family: "#{$icomoon-font-family}";
+                                    font-size: 21px;
+                                }
+                            }
+                        }
+                    }
+                }
+                .days {
+                    display: flex;
+                    position: relative;
+                    border-top: 2px solid $color-text-06;
+                    border-bottom: 2px solid $color-text-06;
+                    margin: 0px;
+                    padding: 16px 0px;
+                    justify-content: center;
+                    .slick-prev {
+                        left: -20px;
+                        &:before {
+                            content: $fenix-icon-arrow2-left;
+                            font-family: "#{$icomoon-font-family}";
+                            color: $color-status-03;
+                            font-size: 27px;
+                        //     opacity: 0.7;
+                        }
+                        // &:hover {
+                        //     &::before {
+                        //         opacity: 1;
+                        //     }
+                        // }
+                    }
+                    .slick-next {
+                        right: -20px;
+                        &::before {
+                            content: $fenix-icon-arrow2-right;
+                            font-family: "#{$icomoon-font-family}";
+                            color: $color-icon-03;
+                            font-size: 27px;
+                        //     opacity: 0.7;
+                        }
+                        // &:hover {
+                        //     &::before {
+                        //         opacity: 1;
+                        //     }
+                        // }
+                    }
+                    .slick-track {
+                        min-width: 3000px;
+                    }
+                    .days__dayNumber {
+                        display: block;
+                        margin: 0px 8px;
+                        padding: 10px 8px;
+                        border-radius: 5px; 
+                        border: none;
+                        // Agregado para corregir agendamiento
+                        max-width: 77px;
+                        // max-width: 19vw; 
+                        // width: 16.6%;
+                        // align-items: center;
+                        // padding: 20px 0px;
+                        box-sizing: border-box;
+                        // min-width: 70px;
+                        p {
+                            display: block;
+                            font-family: 'cibfont_sansbold';
+                            font-weight: 500;
+                            font-size: 40px;
+                            line-height: 40px;
+                            text-align: center;
+                            letter-spacing: -0.6px;
+                            color: $color-status-03;
+                            margin: 0 0 5px;
+                            pointer-events: none;
+                            position: relative;
+                        }
+                        span {
+                            display: block;
+                            font-family: 'cibfont_sansbold';
+                            font-weight: 500;
+                            font-size: 18px;
+                            line-height: 20px;
+                            text-align: center;
+                            letter-spacing: -0.3px;
+                            color: $color-status-03;
+                            text-transform: capitalize;
+                            pointer-events: none;
+                            position: relative;
+                        }
+                        &.active {
+                            border: 2px solid $color-brand-01;
+                            box-sizing: content-box;
+                            // min-width: 70px;
+                        }
+                        // &:hover {
+                        //     box-shadow: 0px 2px 5px $color-text-05;
+                        // }
+                        &:disabled > * {
+                            color: $color-text-05;
+                        }
+                    }
+                    .nextDays,
+                    .backDays {
+                        display: flex;
+                        position: relative;
+                        button {
+                            position: relative;
+                            display: flex;
+                            align-items: center;
+                            -webkit-appearance: none;
+                            appearance: none;
+                            border: none;
+                            &.icon-angle-right {
+                                &:before {
+                                    font-size: 32px;
+                                }
+                            }
+                            &.icon-angle-left {
+                                &:before {
+                                    font-size: 32px;
+                                }
+                            }
+                        }
+                    }
+                }
+                .hourRanges {
+                    display: flex;
+                    position: relative;
+                    flex-wrap: wrap;
+                    flex-basis: 100%;
+                    width: 100%;
+                    margin: 37px 0 49px;
+                    .morning,
+                    .afternoon {
+                        display: block;
+                        position: relative;
+                        width: 100%;
+                        padding: 20px 0px;
+                        title {
+                            text-align: left;
+                            @include font-small-gray-01-left;
+                            // font-size: 14px;
+                            // line-height: 18px;
+                            font-size: 16px;
+                            line-height: 16px;
+                            letter-spacing: -0.2px;
+                            margin: 0px 0px 8px;
+                        }
+                        .contentRange {
+                            display: flex;
+                            width: 100%;
+                            flex-wrap: wrap;
+                            flex-basis: 100%;
+                            position: relative;
+                            .range {
+                                cursor: pointer;
+                                flex-basis: 50%;
+                                width: 50%;
+                                display: block;
+                                position: relative;
+                                margin: 3px 0px;
+                                input,
+                                label {
+                                    pointer-events: none;
+                                }
+                                label {
+                                    @include font-body-dark-left;
+                                }
+                                input[type="radio"] {
+                                    // width: 24px;
+                                    // height: 24px;
+                                    width: 18px;
+                                    height: 18px;
+                                }
+                                input[type="radio"]:checked {
+                                     // width: 24px;
+                                    // height: 24px;
+                                    width: 18px;
+                                    height: 18px;
+                                    &:before {
+                                        width: 8px;
+                                        height: 8px;
+                                        // top: 8px !important;
+                                        top: 5px !important;
+                                        // left: 8px !important;
+                                        left: 0px !important;
+                                        right: 0px !important;
+                                        margin: 0 auto;
+                                    }
+                                }
+                            }
+                        }
+                    }
+                    .dateSelection {
+                        font-family: 'Open Sans';
+                        font-weight: normal;
+                        font-size: 16px;
+                        line-height: 22px;
+                        letter-spacing: -0.3px;
+                        text-align: center;
+                        color: $color-status-03;
+                        width: 100%;
+
+                        p {
+                            margin: 0px;
+                            &::first-letter {
+                                text-transform: capitalize;
+                            }
+                        }
+                    }
+                    .disclaimer {
+                        @include font-body-gray-01-center;
+                        font-size: 14px;
+                        line-height: 18px;
+                        margin-bottom: 8px;
+                        width: 100%;
+                        display: none;
+                    }
+                }
+                .sectionButtons {
+                    .bc-btn-secundary-white,
+                    .bc-btn-primary {
+                        display: block;
+                        position: relative;
+                        margin: 10px auto 0px;
+                        max-width: none;
+                        width: 100%;
+                        height: 38px;
+                        font-size: 20px;
+                    }
+                    .bc-btn-secundary-white {
+                        line-height: 30px;
+                    }
+                }
+            }
+        }
+    }
+    .userData {
+        width: 90%;
+        &.bc-modal {
+            bottom: auto;
+            overflow-y: auto;
+            left: 0;
+            position: fixed;
+            right: 0;
+            top: 50%;
+            transform: translateY(-50%);
+            max-width: 562px;
+            max-height: 90vh;
+        }
+        &__contentUser {
+            padding: 60px 24px 64px;
+            .bc-stepper-three {
+                margin-top: 45px;
+            }
+            .AppointmentCalendarInfo {
+                display: block;
+                position: relative;
+                title {
+                    font-family: 'cibfont_sansbold';
+                    font-weight: 500;
+                    font-size: 18px;
+                    line-height: 20px;
+                    letter-spacing: -0.3px;
+                    text-align: center;
+                    position: relative;
+                    display: block;
+                    margin: 0px 0px 24px;
+
+                }
+                .contentDate,
+                .contentPlace {
+                    padding: 0px 11%;
+                    margin: 0px auto;
+                    max-width: 470px;
+                }
+                .contentDate {
+                    .calendar {
+                        @include font-small-gray-01-left;
+                        font-size: 14px;
+                        &.desk {
+                            display: none;
+                        }
+                    }
+                    .infoDate {
+                        display: flex;
+                        align-items: center;
+                        width: 100%;
+                        position: relative;
+                        .icon {
+                            // background-image: url(/arquivos/calendario.svg);
+                            // width: 30px;
+                            // height: 30px;
+                            width: 21px;
+                            height: 21px;
+                            background-repeat: no-repeat;
+                            background-size: contain;
+                            margin-right: 10px;
+                            position: relative;
+                            &:before {
+                                // font-weight: 400;
+                                content: $fenix-icon-calendar;
+                                font-family: "#{$icomoon-font-family}";
+                                font-size: 21px;
+                                display: block;
+                            }
+                        }
+                        .date {
+                            @include font-h-6-heading-dark-left;
+                            font-size: 16px;
+                            letter-spacing: -0.3px;
+                            line-height: 21px;
+                            font-weight: normal;
+                            margin: 0;
+
+                            &::first-letter {
+                                text-transform: capitalize;
+                            }
+                        }
+                    }
+                }
+                .contentPlace {
+                    .infoPlace {
+                        display: flex;
+                        align-items: center;
+                        width: 100%;
+                        position: relative;
+                        align-items: flex-start;
+                        .icon {
+                            // background-image: url(/arquivos/localizacion.svg);
+                            // width: 37px;
+                            // height: 33px;
+                            width: 18.67px;
+                            height: 23.45px;
+                            background-repeat: no-repeat;
+                            background-size: contain;
+                            margin-right: 10px;
+                            margin-top: 20px;
+                            &::before{
+                                content: $fenix-icon-location;
+                                display: block;
+                                font-family: "#{$icomoon-font-family}";
+                                font-size: 23.5px;
+                                color: $color-status-02;
+                            }
+                            @media screen and (max-width: 768px) {
+                                width: 30px;
+                                height: 26px;
+                                margin-left: -3px;
+                            }
+                        }
+                        .place {
+                            @include font-h-6-heading-dark-left;
+                            font-size: 16px;
+                            letter-spacing: -0.3px;
+                            line-height: 21px;
+                            font-weight: normal;
+                            span {
+                                @include font-body-gray-01-left;
+                                display: block;
+                                position: relative;
+                                font-size: 14px;
+                                line-height: 18px;
+                            }
+                        }
+                    }
+                }
+            }
+            .userFormData {
+                display: block;
+                position: relative;
+                padding: 0 10px;
+                .bc-select__wrapper {
+                    width: 48%;
+                    // display: none;;
+                    // margin-top: 20px;
+                    @media screen and (max-width: 1024px) {
+                        width: 100%;
+                        margin-top: 20px;
+                        margin-bottom: 50px;
+                    }
+                    .bc-select {
+                        padding: 0;
+                        &__input p {
+                            padding: 3px 0 3px 4px;
+                        }
+                    }
+                    .bc-select__options.row {
+                        width: 100%;
+                        left: 0;
+                        top: 60px;
+                    }
+                }
+                .bc-input {
+                    margin-top: 20px !important;
+                    margin-bottom: 50px !important;
+                    input{
+                        border-bottom: 1px solid #2C2A29;
+                        border-radius: 0px;
+                    }
+                }
+                .bc-terms-conditions {
+                    display: flex;
+                    .bc-checkbox__label {
+                        a {
+                            font-family: 'Open Sans';
+                            font-weight: normal;
+                            font-size: 16px;
+                            line-height: 22px;
+                            letter-spacing: -0.3px;
+                            color: $color-black;
+                        }
+                    }
+                }
+                // .m-bottom-1:nth-of-type(2){
+                //     display: none;
+                // }
+                .bc-checkbox.m-top-3{
+                    margin-bottom: 35px;
+                    margin-top: 13px;
+                }
+                .bc-checkbox__label {
+                    color: $color-black;
+                    font-size: 16px;
+                    line-height: 22px;
+                    margin-top: 0px;
+                }
+            }
+            .sectionButtons {
+                .bc-btn-secundary-white,
+                .bc-btn-primary {
+                    display: block;
+                    position: relative;
+                    margin: 30px auto 0px;
+                    min-width: 220px;
+                    height: 38px;
+                    font-size: 20px;
+                }
+                .bc-btn-secundary-white {
+                    line-height: 30px;
+                    width: 100%;
+                    max-width: none;
+                    margin: 16px auto 0px;
+                }
+            }
+        }
+    }
+    .confirmedAppointmentCalendar {
+        width: 90%;
+        bottom: auto;
+        left: 0;
+        position: fixed;
+        right: 0;
+        top: 5%;
+        max-height: 90vh;
+        &.bc-modal {
+            top: 50%;
+            transform: translateY(-50%);
+            padding-left: 24px;
+            padding-right: 24px;
+        }
+        .bc-stepper-three {
+            margin-top: 80px;
+        }
+        .AppointmentConfirmed {
+            padding: 24px 12px 64px;
+            title {
+                font-family: 'cibfont_sansbold';
+                font-weight: 500;
+                font-size: 18px;
+                line-height: 20px;
+                text-align: center;
+                letter-spacing: -0.3px;
+                color: $color-status-03;
+                margin: 0px 0px 26px;
+                position: relative;
+                display: block;
+                &:after {
+                    font-family: "#{$icomoon-font-family}";
+                    content: $fenix-icon-successful;
+                    font-size: 20px;
+                    font-weight: 100;
+                    color: $color-status-03;
+                    margin-left: 10px;
+                    position: relative;
+                    top: 3px;
+                }
+            }
+            p {
+                font-family: 'Open Sans';
+                font-weight: normal;
+                font-size: 16px;
+                line-height: 22px;
+                text-align: center;
+                letter-spacing: -0.3px;
+                color: $color-status-03;
+            }
+            .p-cemter {
+                font-family: 'Open Sans';
+                font-weight: normal;
+                font-size: 16px;
+                line-height: 22px;
+                text-align: center;
+                letter-spacing: -0.3px;
+                color: $color-status-03;
+                margin: 0px 0px 24px
+            }
+            .mensaje {
+                opacity: 1;
+                background: $color-white;
+                opacity: 0.5;
+                input::-webkit-input-placeholder,
+                textarea::-webkit-input-placeholder,
+                input::placeholder,
+                textarea::placeholder {
+                    color: #80828570 !important;
+                }
+            }
+            .contentDate,
+            .dataContactUser {
+                > span {
+                    color: $color-status-03;
+                }
+            }
+            .contentDate {
+                .infoDate {
+                    display: flex;
+                    align-items: center;
+                    width: 100%;
+                    position: relative;
+                    margin-bottom: 10px;
+                    .icon {
+                        &:before {
+                            font-family: "#{$icomoon-font-family}";
+                            content: $fenix-icon-calendar;
+                            font-size: 21px;
+                            font-weight: normal;
+                            color: $color-status-03;
+                            margin-right: 10px;
+                        }
+                    }
+                    .date {
+                        font-family: 'Open Sans';
+                        font-weight: normal;
+                        font-size: 16px;
+                        line-height: 21px;
+                        letter-spacing: -0.3px;
+                        color: $color-status-03;
+                        margin: 0;
+                        &::first-letter {
+                            text-transform: capitalize;
+                        }
+                    }
+                }
+            }
+            .contentPlace {
+                .infoPlace {
+                    display: flex;
+                    align-items: center;
+                    width: 100%;
+                    position: relative;
+                    align-items: flex-start;
+                    .icon {
+                        &:before {
+                            font-family: "#{$icomoon-font-family}";
+                            content: $fenix-icon-location;
+                            font-size: 21px;
+                            font-weight: normal;
+                            color: $color-status-03;
+                            margin-right: 10px;
+                        }
+                    }
+                    .place {
+                        font-family: 'Open Sans';
+                        font-weight: normal;
+                        font-size: 16px;
+                        line-height: 21px;
+                        letter-spacing: -0.3px;
+                        text-align: left;
+                        color: $color-status-03;
+                        margin: 0px;
+                        span {
+                            font-weight: normal;
+                            display: block;
+                            position: relative;
+                        }
+                    }
+                }
+            }
+            .dataContactUser {
+                margin: 35px 0px;
+                .infoUser {
+                    display: block;
+                    width: 100%;
+                    position: relative;
+                    .name,
+                    .phone,
+                    .email {
+                        display: flex;
+                        align-items: center;
+                    }
+                    p {
+                        font-family: 'Open Sans';
+                        font-weight: normal;
+                        font-size: 16px;
+                        line-height: 21px;
+                        letter-spacing: -0.3px;
+                        color: $color-status-03;
+                        width: 80%;
+                        margin: 5px 0;
+                        overflow: hidden;
+                        white-space: nowrap;
+                        text-overflow: ellipsis;
+                        display: block;
+                    }
+                    .name {
+                        text-transform: capitalize;
+                    }
+                    .iconUser {
+                        &:before {
+                            font-family: "#{$icomoon-font-family}";
+                            content: $fenix-icon-user;
+                            font-size: 21px;
+                            font-weight: normal;
+                            color: $color-status-03;
+                            margin-right: 10px;
+                        }
+                    }
+                    .iconPhone {
+                        &:before {
+                            font-family: "#{$icomoon-font-family}";
+                            content: $fenix-icon-phone-contact;
+                            font-size: 21px;
+                            font-weight: normal;
+                            color: $color-status-03;
+                            margin-right: 10px;
+                        }
+                    }
+                    .iconEmail {
+                        &:before {
+                            font-family: "#{$icomoon-font-family}";
+                            content: $fenix-icon-mail;
+                            font-size: 21px;
+                            font-weight: normal;
+                            color: $color-status-03;
+                            margin-right: 10px;
+                        }
+                    }
+                }
+            }
+            p {
+                font-family: 'Open Sans';
+                font-weight: normal;
+                font-size: 16px;
+                line-height: 22px;
+                letter-spacing: -0.3px;
+                color: $color-status-03;
+                text-align: left;
+            }
+            textarea {
+                display: block;
+                position: relative;
+                background-color: $color-white;
+                font-family: 'Open Sans';
+                font-weight: normal;
+                font-size: 16px;
+                line-height: 22px;
+                letter-spacing: -0.3px;
+                color: $color-status-03;
+                border-bottom: 1px solid $color-status-03;
+                border-radius: 0px !important;
+                opacity: 20%;
+                min-height: 100px;
+                margin: 23px 0px 40px;
+                width: 100%;
+                // min-width: 320px;
+            }
+            .sectionButtons {
+                .bc-btn-secundary-white,
+                .bc-btn-primary {
+                    display: block;
+                    position: relative;
+                    margin: 20px auto 0px;
+                    width: 100%;
+                    max-width: none;
+                }
+            }
+        }
+    }
+}
+.shareProduct {
+    padding: 24px 24px 64px;
+    background-color: $color-white;
+    display: block;
+    position: relative;
+    max-width: max-content;
+    right: auto;
+    left: auto;
+    margin: 0 auto;
+    width: 85%;
+    box-shadow: 0px 0px 20px $color-bg-10;
+    left: 0;
+    position: fixed;
+    right: 0;
+    top: 5%;
+    max-height: 90vh;
+    title {
+        font-family: 'cibfont_sansbold';
+        font-weight: 500;
+        font-size: 20px;
+        line-height: 24px;
+        letter-spacing: -0.375px;
+        text-align: center;
+        color: #2C2A29;
+        margin: 37px 0px 0px;
+        position: relative;
+        display: block;
+    }
+    .contentShare {
+        > p {
+            font-family: Open Sans;
+            font-weight: normal;
+            font-size: 14px;
+            line-height: 18px;
+            text-align: center;
+            letter-spacing: -0.2px;
+            color: #2C2A29;
+            margin: 24px 0px 0px;
+            width: 100%;
+        }
+
+        .contentUrl,
+        .contentSocialMedia,
+        .contentSendMail {
+            display: block;
+            position: relative;
+            p {
+                font-family: 'cibfont_sansbold';
+                font-weight: 500;
+                font-size: 18px;
+                line-height: 20px;
+                letter-spacing: -0.3px;
+                text-align: left;
+                color: $color-status-03;
+                display: block;
+                display: block;
+                position: relative;
+                margin: 0px;
+            }
+            .urlProduct {
+                display: flex;
+                width: 100%;
+                .url {
+                    @include font-link-gray-01-left;
+                    font-weight: 600;
+                    color: $color-status-08;
+                    display: block;
+                    width: 70%;
+                    text-overflow: ellipsis;
+                    white-space: nowrap;
+                    overflow: hidden;
+                    padding: 0;
+                    height: auto;
+                }
+                button {
+                    border: none;
+                    margin-left: auto;
+                    position: relative;
+                    bottom: 0px;
+                    margin: 0px auto 0px 15px;
+                    padding: 0px;
+                    .icon-copy {
+                        content: "\f044";
+                        font-family: $font-icons !important;
+                        transform: rotateY(180deg);
+                        font-size: 20px;
+                        font-weight: 100 !important;
+                        color: #2C2A29;
+                        display: block;
+                        position: relative;
+                    }
+                }
+                span {
+                    line-height: 16px !important;
+                    font-size: 14px;
+                    width: min-content;
+                    margin: 0px auto;
+                }
+                .icon {
+                    content: "\f044";
+                    font-family: $font-icons !important;
+                    font-size: 24px;
+                    display: block;
+                    position: relative;
+                }
+            }
+            .bc-input {
+                margin: 32px 0px 24px;
+                input{
+                    font-family: 'Open Sans';
+                    font-weight: normal;
+                    font-size: 14px;
+                    line-height: 18px;
+                    letter-spacing: -0.2px;
+                    color: #2C2A29;
+                }
+            }
+            .m-top-2{
+                font-family: 'Open Sans';
+                font-weight: normal;
+                font-size: 14px;
+                line-height: 18px;
+                letter-spacing: -0.2px;
+                color: #2C2A29;
+            }
+        }
+        .contentUrl {
+            margin: 24px 0px 0px;
+            // margin-bottom: 25px;
+        }
+        .contentSendMail {
+            margin: 30px 0px 0px;
+        }
+        .contentSocialMedia {
+            margin: 24px 0px 0px;
+            ul {
+                display: flex;
+                position: relative;
+                width: 100%;
+                li {
+                    cursor: pointer;
+                    &.icon {
+                        width: 20px;
+                        height: 20px;
+                        background-position: center;
+                        background-repeat: no-repeat;
+                        background-size: contain;
+                        margin: 14px 10px 0px;
+                        // margin: 10px;
+                    }
+                    &.iconEmail {
+                        margin-left: 0px;
+                        margin-top: 12px;
+                        &:before {
+                            content: $fenix-icon-mail;
+                            font-family: "#{$icomoon-font-family}";
+                            font-size: 25px;
+                            color: $color-status-03;
+                        }
+                    }
+                    &.iconWhatsapp {
+                        background-image: url(/arquivos/new-whatsapp-off.svg);
+                    }
+                    &.iconFacebook {
+                        background-image: url(/arquivos/new-messenger-off.svg);
+                    }
+                    &.iconInstagram {
+                        background-image: url(/arquivos/new-instagram-off.svg);
+                    }
+                    &.iconTwitter {
+                        background-image: url(/arquivos/new-twitter-off.svg);
+                    }
+                }
+            }
+        }
+        .contentSendMail {
+            .text {
+                font-family: 'Open Sans';
+                font-weight: normal;
+                font-size: 14px;
+                line-height: 18px;
+                letter-spacing: -0.2px;
+                color: $color-status-03;
+                margin: 6px 0px 0px;
+                // @include font-small-gray-01-left;
+            }
+            .bc-select__wrapper {
+                .bc-select {
+                    position: relative;
+                }
+            }
+        }
+        textarea {
+            display: block;
+            position: relative;
+            min-height: 80px;
+            width: 100%;
+            margin: 2px 0px 0px;
+            padding: 0px;
+            line-height: 22px;
+            letter-spacing: -0.3px;
+            border-bottom: 1px solid $color-status-03;
+            border-radius: 0px !important;
+            // opacity: 0.4;
+            // background-color: $color-bg-05;
+            // margin: 20px 0px;
+            &.fill:not(.invalid),
+            &:focus {
+                outline: none;
+                border-bottom-color: $color-status-01;
+                &::placeholder {
+                    color: $color-text-04;
+                }
+            }
+        }
+        .sectionButton {
+            .bc-btn-secundary-white {
+                font-family: 'cibfont_sansbold';
+                font-weight: 500;
+                font-size: 20px;
+                line-height: 24px;
+                text-align: center;
+                letter-spacing: -0.375px;
+                color: #292929;
+                background-color: #FDDA24;
+                border: none;
+                border-radius: 25px;
+                display: block;
+                position: relative;
+                height: 50px;
+                margin: 33px auto 0px;
+                max-width: 286px;
+                width:100%;
+            }
+        }
+    }
+}
+.procesoReservaOnline {
+    .separacionOnline {
+        background-color: $color-white;
+        display: block;
+        position: relative;
+        max-width: max-content;
+        right: auto;
+        left: auto;
+        margin: 0 auto;
+        width: 90%;
+        box-shadow: 0px 0px 20px $color-bg-10;
+        padding: 24px 24px 64px;
+        max-height: 80vh;
+        top: 50%;
+        transform: translateY(-50%);
+
+        &.bc-modal {
+            overflow-y: auto;
+            max-height: 90vh;
+            bottom: auto;
+            padding: 68px 26px 24px;
+        }
+
+        &__contentSeparacion {
+            display: block;
+            position: relative;
+
+            title {
+                font-family: 'cibfont_sansbold';
+                font-weight: 500;
+                font-weight: bold;
+                font-size: 18px;
+                line-height: 20px;
+                letter-spacing: -0.3px;
+                text-align: center;
+                color: $color-status-03;
+                position: relative;
+                display: block;
+                margin-bottom: 16px;
+            }
+
+            .valorSeparacion {
+                margin-bottom: 24px;
+
+                p {
+                    font-family: 'cibfont_sansligth';
+                    font-weight: 200;
+                    font-size: 18px;
+                    line-height: 20px;
+                    letter-spacing: -0.3px;
+                    text-align: center;
+                    color: $color-status-03;
+                    margin: 0px;
+
+                    span {
+                        font-family: 'cibfont_sansligth';
+                        font-size: 18px;
+                        line-height: 20px;
+                        letter-spacing: -0.3px;
+                        text-align: center;
+                        color: $color-status-03;
+                        font-weight: bold;
+                        margin: 0px;
+                    }
+
+                    span:last-child {
+                        margin-left: 5px;
+                    }
+                }
+            }
+
+            .infoProduct {
+                display: block;
+                position: relative;
+
+                .image {
+                    width: 100%;
+                    text-align: center;
+
+                    img {
+                        width: 100%;
+                        height: 100%;
+                        object-fit: cover;
+                    }
+                }
+
+                .info {
+                    margin: 16px 0px 0px;
+
+                    .estado {
+                        font-family: 'Open Sans';
+                        font-weight: normal;
+                        font-size: 16px;
+                        line-height: 22px;
+                        letter-spacing: -0.3px;
+                        color: $color-status-03;
+                        text-transform: uppercase;
+                        margin-bottom: 4px;
+                    }
+                    
+                    .productName {
+                        font-family: 'cibfont_sansbold';
+                        font-weight: 500;
+                        font-size: 28px;
+                        line-height: 30px;
+                        letter-spacing: -0.6px;
+                        color: $color-status-03;
+                        margin-bottom: 4px;
+                    }
+
+                    .moreInfo {
+                        display: flex;
+                        position: relative;
+                        margin-bottom: 8px;
+
+                        div {
+                            display: block;
+                            position: relative;
+                            font-family: 'Open Sans';
+                            font-weight: normal;
+                            font-size: 16px;
+                            line-height: 22px;
+                            letter-spacing: -0.3px;
+                            color: $color-status-03;
+
+                            &:not(:last-child) {
+                                &:after {
+                                    content: "|";
+                                    color: $color-status-03;
+                                    margin: 0px 5px;
+                                }
+                            }
+                        }
+                    }
+
+                    .productPrice {
+                        font-family: 'cibfont_sansbold';
+                        font-weight: 500;
+                        font-size: 32px;
+                        line-height: 32px;
+                        letter-spacing: -0.6px;
+                        color: $color-status-03;
+                        margin-bottom: 10px;
+                    }
+
+                    .sellerName {
+                        display: block;
+                        position: relative;
+                        font-family: 'Open Sans';
+                        font-weight: 600;
+                        font-size: 16px;
+                        line-height: 21px;
+                        letter-spacing: -0.3px;
+                        color: $color-status-03;
+                        margin: 0px;
+
+                        p {
+                            display: inline-block;
+                            margin: 0px 5px 0px 0px;
+                        }
+
+                        span {
+                            display: inline-block;
+                            font-family: 'Open Sans';
+                            font-weight: 600;
+                            font-size: 16px;
+                            line-height: 21px;
+                            letter-spacing: -0.3px;
+                            color: $color-status-03;
+                            margin: 0px;
+                            cursor: pointer;
+                        }
+                    }
+                }
+            }
+
+            .infoProcess {
+                font-family: 'Open Sans';
+                font-weight: normal;
+                font-size: 14px;
+                line-height: 18px;
+                letter-spacing: -0.2px;
+                color: $color-status-03;
+                margin-top: 24px;
+                display: block;
+                position: relative;
+                text-align: center;
+            }
+
+            span {
+                font-family: 'Open Sans';
+                font-weight: normal;
+                font-size: 14px;
+                line-height: 18px;
+                letter-spacing: -0.2px;
+                color: $color-status-08;
+                margin-top: 17px;
+                display: inline-block;
+                position: relative;
+            }
+
+            .SellerReserva {
+                color: $color-status-03;
+                font-weight: bold;
+                margin: 0px;
+            }
+
+            .linkStaticContent {
+                border: none;
+                display: flex;
+                position: relative;
+                padding: 0px;
+                align-items: center;
+                p {
+                    @include font-link-dark-left;
+                    text-decoration: underline;
+                }
+                .icon {
+                    &:after {
+                        content: "\f05a";
+                        font-size: 24px;
+                        font-family: $font-icons !important;
+                        color: $color-icon-02;
+                        margin-left: 5px;
+                    }
+                }
+            }
+
+            .sectionButtons {
+                margin-top: 25px;
+
+                .bc-btn-secundary-white,
+                .bc-btn-primary {
+                    display: block;
+                    position: relative;
+                    margin: 16px auto 0px;
+                    max-width: none;
+                    width: 100%;
+                    height: 38px;
+                    font-family: 'cibfont_sansbold';
+                    font-weight: 500;
+                    font-size: 20px;
+                    line-height: 24px;
+                    text-align: center;
+                    letter-spacing: -0.375px;
+                    color: $color-black;
+                }
+            }
+        }
+    }
+}
+
+.rc-slider-rail {
+    height: 6px;
+    border-radius: 3px;
+}
+.rc-slider-track {
+    background-color: $color-brand-01 !important;
+    height: 6px;
+    border-radius: 3px;
+}
+
+@media screen and (min-width: $breakpoint-mobile) {
+    // .qouta-leasing-simulator-container-leasing {
+    //     display: grid;
+    //     grid-template-columns: 60% 50%;
+    //     margin-top: 40.5px;
+    // }
+    // .header-finance-container {
+    //     padding-left: 0px !important;
+    //     padding-right: 0px !important;
+    //   }
+    .procesoAgendarCita {
+        .optionsCalendar {
+            &__contentCalendar {
+                padding: 38px 48px 24px;
+                title {
+                    font-size: 24px;
+                    line-height: 24px;
+                    letter-spacing: -0.45px;
+                    margin-bottom: 22px;
+                }
+                .bc-stepper-three{
+                    margin-bottom: 28px;
+                }
+                .addressInfo {
+                    flex-basis: 100%;
+                    width: 100%;
+                    margin-bottom: 18px;
+                    .contentAddress {
+                        justify-content: center;
+                        .title {
+                            font-weight: 600;
+                            font-size: 16px;
+                            line-height: 21px;
+                            letter-spacing: -0.3px;
+                            margin-bottom: 8.5px;
+                        }
+                        // .address {
+                        //     // left: 40px;
+                        //     // margin-left: -8px;
+                        //     position: relative;
+                        //     width: 73%;
+                        //     text-align: center;
+                        // }
+                    }
+                }
+                // .qouta-leasing-simulator-container-leasing {
+                //     display: grid;
+                //     grid-template-columns: 60% 50%;
+                //     margin-top: 40.5px;
+                // }
+                .calendarConcessionaire {
+                    .infoPrincipal {
+                        .date {
+                            .date-picker {
+                                font-size: 22px;
+                                line-height: 22px;
+                                letter-spacing: -0.45px;
+                            }
+                        }
+                        .seeAllCalendar {
+                            button {
+                                p {
+                                    font-size: 16px;
+                                }
+                            }
+                        }
+                    }
+                    .days {
+                        padding: 12px 0px 12px;
+                        max-height: 145px;
+                    }
+                    .hourRanges {
+                        margin: 15px 0px 10px;
+                        .morning,
+                        .afternoon {
+                            width: 50%;
+                            padding: 0px;
+                        }
+
+                        .dateSelection {
+                            font-family: 'cibfont_sansbold';
+                            font-weight: 500;
+                            font-size: 18px;
+                            line-height: 18px;
+                            margin-top: 20px;
+                        }
+                    }
+                    .sectionButtons {
+                        display: flex;
+                        position: relative;
+                        width: 100%;
+                        margin: 0 auto;
+                        justify-content: center;
+                        .bc-btn-secundary-white {
+                            display: inline-block;
+                            position: relative;
+                            order: 1;
+                            margin: 15px 10px;
+                            line-height: 1px;
+                            max-width: 220px;
+                            width: 100%;
+                        }
+                        .bc-btn-primary {
+                            display: inline-block;
+                            position: relative;
+                            margin-right: 10px;
+                            order: 2;
+                            margin: 15px 10px;
+                            max-width: 220px;
+                            width: 100%;
+                        }
+                    }
+                }
+            }
+        }
+    }
+    .shareProduct {
+        title {
+            font-size: 24px;
+            line-height: 26px;
+            letter-spacing: -0.45px;
+        }
+    }
+}
+/* ajustes para mobile 320 */
+@media screen and (max-width: $breakpoint-middle-mobilePDP) {
+    .product {
+        .productSection {
+            &__tabsMoreInfo {
+                &__equipamiento {
+                    ul {
+                        li {
+                            font-size: 14px;
+                        }
+                    }
+                }
+            }
+        }
+    }
+    .contentAttributesPrincipales {
+        background: rgba(230, 231, 232, 0.2);
+    }
+}
+@media screen and (max-width: 800px) {
+    .product {
+        .productSection__solicitudDeFinanciacion__content__options{
+            box-shadow: none;
+        }
+        .summary-finance-simulator, .summary-finance-simulator-leasing {
+            padding: 22px 10px 28px;
+            background: $color-text-06;
+            margin-top: 33px;
+        }
+        .productSection__solicitudDeFinanciacion__content__options__Credito{
+            .label-share-summary-simulator {
+                display: none;
+            }
+            .label-share-summary-simulator-leasing {
+                display: none;
+            }
+            .footer-finance-container {
+                padding: 0px 10px;
+            }
+            .info__Sufi__contentPrice__containerInfo__descriptionPayment {
+                font-family: 'Open Sans';
+                font-weight: normal;
+                font-size: 12px;
+                line-height: 16px;
+                letter-spacing: -0.171429px;
+                color: $color-status-03;
+            }
+            .btn-margin {
+                margin: 33px auto 0px;
+            }
+        }
+        .bar-summary {
+            display: none;
+        }
+    }
+    .qouta-credit-simulator-container {
+        margin-top: 28px;
+    }
+    .qouta-init-credit-simulator-container {
+        margin-top: 35px;
+    }
+    .qouta-leasing-simulator-container-leasing {
+        // display: flex;
+        // grid-template-columns: 60% 50%;
+        // margin-top: 40.5px;
+        width: 100%;
+    }
+    .info__Sufi {
+        max-width: 0;
+        max-width: 100%;
+    }
+    .bc-slider-secondary__label {
+        height: 24px;
+        width: 237.07px;
+        color: #292929;
+        font-family: "Open Sans";
+        font-size: 13px;
+        letter-spacing: -0.24px;
+        line-height: 24px;
+    }
+    .label-title-simulador, .label-title-simulador-leasing {
+        width: 90%;
+        font-family: "Open Sans";
+        font-weight: normal;
+        font-size: 12px;
+        line-height: 16px;
+        letter-spacing: -0.171429px;
+        color: #2C2A29;
+        // font-weight: bold;
+    }
+    // .label-title-simulador-leasing {
+    //     width: 90%;
+    //     font-family: "Open Sans";
+    //     font-size: 12px;
+    //     line-height: 16px;
+    //     letter-spacing: -0.171429px;
+    //     color: #292929;
+    //     // font-weight: bold;
+    // }
+    .bc-slider-secondary__value {
+        text-align: right;
+        font-size: 18px;
+        max-width: 140px;
+        width: 100%;
+        flex: auto;
+        border-bottom: 1px solid #2C2A29;
+        font-family: "Open Sans";
+        font-weight: 700;
+        letter-spacing: 0px !important;
+        padding: 0 10px 4px 0 !important;
+    }
+    .footer-form-simulator {
+        margin-top: 30px;
+        font-family: "Open Sans";
+        font-size: 11px;
+        line-height: 16px;
+        letter-spacing: -0.171429px;
+        color: $color-text-00;
+        text-align: left;
+    }
+    .finance-simulador {
+        margin-top: 3px;
+        margin-left: 15px !important;
+        margin-right: 15px;
+    }
+    .title-summary-simulator {
+        width: auto;
+        font-family: 'cibfont_sansbold';
+        font-weight: 500;
+        font-size: 18px;
+        line-height: 20px;
+        text-align: justify;
+        letter-spacing: -0.3px;
+        color: $color-text-00;
+    }
+    .result-title-simulator {
+        height: 40px;
+        width: 100%;
+        max-width: 186px;
+        border-bottom: 1px solid #2C2A29;
+        color: #292929;
+        font-family: "Open Sans";
+        font-size: 15px;
+        font-weight: 600;
+        line-height: 24px;
+        margin-bottom: 10px;
+        i {
+            display: flex;
+            align-items: flex-end;
+        }
+    }
+    .result-title-simulator-select {
+        padding-left: 10px;
+        height: 40px;
+        width: 100%;
+        border-bottom: 2px solid #979797;
+        color: #292929;
+        font-family: "Open Sans";
+        font-size: 15px;
+        font-weight: 600;
+        line-height: 24px;
+        z-index: 1;
+        position: absolute; 
+    }
+    .result-title-simulator-leasing {
+        height: 40px;
+        width: 100%;
+        max-width: 186px;
+        border-bottom: 1px solid #2C2A29;
+        color: #292929;
+        font-family: "Open Sans";
+        font-size: 15px;
+        font-weight: 600;
+        line-height: 24px;
+        margin-bottom: 10px;
+        i {
+            display: flex;
+            align-items: flex-end;
+        }
+    }
+
+    .result-title-simulator-leasing-select {
+        padding-left: 10px !important;
+        height: 40px !important;
+        width: 200px !important;
+        border-bottom: 2px solid #979797 !important;
+        color: #292929 !important;
+        font-family: "Open Sans" !important;
+        font-size: 15px !important;
+        font-weight: 600 !important;
+        line-height: 24px !important;
+        z-index: 1;
+        position: absolute;
+    }
+    .text-types-share-summary {
+        // height: 32px;
+        // width: 80%;
+        color: #808285;
+        font-family: "Open Sans";
+        font-size: 11px;
+        letter-spacing: -0.17px;
+        line-height: 16px;
+    }
+    .value-share-summary-simulator {
+        margin-top: -5px;
+        height: 50px;
+        width: 232px;
+        font-family: 'cibfont_sansbold';
+        font-weight: 500;
+        font-size: 32px;
+        line-height: 32px;
+        text-align: justify;
+        letter-spacing: -0.6px;
+        color: $color-text-00;
+    }
+    .bc-slider-secondary__label {
+        font-size: 14px;
+        line-height: 18px;
+        letter-spacing: -0.2px;
+    }
+    .col-size-4-mobile {
+        -webkit-box-flex: 0;
+        -ms-flex: 0 0 34.33333%;
+        flex: 0 0 44.33333%;
+        max-width: 45.33333%;
+    }
+    .label-asesor-simulator {
+        color: #292929;
+        font-family: Open Sans;
+        font-size: 14px;
+        font-weight: 700;
+        letter-spacing: -0.26px;
+        line-height: 24px;
+        margin: 10px auto 0px;
+    }
+    .types-share-summary-container {
+        margin-top: 0px;
+    }
+    .footer-form-summary-simulator {
+        font-family: 'Open Sans';
+        font-weight: normal;
+        font-size: 12px;
+        line-height: 16px;
+        letter-spacing: -0.171429px;
+        color: $color-status-03;
+    }
+    .info__Sufi__contentPrice__containerInfo__price__responsive {
+        height: 38px;
+        color: #00448d;
+        font-family: 'cibfont_sansbold';
+        font-weight: 500;
+        font-size: 32px;
+        line-height: 32px;
+        text-align: justify;
+        letter-spacing: -0.6px;
+        color: $color-text-00;
+        display: inline-block;
+    }
+    .icon-stlye-select {
+        padding-right: 0px !important;
+    }
+    .bton-primary-mobile {
+        width: 100%;
+    }
+    .credit-content-input {
+        width: 100%;
+    }
+    .header-finance-container {
+        padding-left: 10px !important;
+        padding-right: 8px !important;
+    }
+    .option-purchase-container {
+        margin-top: 30px;
+        margin-left: 0px !important;
+    }
+    .numeroDeCuotas {
+        width: 100px;
+    }
+    .label-pay {
+        width: 100% !important;
+    }
+}
+
+/* TABLET */
+
+@media screen and (min-width: $breakpoint-tablet) {
+    .bc-shelf-container__title {
+        &.visible-lg {
+            margin: 0 6px 36px 0px;
+        }
+    }
+    .bc-shelf-container__title {
+        .visible-lg {
+            margin: 0 6px 36px 0px;
+        }
+    }
+    .shelf-wrapper  {
+        .slick-dots {
+            display: none !important;
+        }
+    }
+}
+
+@media screen and (min-width: 800px) {
+    .header__nav {
+        display: block;
+    }
+    .CreditoForm {
+        margin: 0px !important;
+    }
+    .summary-finance-simulator-leasing {
+        margin-left: 52px;
+        max-width: 400px;
+    }
+    .text-types-share-summary {
+        color: #808285;
+        font-family: "Open Sans";
+        font-size: 12px;
+        letter-spacing: -0.17px;
+        line-height: 16px;
+    }
+    .result-title-simulator {
+        margin: 5px 0px 0px;
+        padding: 0px 0px 7px;
+        width: 100%;
+        max-width: 190px;
+        height: 28px;
+        border-bottom: 1px solid $color-status-03;
+    }
+    .result-title-simulator-select {
+        height: 28px;
+        margin: 0px;
+        width: 100%;
+        padding: 0px 2px;
+        z-index: 1;
+        position: absolute;
+    }
+    .result-title-simulator-leasing {
+        margin: 5px 0px 0px;
+        padding: 0px;
+        width: 100%;
+        height: 28px;
+        max-width: 190px;
+        border-bottom: 1px solid #2C2A29;
+    }
+
+    .result-title-simulator-leasing-select {
+        padding-left: 10px !important;
+        height: 40px !important;
+        width: 200px !important;
+        border-bottom: 2px solid #979797 !important;
+        color: #292929 !important;
+        font-family: "Open Sans" !important;
+        font-size: 15px !important;
+        font-weight: 600 !important;
+        line-height: 24px !important;
+        z-index: 1;
+        position: absolute;
+    }
+    .product {
+        .productSection {
+            &__slider {
+                display: block;
+                width: 100%;
+                padding: 0px;
+                margin: 0 auto;
+                &__imageCarrusel {
+                    .slick-prev:before {
+                        content: $fenix-icon-arrow2-left;
+                        font-family: "#{$icomoon-font-family}";
+                        color: $color-status-03;
+                        font-size: 32px;
+                        opacity: 1;
+                    }
+                    .slick-next:before {
+                        content: $fenix-icon-arrow2-right;
+                        font-family: "#{$icomoon-font-family}";
+                        color: $color-status-03;
+                        font-size: 32px;
+                        opacity: 1;
+                    }
+                    .slick-prev {
+                        height: 28px;
+                        left: -10px;
+                        z-index: 9;
+                    }
+                    .slick-next {
+                        height: 28px;
+                        right: -10px;
+                        z-index: 9;
+                    }
+                    div.product-image__thumb {
+                        &-indicatorNumber {
+                            opacity: 1;
+                            position: absolute;
+                            font-size: 40px;
+                            font-weight: bold;
+                            line-height: 50px;
+                            letter-spacing: -0.37px;
+                            top: 30%;
+                            right: 25%;
+                        }
+                    }
+                }
+            }
+            &__info {
+                &__actionSection {
+                    display: flex;
+                    position: relative;
+                    flex-wrap: wrap;
+                    flex-basis: 100%;
+                    width: 100%;
+                    //border-top: 1px solid $color-bg-10;
+                    justify-content: center;
+                    // padding: 30px 0px 0px;
+                    .agendarCita {
+                        cursor: pointer;
+                        display: inline-block;
+                        position: relative;
+                        // width: 40%;
+                        // margin: 0px 20px;
+                        // color: $color-text-02;
+                        // margin-bottom: 20px;
+                    }
+                    .financiacion {
+                        cursor: pointer;
+                        display: inline-block;
+                        position: relative;
+                        // margin: 0 20px;
+                        // width: 47%;
+                        //padding: 0px 20px;
+                    }
+                    button,
+                    div {
+                        &.reservaOnline {
+                            // padding: 5px 0px 5px;
+                            width: 100%;
+                            // padding: 20px;
+                            .linkReserva {
+                                justify-content: center;
+                                // margin-top: 10px;
+                            }
+                        }
+                    }
+                }
+            }
+            &__tabsMoreInfo {
+                .tabs {
+                    box-shadow: 0px -2px 20px rgba(0, 0, 0, 0.04);
+                    .tab {
+                        &.active,
+                        &:active {
+                            font-weight: 600;
+                            line-height: 21px;
+                        }
+                    }
+                }
+                &__informacionBasica {
+                    display: block;
+                    position: relative;
+                    width: 100%;
+                    flex-basis: 100%;
+                    ul {
+                        li {
+                            width: 33.3%;
+                            height: auto;
+                            flex: auto;
+                            display: block;
+                            position: relative;
+                            min-width: auto;
+                            .content {
+                                font-size: 25px;
+                                margin: 0px;
+                            }
+                        }
+                    }
+                }
+                &__equipamiento {
+                    ul {
+                        li {
+                            width: 33.3%;
+                            display: block;
+                            position: relative;
+                            margin: 10px 0px;
+                        }
+                    }
+                }
+                .contentDownload {
+                    display: flex;
+                    h3 {
+                        width: auto;
+                    }
+                    span {
+                        display: inline-block;
+                        position: relative;
+                    }
+                    .descarga {
+                        width: auto;
+                        text-align: left;
+                        margin: 0px 0px 0px 19.5px;
+                    }
+                    .link {
+                        margin-left: 5px;
+                        margin-right: 10px;
+                        &:before {
+                            position: absolute;
+                            right: -7px;
+                        }
+                    }
+                }
+            }
+            &__solicitudDeFinanciacion {
+                &__content {
+                    display: block;
+                    width: 100%;
+                    height: auto;
+                    max-width: 940px;
+                    margin: 0 auto;
+                    box-shadow: 0px 3px 12px rgba(0, 0, 0, 0.1);
+                    padding-top: 20px;
+                    margin-top: 25px;
+                    .tabs {
+                        .tab {
+                            padding: 10px 0px;
+                        }
+                    }
+                    &__options {
+                        width: 100%;
+                        margin: 0 auto;
+                        &__Credito {
+                            padding: 38px 54px 86px;
+                            flex-wrap: nowrap;
+                            display: grid;
+                            grid-template-columns: 45.7% 54.3%;
+                            title {
+                                display: none;
+                            }
+                            .CreditoForm {
+                                .bc-select__wrapper {
+                                    .bc-select {
+                                        width: 60%;
+                                    }
+                                }
+                                .bc-select--active {
+                                    box-shadow: none;
+                                    background-color: transparent;
+                                }
+                            }
+                            .qouta-leasing-simulator-container-leasing {
+                                display: grid;
+                                grid-template-columns: 55% 45%;
+                                margin-right: 40px;
+                            }
+                            .credit-content-input {
+                                margin-right: 6px;
+                                display: grid;
+                                grid-template-columns: 50% 50%;
+                            }
+                            .label-title-simulador-leasing {
+                                font-family: 'Open Sans';
+                                font-style: normal;
+                                font-weight: normal;
+                                font-size: 12px;
+                                line-height: 16px;
+                                letter-spacing: -0.171429px;
+                                color: $color-status-03;
+                            }
+                            .title-summary-simulator {
+                                font-family: 'cibfont_sansbold';
+                                font-weight: 500;
+                                font-size: 18px;
+                                line-height: 20px;
+                                text-align: justify;
+                                letter-spacing: -0.3px;
+                                color: $color-text-00;
+                            }
+                            .value-share-summary-simulator {
+                                font-family: 'cibfont_sansbold';
+                                font-weight: 500;
+                                font-size: 32px;
+                                line-height: 32px;
+                                text-align: justify;
+                                letter-spacing: -0.6px;
+                                color: $color-text-00;
+                                margin-top: -5px;
+                                height: 50px;
+                                width: 232px;
+                            }
+                            .label-asesor-simulator {
+                                height: 24px;
+                                width: 101%;
+                                color: #292929;
+                                font-family: Open Sans;
+                                font-size: 15px;
+                                font-weight: 700;
+                                letter-spacing: -0.28px;
+                                line-height: 24px;
+                                display: block !important;
+                            }
+                            .footer-form-summary-simulator {
+                                font-family: 'Open Sans';
+                                font-style: normal;
+                                font-weight: normal;
+                                font-size: 16px;
+                                line-height: 22px;
+                                letter-spacing: -0.3px;
+                                color: $color-text-00;
+                            }
+                            .info__Sufi__contentPrice__containerInfo__price__responsive {
+                                font-family: 'cibfont_sansbold';
+                                font-weight: 500;
+                                font-size: 32px;
+                                line-height: 32px;
+                                text-align: justify;
+                                letter-spacing: -0.6px;
+                                color: $color-text-00;
+                                display: inline-block;
+                                position: relative;
+                            }
+                            .qouta-credit-simulator-container {
+                                margin: 22px 0px 0px;
+                                display: block !important;
+                                margin-block-end: 0em !important;
+                                margin-inline-start: 0px !important;
+                            }
+                            .qouta-init-credit-simulator-container {
+                                margin: 32px 0px 0px;
+                                display: block !important;
+                                margin-block-end: 0em !important;
+                                margin-inline-start: 0px !important;
+                            }
+                            .bc-slider-secondary__value {
+                                font-family: 'cibfont_sansbold';
+                                font-weight: 500;
+                                font-size: 18px;
+                                line-height: 20px;
+                                text-align: right;
+                                letter-spacing: -0.3px;
+                                color: $color-status-03;
+                                border-bottom: 1px solid $color-status-03;
+                                padding: 0px 0px 8px;
+                            }
+                            .footer-form-simulator {
+                                margin-top: 20px;
+                                width: 100%;
+                                color: #808285;
+                                font-family: 'Open Sans';
+                                font-weight: normal;
+                                font-size: 11px;
+                                line-height: 16px;
+                                text-align: justify;
+                                letter-spacing: -0.171429px;
+                                color: #000000;
+                                display: block !important;
+                                margin-block-end: 0em !important;
+                                margin-inline-start: 0px !important;
+                            }
+                            .info {
+                                margin-left: 52px;
+                                max-width: 400px;
+                                &__Sufi {
+                                    &__contentPrice {
+                                        &__containerInfo {
+                                            .icon-sufi {
+                                                background-image: url(/arquivos/icon-sufi.svg);
+                                                width: 70px;
+                                                height: 70px;
+                                                background-repeat: no-repeat;
+                                                background-size: contain;
+                                                margin-right: 10px;
+                                                position: absolute;
+                                                display: block;
+                                                right: 2%;
+                                                top: 5%;
+                                            }
+                                        }
+                                        .bc-btn-primary {
+                                            height: 38px;
+                                            width: 60%;
+                                            font-size: 16px;
+                                        }
+                                    }
+                                }
+                            }
+                        }
+                    }
+                }
+            }
+        }
+        .contentAttributesPrincipales {
+            background: rgba(230, 231, 232, 0.2);
+            padding: 10px 0px;
+            .attributesPrincipales {
+                display: flex;
+                position: relative;
+                flex-wrap: wrap;
+                flex-basis: 100%;
+                width: 100%;
+                justify-content: center;
+                margin: 10px auto;
+                .slick-track {
+                    width: 100% !important;
+                }
+                .item {
+                    display: block;
+                    width: max-content;
+                    max-width: 300px;
+                    .attributesPrincipales {
+                        span {
+                            font-size: 15px;
+                            font-weight: 400;
+                            line-height: 26px;
+                            letter-spacing: -0, 28;
+                            color: $color-text-08;
+                            display: block;
+                            position: relative;
+                            width: auto;
+                            width: 100% !important;
+                        }
+                        p {
+                            display: block;
+                            position: relative;
+                            // @include font-h-5-heading-dark-left;
+                            // font-size: 26px;
+                            // margin: 5px 20px 5px 0px;
+                            color: $color-text-08;
+                            width: 100% !important;
+                        }
+                    }
+                    .contentAttribute {
+                        &.first {
+                            padding-left: 0px;
+                        }
+                    }
+                }
+                .slick-dots {
+                    li {
+                        position: relative;
+                        display: inline-block;
+                        width: 15px;
+                        height: 15px;
+                        margin: 0 5px;
+                        padding: 0;
+                        cursor: pointer;
+                        border-radius: 100px;
+                    }
+                }
+            }
+        }
+    }
+    .procesoAgendarCita {
+        .close-modal {
+            top: 25px;
+            right: 30px;
+        }
+        .optionsAgendarCita {
+            title{
+                font-size: 24px;
+                line-height: 26px;
+                letter-spacing: -0.45px;
+            }
+        }
+        .confirmedAppointmentCalendar {
+            max-width: 562px;
+            .bc-stepper-three {
+                margin-top: 80px;
+            }
+            .AppointmentConfirmed {
+                padding: 7px 61px 53px;
+                title {
+                    font-family: 'cibfont_sansbold';
+                    font-weight: 500;
+                    font-size: 24px;
+                    line-height: 26px;
+                    text-align: center;
+                    letter-spacing: -0.45px;
+                    color: $color-status-03;
+                    margin: 0px 0px 18px;
+                    &:after {
+                        font-family: "#{$icomoon-font-family}";
+                        content: $fenix-icon-successful;
+                        font-size: 24px;
+                        font-weight: 100;
+                        color: $color-status-03;
+                        margin-left: 10px;
+                    }
+                }
+                .p-cemter {
+                    margin: 0px 0px 40px
+                }
+                // textarea {
+                //     min-width: 549px;
+                // }
+                .contentData .infoDate {
+                    margin-bottom: 10px;
+                }
+                .contentDate,
+                .dataContactUser {
+                    > span {
+                        font-size: 14px;
+                        line-height: 18px;
+                        letter-spacing: -0.2px;
+                    }
+                }
+                .contentDate {
+                    .infoDate {
+                        .date {
+                            font-size: 14px;
+                            line-height: 18px;
+                            letter-spacing: -0.2px;
+                            font-weight: 600;
+                        }
+                    }
+                }
+                .contentPlace {
+                    .infoPlace {
+                        .place {
+                            font-size: 14px;
+                            line-height: 18px;
+                            letter-spacing: -0.2px;
+                            font-weight: 600;
+                            span {
+                                font-weight: normal;
+                            }
+                        }
+                    }
+                }
+                .dataContactUser {
+                    .infoUser {
+                        p {
+                            font-size: 14px;
+                            line-height: 18px;
+                            letter-spacing: -0.2px;
+                            font-weight: 600;
+                        }
+                    }
+                }
+                p {
+                    font-size: 14px;
+                    line-height: 18px;
+                    letter-spacing: -0.2px;
+                }
+
+                .sectionButtons {
+                    display: flex;
+                    position: relative;
+                    width: 100%;
+                    margin: 0 auto;
+                    justify-content: center;
+                    .bc-btn-secundary-white {
+                        display: inline-block;
+                        position: relative;
+                        order: 1;
+                        margin: 10px 10px;
+                        line-height: 30px;
+                        width: 50%;
+                        max-width: none;
+                    }
+                    .bc-btn-primary {
+                        display: inline-block;
+                        position: relative;
+                        margin-right: 10px;
+                        order: 2;
+                        margin: 10px 10px;
+                        width: 50%;
+                        max-width: none;
+                    }
+                }
+            }
+        }
+        .optionsCalendar {
+            &__contentCalendar {
+                .addressInfo {
+                    .contentAddress {
+                        width: 100%;
+                        // .address {
+                        //     // left: 40px;
+                        //     // margin-left: -8px;
+                        //     position: relative;
+                        //     width: 73%;
+                        //     text-align: center;
+                        // }
+                    }
+                }
+            }
+        }
+    }
+    .shareProduct {
+        padding: 24px 34px 50px 64px;
+        max-width: 541px;
+        .contentShare {
+            p {
+                margin: 16px 0px 0px;
+            }
+            .contentUrl,
+            .contentSocialMedia,
+            .contentSendMail {
+                display: block;
+                p {
+                    display: block;
+                    position: relative;
+                    font-size: 20px;
+                    line-height: 24px;
+                    letter-spacing: -0.375px;
+                }
+                .urlProduct {
+                    display: flex;
+                    width: 100%;
+                    margin: 6px 0px 0px;
+                    .url {
+                        border: none;
+                    }
+                }
+            }
+            .contentUrl {
+                margin: 39px 0px 0px;
+            }
+            .contentSocialMedia {
+                margin: 22px 0px 0px;
+            }
+            .contentSocialMedia {
+                ul {
+                    display: flex;
+                    position: relative;
+                    width: 100%;
+                    li {
+                        &.icon {
+                            width: 28px;
+                            height: 28px;
+                            margin: 22px 10px 0px;
+                            transition: 300ms;
+                            &:hover,
+                            &:active,
+                            &.active {
+                                width: 38px;
+                                height: 38px;
+                                margin: 16px 5px 0px;
+                                transition: 300ms;
+                            }
+                        }
+                        &.iconEmail {
+                            width: 48px;
+                            height: 48px;
+                            margin: 11px 10px 0px;
+                            &:before {
+                                font-size: 48px;
+                            }
+                            &:hover,
+                            &:active,
+                            &.active {
+                                width: 48px;
+                                height: 48px;
+                                margin: 11px 10px 0px;
+                            }
+                        }
+                    }
+                }
+            }
+            .contentSendMail {
+                .text {
+                    font-size: 16px;
+                    line-height: 22px;
+                    letter-spacing: -0.3px;
+                }
+                .bc-select__wrapper {
+                    .bc-select {
+                        position: relative;
+                    }
+                }
+            }
+        }
+    }
+    .procesoReservaOnline {
+        .separacionOnline {
+            &.bc-modal {
+                max-width: 700px;
+                padding: 70px 44px 53px;
+            }
+
+            &__contentSeparacion {
+                title {
+                    font-size: 24px;
+                    line-height: 26px;
+                    letter-spacing: -0.45px;
+                }
+
+                .valorSeparacion {
+                    margin-bottom: 41px;
+
+                    p {
+                        font-size: 20px;
+                        line-height: 24px;
+                        letter-spacing: -0.375px;
+                    }
+                }
+
+                .infoProduct {
+                    display: flex;
+                    position: relative;
+
+                    .image {
+                        width: 48%;
+                    }
+
+                    .info {
+                        margin: 0px 0px 0px 24px;
+                        width: 52%;
+                    }
+                }
+
+                .infoProcess {
+                    font-size: 14px;
+                    line-height: 18px;
+                    letter-spacing: -0.2px;
+                    margin-top: 33px;
+                    text-align: center;
+                }
+
+                .linkStaticContent {
+                    border: none;
+                    display: flex;
+                    position: relative;
+                    padding: 0px;
+                    align-items: center;
+
+                    p {
+                        @include font-link-dark-left;
+                        text-decoration: underline;
+                    }
+
+                    .icon {
+                        &:after {
+                            content: "\f05a";
+                            font-size: 24px;
+                            font-family: $font-icons !important;
+                            color: $color-icon-02;
+                            margin-left: 5px;
+                        }
+                    }
+                }
+
+                .sectionButtons {
+                    display: flex;
+                    position: relative;
+                    width: 100%;
+                    margin: 0 auto;
+                    justify-content: center;
+
+                    .bc-btn-secundary-white {
+                        display: inline-block;
+                        order: 1;
+                        max-width: 240px;
+                        margin: 49px 8px 0px auto;
+                    }
+                    .bc-btn-primary {
+                        display: inline-block;
+                        order: 2;
+                        max-width: 240px;
+                        margin: 49px auto 0px 8px;
+                    }
+                }
+            }
+        }
+    }
+}
+/*=============================================================*/
+/* DESKTOP PDP */
+@media screen and (min-width: $breakpoint-desktopPDP) {
+    // .rc-slider-rail {
+    //     height: 7px !important;
+    //     border-radius: 0 !important;
+    // }
+    .info__Sufi {
+        max-width: 428px;
+        // margin: 0 auto;
+    }
+    .product {
+        .productSection {
+            margin: 48px auto 0px;
+            &__slider {
+                width: 50%;
+                padding: 0px 30px;
+                margin: 0px auto 0px 0px;
+                &__imageFull {
+                    margin-bottom: 0px;
+                    figure {
+                        picture {
+                            img {
+                                width: 100%;
+                                max-width: 640px;
+                            }
+                        }
+                    }
+                }
+                &__imageCarrusel {
+                    max-width: 640px;
+                }
+                &__imageCarrusel {
+                    max-width: 640px;
+                    div.product-image__thumb {
+                        width: 125px;
+                        height: 120px !important;
+                        display: block;
+                        position: relative;
+                        overflow: hidden;
+                        margin: 0px;
+                        &-indicatorNumber {
+                            top: 25%;
+                            right: 6.5%;
+                        }
+                        &.slick-current {
+                            &::after {
+                                border-bottom: 3px solid $color-brand-01;
+                                border-bottom-right-radius: 0px;
+                                border-bottom-left-radius: 0px;
+                            }
+                        }
+                        img {
+                            height: 120px;
+                            object-fit: cover;
+                            left: 0;
+                            position: absolute;
+                            top: 0;
+                            width: 100%;
+                        }
+                    }
+                    div.product-image__thumb {
+                        img {
+                            border-radius: 0px;
+                        }
+                    }
+                    .slick-prev {
+                        left: -35px;
+                    }
+                    .slick-next {
+                        height: 28px;
+                        width: 24px;
+                        right: -35px;
+                    }
+                    img {
+                        border-radius: 0px;
+                    }
+                }
+            }
+            &__info {
+                width: 41%;
+                // padding: 0% 2% 0% 1%;
+                &__principal {
+                    padding: 0px;
+                    border-bottom: 2px solid $color-text-06;
+                    // padding: 0px;
+                    h1 {
+                        font-size: 32px;
+                        line-height: 32px;
+                        letter-spacing: -0.6px;
+                        // font-size: 28px;
+                        // line-height: 30px;
+                        // letter-spacing: -0, 6px;
+                    }
+                    .seller {
+                        margin: 17px 0px;
+                        // font-size: 17px;
+                        // margin: 16px 0px;
+                    }
+                }
+                &__secondary {
+                    // padding: 32px 0px 0px;
+                    .price {
+                        margin-top: 16px;
+                        // font-size: 40px;
+                        // width: 90%;
+                    }
+                    .wishlistIcon {
+                        top: 16px;
+                    //     // display: none !important;
+                    //     top: 28px;
+                    //     margin-right: 0;
+                    //     &:before {
+                    //         font-size: 32px;
+                    //     }
+                    //     &:hover {
+                    //         &:before {
+                    //             font-size: 32px;
+                    //         }
+                    //     }
+                    //     &.active {
+                    //         &:before {
+                    //             font-size: 32px;
+                    //         }
+                    //     }
+                    }
+                    .productDescription {
+                        font-size: 16px;
+                        letter-spacing: -0.3px;
+                        line-height: 22px;
+                        margin: 18px 0px 0px;
+                    //     p {
+                    //         font-size: 18px;
+                    //         letter-spacing: -0.26px;
+                    //         line-height: 26px;
+                    //     }
+                    }
+                    .productShare {
+                        text-align: center;
+                        color: $color-text-02;
+                        button {
+                            margin: 0 auto;
+                            // &:before {
+                            //     content: "\f064";
+                            //     font-size: 24px;
+                            // }
+                        }
+                    }
+                }
+                &__actionSection {
+                    border-top: 2px solid $color-text-06;
+                    padding: 16px 15.5px 0px;
+                    // flex-wrap: nowrap;
+                    // padding: 32px 0px 0px;
+                    .agendarCita {
+                        font-size: 16px;
+                        line-height: 21px;
+                        letter-spacing: -0.3px;
+                        cursor: pointer;
+                        height: 38px;
+                        padding: 0px;
+                        margin: 0px 10px 0px 0px;
+                        width: 49%;
+                        // width: 48%;
+                        // margin: 0 auto 0 0;
+                    }
+                    .financiacion {
+                        font-size: 16px;
+                        line-height: 21px;
+                        letter-spacing: -0.3px;
+                        width: 48%;
+                        height: 38px;
+                        // cursor: pointer;
+                        // margin: 0px 10px;
+                    }
+
+                    @media screen and (max-width: $breakpoint-desktop) {
+                        .agendarCita, .financiacion {
+                            font-size: 14px;
+                        }
+                    }
+
+                    button,
+                    div {
+                        &.reservaOnline {
+                            margin: 20px 0 0;
+                            padding: 0px;
+                            width: 100%;
+                            .linkReserva {
+                                margin: 0px auto;
+                            }
+                        }
+                    }
+                }
+            }
+            &__tabsMoreInfo {
+                padding: 0px;
+                .tabs {
+                    .tab {
+                        border-bottom: 1px solid $color-status-03;
+                        // @include font-h-4-heading-gray-01-center;
+                        // font-weight: bold;
+                        &.active,
+                        &:active {
+                            border-bottom: 2px solid $color-brand-01;
+                            // @include font-h-4-heading-blue-center;
+                        }
+                        &:hover {
+                            border-bottom: 2px solid $color-brand-01;
+                        }
+                    }
+                }
+                &__informacionBasica {
+                    ul {
+                        padding: 32.5px 24px 42.5px;
+                        // padding: 48px;
+                        li {
+                            width: auto;
+                            min-width: 20%;
+                            max-width: 20%;
+                            font-size: 16px;
+                            line-height: 22px;
+                            letter-spacing: -0.3px;
+                            padding: 0px 0px 15px;
+                            // padding: 20px 0px;
+                            // font-size: 20px;
+                            /* min-width: 200px; */
+                            // font-weight: 500;
+                            .content {
+                                margin: 5px 20px 5px 0px;
+                                font-size: 28px;
+                                line-height: 30px;
+                                letter-spacing: -0.6px;
+                                // font-size: 35px;
+                                // font-weight: 600;
+                                // line-height: 40px;
+                            }
+                        }
+                    }
+                }
+                &__equipamiento {
+                    ul {
+                        padding: 17px 31.5px 15px;
+                        // padding: 30px;
+                        li {
+                            margin: 28px 0px;
+                            width: 25%;
+                            font-size: 24px;
+                            line-height: 26px;
+                            letter-spacing: -0.45px;
+                            // width: 20%;
+                            // font-size: 24px;
+                            // margin: 40px 0px;
+                            // line-height: 26px;
+                            // letter-spacing: -0, 45px;
+                            // font-weight: 600;
+                            &::before {
+                                font-size: 25px;
+                            }
+                        }
+                    }
+                }
+                .contentDownload {
+                    padding: 23px 0px 0px;
+
+                    h3 {
+                        font-size: 16px;
+                        line-height: 22px;
+                        letter-spacing: -0.3px;
+
+                        &:before {
+                            font-size: 26.7px;
+                        }
+                    }
+                    .descarga {
+                        line-height: 24px;
+                        // margin: 0px 0px 0px 19.5px;
+                    }
+                }
+            }
+            &__solicitudDeFinanciacion {
+                padding: 50px 0px 0px;
+                h2 {
+                    font-size: 40px;
+                    letter-spacing: -0.6px;
+                    line-height: 40px;
+                }
+                &__content {
+                    .tabs {
+                        margin: 0px auto 0px;
+                    }
+                }
+                &__options {
+                    width: 80%;
+                    margin-top: 48px;
+                    &__Credito {
+                        display: flex;
+                        position: relative;
+                        width: 100%;
+                        flex-basis: 100%;
+                        flex-wrap: nowrap;
+                        .CreditoForm {
+                            padding: 20px 50px;
+                            .rc-slider-handle {
+                                border: 5px solid #ffd200;
+                                margin-top: -16px;
+                                height: 20px;
+                                width: 20px;
+                            }
+                        }
+                        // .qouta-leasing-simulator-container-leasing {
+                        //     display: grid;
+                        //     grid-template-columns: 60% 50%;
+                        //     margin-top: 40.5px;
+                        // }
+                        .info {
+                            &__Sufi {
+                                &__contentPrice {
+                                    &__containerInfo {
+                                        margin: 0px 20px;
+                                    }
+                                    button {
+                                        margin: 0 auto;
+                                        position: relative;
+                                        display: block;
+                                        margin-top: -20px;
+                                    }
+                                }
+                            }
+                        }
+                    }
+                }
+            }
+        }
+        .contentAttributesPrincipales {
+            margin: 35px auto 0px;
+            width: 100%;
+            padding: 19px 0px;
+            .attributesPrincipales {
+                width: 100%;
+                max-width: 1440px;
+                margin: 0px auto;
+                .item {
+                    &:not(:last-child) {
+                        border-right: 1px solid $color-status-08;
+                    }
+                    font-size: 20px;
+                    .contentAttribute {
+                        padding: 1.5px 74px 1.5px 48px;
+                        // span {
+                        //     font-size: 20px;
+                        //     line-height: 30px;
+                        //     font-weight: 400;
+                        //     letter-spacing: -0.37px;
+                        //     color: $color-text-08;
+                        // }
+                        p {
+                            font-size: 28px;
+                            line-height: 30px;
+                            letter-spacing: -0.6px;
+                            // font-size: 40px;
+                            // margin: 5px 0px;
+                            // letter-spacing: -0.75px;
+                            // line-height: 45px;
+                            // color: $color-text-08;
+                            // opacity: 1;
+                        }
+                        &.first {
+                            padding-left: 0px;
+                        }
+                        &.last {
+                            padding-right: 0px;
+                        }
+                    }
+                }
+            }
+        }
+        .actionSectionStickyMobile {
+            display: none;
+        }
+    }
+    .procesoAgendarCita {
+        .optionsAgendarCita {
+            margin: 0 auto;
+            width: 100%;
+            &__selectCitaYestDrive {
+                padding: 76px 15.45% 150px;
+                max-width: 562px;
+                // padding: 64px;
+                // title {
+                //     @include font-h-3-heading-dark-center;
+                //     position: relative;
+                //     display: block;
+                //     margin-bottom: 24px;
+                //     margin-top: 0px;
+                // }
+                // span {
+                //     top: 20px;
+                //     right: 20px;
+                // }
+                .options {
+                    margin: 40px 0px 0px;
+                    .agendarCita,
+                    .testDrive {
+                        display: block;
+                        box-sizing: border-box;
+                        max-width: 180px;
+                        padding: 32.5px 4.13% 26px;
+                        text-align: center;
+                        // padding: 30px 20px;
+                        // margin: 20px 0px;
+                        p {
+                            line-height: 21px;
+                            letter-spacing: -0.3px;
+                            text-align: center;
+                            font-weight: 600;
+                            // @include font-h-6-heading-dark-center;
+                            // font-size: 16px;
+                            // letter-spacing: -0.27px;
+                            // line-height: 18px;
+                            // font-weight: 600;
+                        }
+                    }
+                    .agendarCita {
+                        .icon {
+                            margin: 0px auto 18.5px;
+                            &:before {
+                                font-size: 45px;
+                            }
+                        }
+                    }
+                    .testDrive {
+                        .icon {
+                            margin: 0px auto 18.5px;
+                            &:before {
+                                font-size: 45px;
+                            }
+                        }
+                    }
+                }
+            }
+            &.bc-modal {
+                overflow-y: auto;
+                max-width: 563px;
+                max-height: 82vh;
+                bottom: auto;
+            }
+        }
+        .optionsIniciarSesion {
+            width: 100%;
+            .selectIngreso {
+                padding: 92px 15.45% 45px;
+                // padding: 32px 24px;
+                // max-width: 563px;
+                .options {
+                    display: flex;
+                    .inicioBancolombia,
+                    .invitado {
+                        display: block;
+                        box-sizing: border-box;
+                        text-align: center;
+                        padding: 32.5px 16px 26px;
+                        max-width: 178px;
+                        // margin: 20px 10px;
+                        // padding: 20px;
+                        // min-width: 200px;
+                        // max-width: 200px;
+                        p {
+                            font-size: 16px;
+                            line-height: 21px;
+                            text-align: center;
+                            letter-spacing: -0.3px;
+                            font-weight: 600;
+                        //     @include font-h-6-heading-dark-center;
+                        //     font-size: 16px;
+                        //     letter-spacing: -0.27px;
+                        //     line-height: 18px;
+                        //     font-weight: 600;
+                        }
+                    }
+                    .inicioBancolombia {
+                        margin: 0px auto 18.5px;
+                        .icon {
+                            width: 45px;
+                            height: 48px;
+                            margin: 0 auto 0;
+                            margin-bottom: 14px;
+                            &:before {
+                                font-size: 45px;
+                            }
+                        }
+                    }
+                    .invitado {
+                        margin: 0px auto 18.5px;
+                        .icon {
+                            width: 48px;
+                            height: 60px;
+                            margin: 0 auto 0;
+                            &:before {
+                                font-size: 45px;
+                            }
+                        }
+                        p {
+                            max-width: 100px;
+                            margin: 0 auto;
+                            &.infoProcess {
+                                padding: 0 24px;
+                                text-align: center;
+                            }
+                        }
+                    }
+                }
+                p {
+                    @include font-body-gray-01-left;
+                    font-size: 16px;
+                    line-height: 22px;
+                    text-align: center;
+                    letter-spacing: -0.3px;
+                    margin: 15px 0px 45px;
+                    // @include font-body-dark-center;
+                }
+            }
+        }
+
+        .confirmedAppointmentCalendar {
+            &.bc-modal {
+                padding-left: 0;
+                padding-right: 0;
+            }
+        }
+        .optionsSelectAppointmentCalendar {
+            .selectCalendar {
+                padding: 32px;
+                .contentCalendar {
+                    padding: 2% 10%;
+                    title {
+                        @include font-h-3-heading-dark-center;
+                        font-size: 28px;
+                        letter-spacing: -0.6px;
+                        line-height: 30px;
+                        margin-bottom: 32px;
+                        margin-top: 0px;
+                    }
+                    .optionsCalendar {
+                        .listAgenda {
+                            .contentAddress {
+                                .selector {
+                                    margin: 0px;
+                                }
+                            }
+                        }
+                        .sectionButtons {
+                            display: flex;
+                        }
+                    }
+                }
+            }
+        }
+        .userData {
+            max-width: 680px;
+            &__contentUser {
+                padding: 40px 40px;
+                .AppointmentCalendarInfo {
+                    display: block;
+                    position: relative;
+                    title {
+                        font-size: 24px;
+                        line-height: 26px;
+                        letter-spacing: -0.45px;
+                        margin: 38px 0px 40px;
+                    }
+                    .contentDate {
+                        .calendar {
+                            @include font-small-gray-01-left;
+                            font-size: 14px;
+                            &.mobile {
+                                display: none;
+                            }
+                            &.desk {
+                                display: block;
+                                margin-bottom: 14px;
+                            }
+                        }
+                        .infoDate {
+                            .date {
+                                @include font-h-6-heading-dark-left;
+                                font-weight: 600;
+                            }
+                        }
+                    }
+                    .contentPlace {
+                        .infoPlace {
+                            .place {
+                                @include font-h-6-heading-dark-left;
+                                font-weight: 600;
+                            }
+                        }
+                    }
+                }
+                .userFormData {
+                    display: flex;
+                    position: relative;
+                    width: 100%;
+                    flex-wrap: wrap;
+                    flex-basis: 100%;
+                    justify-content: space-between;
+                    padding-top: 11px;
+                    .bc-input {
+                        margin: 0;
+                        margin-bottom: 10px !important;
+                        width: 48%;
+                    }
+                    .bc-checkbox.m-top-3{
+                        margin-top: 32px;
+                    }
+                    .bc-checkbox__label {
+                        margin-top: 30px;
+                    }
+                }
+                .sectionButtons {
+                    display: flex;
+                    position: relative;
+                    width: 100%;
+                    margin: 0 auto;
+                    justify-content: center;
+                    .bc-btn-secundary-white {
+                        display: inline-block;
+                        position: relative;
+                        order: 1;
+                        margin: 20px 10px;
+                        line-height: 30px;
+                    }
+                    .bc-btn-primary {
+                        display: inline-block;
+                        position: relative;
+                        margin-right: 10px;
+                        order: 2;
+                        margin: 20px 10px;
+                    }
+                }
+            }
+        }
+        .optionsCalendar {
+            &__contentCalendar {
+                .addressInfo {
+                    .contentAddress {
+                        .address {
+                            position: relative;
+                        }
+                    }
+                }
+            }
+        }
+    }
+}
+
+/*=============================================================*/
+/* DESKTOP */
+
+@media screen and (min-width: $breakpoint-desktop) {
+
+    .result-title-simulator-leasing-select {
+        padding-left: 10px !important;
+        height: 40px !important;
+        width: 200px !important;
+        border-bottom: 2px solid #979797 !important;
+        color: #292929 !important;
+        font-family: "Open Sans" !important;
+        font-size: 15px !important;
+        font-weight: 600 !important;
+        line-height: 24px !important;
+        z-index: 1;
+        position: absolute;
+    }
+
+    .product {
+        .productSection {
+            &__info {
+                &__principal {
+                    padding: 0px;
+                    border-bottom: 2px solid $color-text-06;
+                }
+                &__secondary {
+                    .productShare {
+                        text-align: center;
+                        color: $color-text-02;
+                        button {
+                            margin: 0 auto;
+                        }
+                    }
+                }
+                &__actionSection {
+                    .agendarCita {
+                        margin: 0 auto 0 0;
+                    }
+                    button {
+                        &.linkReserva {
+                            align-items: center;
+                            p {
+                                text-transform: initial;
+                                margin: 0px;
+                            }
+                        }
+                    }
+                }
+            }
+        }
+    }
+    .shelf-wrapper {
+        .container {
+            .bc-shelf-container__wrap {
+                flex-wrap: nowrap;
+            }
+        }
+    }
+    .bc-shelf-container {
+        &.container {
+            max-width: 1440px;
+            padding: 0px 20px;
+        }
+    }
+    .bc-shelf-item__price {
+        font-size: 22px;
+        letter-spacing: -0.41px;
+        line-height: 24px;
+    }
+}
+
+@media screen and (min-width: $breakpoint-bigdesktop) {
+    .product {
+        .productSection {
+            &__solicitudDeFinanciacion {
+                &__content {
+                    .info {
+                        &__Sufi {
+                            &__contentPrice {
+                                .bc-btn-primary {
+                                    height: 38px;
+                                    width: 70%;
+                                    font-size: 20px;
+                                }
+                            }
+                        }
+                    }
+                }
+            }
+        }
+    }
+    
+}

@@ -1,0 +1,55 @@
+block append styles
+    link(href="files/css/bc-comparatorProducts.min.css" rel="stylesheet")
+.compare-products
+    .prods
+         //-.prod-item.prod-item--empty
+            .msg-empty 
+                span.icon
+                p Añade otro vehículo
+
+         .prod-item
+            .prod-content
+                .prod-item__img
+                    img(src="../arquivos/imagen-demo-comparador.jpg", alt="")
+                .info-item
+                    .prod-status Usado
+                    .prod-item__name Nissan March Sense Full equipo
+                    .prod__specs
+                        div 2014
+                        div 15.456 km
+                        div.last Bogotá
+                    .prod__price $120.000.000
+            .btn-product-delete 
+               a(href="#") Eliminar
+                span.icon
+         span.line
+         .prod-item.prod-item--empty
+            .msg-empty 
+                span.icon
+                p Añade otro vehículo
+         span.line.noMobile
+         .prod-item.prod-item--empty.last.onlyDesktop
+            .msg-empty 
+                span.icon
+                p Añade otro vehículo
+         .prod-actions
+            .buttons
+                .btn.bc-btn-primary COMPARAR
+                a(href="#").btn-delete-products Borrar todos
+
+.prod-item
+    .prod-content
+        .prod-item__img
+            img(src="../arquivos/imagen-demo-comparador.jpg", alt="")
+        .info-item
+            .prod-status Usado
+            .prod-item__name Nissan March Sense Full equipo
+            .prod__specs
+                div 2014
+                div 15.456 km
+                div.last Bogotá
+            .prod__price $120.000.000
+    .btn-product-delete 
+        a(href="#") Eliminar
+        span.icon
+

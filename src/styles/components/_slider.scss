@@ -1,0 +1,88 @@
+/*=============================================================*/
+/* Slider
+/*=============================================================*/
+
+.bc-slider {
+    @include font-small-gray-01-left;
+
+    &__label {
+        height: 20px;
+        margin: 2px 0 23px 0;
+        //margin-bottom: 10px;
+    }
+
+    .rc-slider {
+        margin: 0 auto 5px auto;
+        max-width: 100%;
+        cursor: grab;
+        &-track {
+            background-color: $color-brand-01;
+            height: 6px;
+        }
+        &-rail {
+            background-color: $color-status-03;
+            height: 6px;
+        }
+        &-handle {
+            border: 5px solid $color-brand-01;
+            background-color: $color-brand-01;
+            margin-top: -11.5px;
+            height: 28px;
+            width: 28px;
+            transform: translateX(-100%) !important;
+            &:active {
+                box-shadow: 0 0 0 2.5px $color-brand-01 !important;
+            }
+            &-1 {
+                transform: translateX(0%) !important;
+            }
+        }
+        &-handle-dragging {
+            border: 5px solid !important;
+            box-shadow: 0 0 0 2.5px $color-brand-01 !important;
+            border-color: $color-brand-01 !important;
+        }
+    }
+
+    .d-flex {
+        margin-top: 15px;
+
+        &.flex-sb {
+            margin-top: 12px;
+            line-height: 18px;
+        }
+    }
+}
+
+.bc-slider-secondary {
+    .col-size-4 {
+        flex: 0 0 34.33333% ;
+        max-width: 34.33333% ;
+    }
+    .rc-slider {
+        margin: 0;
+        max-width: 100%;
+        cursor: grab;
+        margin-top: 15px;
+    }
+    &__label {
+        @include font-body-dark-left;
+    }
+    &__value {
+        @include font-body-dark-right;
+        border-bottom: 1px solid $color-status-06;
+        font-weight: 700;
+        padding-bottom: 4px;
+    }
+}
+
+/*=============================================================*/
+/* DESKTOP */
+
+@media screen and (min-width: $breakpoint-tablet) {
+    .bc-slider-secondary {
+        &__value {
+            font-size: 20px;
+        }
+    }
+}

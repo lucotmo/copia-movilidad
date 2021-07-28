@@ -1,0 +1,39 @@
+extends partials/layout.pug
+
+include components/bc-form.pug
+include components/bc-shelf.pug
+include components/bc-search.pug 
+
+block append styles
+    link(href="files/css/bc-home.min.css" rel="stylesheet")
+
+block title
+    title Bancolombia Movilidad
+
+block content  
+    .bc-sub-header.container
+        .breadcrumb
+            ul
+                li 
+                    a(href="#") TU 360
+                li
+                    a(href="/") p TU 360 Movilidad
+                li.last
+                    p Buscar carro
+        .search-bar__wrapper.js-search-bar
+
+    .home
+        include placeholders/home/main-banner.pug
+        .bc-home-search
+        .container.info
+            include placeholders/home/banner-cards.pug
+        .shelf-wrapper
+            +bc-shelf-container("Carros rcomendados")
+        .shelf-wrapper.js-shelf
+            //- +bc-shelf-container("Te recomendamos estos carros")  
+        .compare-products.js-compare-list
+
+block beforeScripts
+    include components/bc-pageloader.pug
+block afterScripts
+    script(src="/files/js/bc-home.bundle.min.js") 

@@ -1,0 +1,101 @@
+/*=============================================================*/
+/* Stick filters
+/*=============================================================*/
+
+.bc-stick-filters {
+    background-color: $color-bg-00;
+    bottom: 0;
+    left: 0;
+    position: fixed;
+    padding: 20px 15px;
+    width: 100vw;
+    z-index: 12;
+    box-shadow: 0px 0px 12px #0000001f;
+    .bc-btn {
+        white-space: nowrap;
+        &-primary {
+            width: 100%;
+            height: 38px;
+            font-size: 20px;
+            letter-spacing: -.38px;
+            line-height: 25px;
+        }
+        &-secundary {
+            @include font-link-dark-center;
+            margin-top: 10px;
+            text-transform: none;
+            font-size: 14px;
+            letter-spacing: -.2px;
+            line-height: 18px;
+        }
+    }
+    .col-1 {
+        font-size: 30px;
+        text-align: right;
+        .fenix-icon-error {
+            &::before {
+                font-weight: 200;
+            }
+        }
+    }
+    @media screen and (max-width: 370px) {
+        .col-11.d-flex {
+            flex: 0 0 100%;
+            max-width: 100%;
+        }
+    }
+
+    &__count {
+        background-color: $color-brand-01;
+        border-radius: 50%;
+        display: inline-block;
+        margin: 0 4px;
+        padding: 1px 4px;
+        text-align: center;
+        text-decoration: none;
+        min-width: 25px;
+    }
+
+    .link-no-unl {
+        @include font-link-dark-left;
+        text-decoration: none;
+        text-transform: none;
+        padding: 0;
+
+        @media screen and (max-width: $breakpoint-middle-mobile) {
+            display: flex;
+            align-items: center;
+
+            span {
+                white-space: initial;
+                text-align: center;
+            }
+        }
+    }
+
+    &__selected {
+        @include card;
+        align-items: center;
+        border-radius: 15px;
+        display: flex;
+        height: auto;
+        margin-bottom: 16px;
+        padding: 6px 8px 6px 12px;
+        width: auto;
+        .icon-times-circle {
+            font-weight: 400;
+        } 
+        p {
+            @include font-small-dark-center;
+            font-size: 14px;
+            line-height: 18px;
+            margin: 0 20px 0 0;
+        }
+    }
+}
+
+@media screen and (min-width: $breakpoint-mobile) {
+    .bc-stick-filters {
+        box-shadow: none;
+    }
+}

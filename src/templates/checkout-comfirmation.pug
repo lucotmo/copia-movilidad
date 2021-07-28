@@ -1,0 +1,238 @@
+<!DOCTYPE html>
+html(lang='es')
+    head
+        meta(charset='UTF-8')
+        meta(http-equiv='X-UA-Compatible' content='IE=edge')
+        meta(name='viewport' content='width=device-width, initial-scale=1, maximum-scale=1')
+        link(href="/files/css/checkout-confirmation4-custom.css" rel="stylesheet")
+
+    body
+        // --- Start Header ---
+
+        header.checkout-header
+            .container.container-max
+                .row.no-gutters.flex-acenter
+                    .col-3.col-lg-1
+                        .bc-button.bc-btn-icon-ghost.js-back-btn
+                            i.icon-chevron-left
+                            p Atrás
+                    .col-5.col-md-3.col-lg-2.logo-container
+                        a(href="/")
+                            img(src="/arquivos/bc-logo.png" alt="Logo")
+                    .col-3.col-lg-1
+                        a(href="/").bc-button.bc-btn-icon-ghost
+                            p Salir
+                            i.icon-sign-out1
+        <div class="container container-max m-top-1">
+            <div class="row no-gutters">
+                <p class="contact-info"><span>¿Tienes preguntas? comunicate con nuestra línea de atención al cliente </span><b>a nivel nacional 01 9000 123 123 - Medellín 123 23 23 - Bogotá 123 23 23</b></p>
+            </div>
+            <div class="row no-gutters flex-acenter">
+                <div class="bc-stepper-three col-12 col-lg-9">
+                    <div class="content-stepper">
+                        <div class="timeline"></div>
+                        <div class="content-stepper__step-one step">
+                            <div class="point"></div>
+                            <div class="stepName">Resumen de la compra</div>
+                            <div class="stepNameMobile">Paso 1</div>
+                        </div>
+                        <div class="content-stepper__step-two step">
+                            <div class="point"></div>
+                            <div class="stepName"> Pago y envío</div>
+                            <div class="stepNameMobile">Paso 2</div>
+                        </div>
+                        <div class="content-stepper__step-three step">
+                            <div class="point"></div>
+                            <div class="stepName">Confirmación del pedido</div>
+                            <div class="stepNameMobile">Paso 3</div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+
+        <div id="app-top-new" class="cf">
+            <div class="ph3-ns w-70-ns db center">
+                <div class="mb4">
+                    <h1 class="f2 black-70 mb1">¡Juan Camilo gracias por tu reserva!</h1>
+                    <time class="gray"><span>Enviaremos un mensaje de confirmación a tu correo electrónico con todos los datos de la reserva.</span></time>
+                </div>
+                <div class="cf br2 pa4 cconf-alert ba b--light-silver bg-washed-green"></div>
+            </div>
+        </div>
+        
+        //- #app-container
+        //-     .bc-ccleft-box
+        //-         .bc-products-list.mini-cart
+        //-             .bcg-title
+        //-                 | Reserva realizada con éxito 
+        //-                 i.icon-check
+        //-             ul  
+        //-                 li 
+        //-                     .bc-desc-images
+        //-                         img(src="https://movilidadco.vteximg.com.br/arquivos/ids/155591-0-0/NissanFrontierD22-mkt-011-_2.JPG.jpg?v=637221569826600000")
+        //-                     .description-product    
+        //-                         .type 
+        //-                             | usado 
+        //-                         .product-info  
+        //-                             .product_name
+        //-                                 .the_title Nombre del Producto 
+        //-                                 .small-title Vende: Tuyomotor S.A 
+        //-                             .product_qty
+        //-                                 .small-title Cantidad
+        //-                                 strong 1
+        //-                             .product_price  
+        //-                                 .small-title Precio
+        //-                                 strong $5.0000.000
+        //-                             .product_state  
+        //-                                 strong Vehiculo Seperado 
+        //-                                 i.icon-check
+        //-                 a.bc-more
+        //-                     | Ver más información
+
+        //-         .bc-descriptions.mini-cart
+        //-             .cc-shipping 
+        //-                 .s-title 
+        //-                     i.icon-home 
+        //-                     | Envío
+        //-                 .s-small-title 
+        //-                     | Dirección 
+        //-                 .s-paraph
+        //-                     | Cr xx # xx - xx Piso x , Apto x Bogota, Bogota 
+        //-                 .s-paraph.to
+        //-                     | Envio hasta 7 dias habiles - 
+        //-                     strong $7.900
+        //-             .cc-payment
+        //-                 .s-title 
+        //-                     i.icon-credit-card
+        //-                     | Medio de Pago
+        //-                 .s-small-title 
+        //-                     | Medio de pago para esta compra
+        //-                 .s-paraph
+        //-                     | Tarjeta de Credito $8.400.000
+        //-     .bc-ccright-box
+        //-         .bc-resume.mini-cart 
+        //-             .r-title
+        //-                 | Resumen de la reserva 
+        //-             ul.box-resume   
+        //-                 li  
+        //-                     .r-subtitle
+        //-                         | Subtotal
+        //-                     .r-cost
+        //-                         | $8.400.000
+        //-                 li  
+        //-                     .r-subtitle
+        //-                         | Impuestos
+        //-                     .r-cost
+        //-                         | $0
+        //-                 li.totals  
+        //-                     .r-subtitle
+        //-                         | Total a pagar
+        //-                     .r-cost
+        //-                         | $8.400.000
+        //-         .bc-resume-actions
+        //-             button.btn.btn-success
+        //-                 | Continuar navegando 
+                    
+        //-             button.link-choose-more-products
+        //-                 | ir a mis pedidos 
+        //-                 i.icon-chevron-left
+
+
+        <div id="app-container" class="cf">
+            <div>
+                <div class="ph3-ns w-70-ns db center">
+                    <div class="cf">
+                        <div class="mb2">
+                            <h2 class="fw3 f3 lh-copy mb1"><span class="fw4"><span>Pedido</span>&nbsp;</span>&nbsp;<span id="order-id" class="db di-ns">#1028303274751-01</span></h2></div>
+                        <div class="cf">
+                            <div class="cconf-profile w-third-l w-70-m cf mb3 mb0-l fl-l pr3-l">
+                                <h3 class="ttu tracked fw3 f4 mb2"><span>Datos Personales</span> </h3>
+                                <div class="lh-copy">
+                                    <p class="mt0 mb1">Juan Camilo Zuluaga Osorio</p>
+                                    <p class="mt0 mb1">1234567898</p>
+                                    <p class="mt0 mb1">+573112345678</p>
+                                </div>
+                            </div>
+                            <div class="cconf-payment w-third-l w-70-m cf mb3 mb0-l fl-l pr2-l pl2-l">
+                                <h3 class="ttu tracked fw3 f4 mb2"><span>Medio de Pago</span></h3>
+                                <div class="cf">
+                                    <p class="mt0 mb1 lh-copy"><span class="mb1 db">Pago Anticipado</span><span class="mb1 db"><span>$&nbsp;125.003.000,00</span>&nbsp;<span> </span></span>
+                                    </p>
+                                </div>
+                            </div>
+                            <div class="cconf-summary w-100 fl w-third-l w-70-m mb3 pl4-l">
+                                <h3 class="ttu tracked fw3 f4 mb2"><span>Resumen</span></h3>
+                                <div class="lh-copy">
+                                    <p class="ma0 pv1 bb b--light-gray"><span><span>Subtotal</span></span><span class="fr"><span>$&nbsp;125.000.000,00</span></span>
+                                    </p>
+                                    <p class="ma0 pv1 bb b--light-gray"><span><span>Costo del envío</span></span><span class="fr"><span>$&nbsp;3000,00</span></span>
+                                    </p>
+                                    <p class="ma0 pv1"><span><span>Total</span></span><span class="fr"><span>$&nbsp;125.003.000,00</span></span>
+                                    </p>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="cf pv4-ns">
+                            <div class="fl-l w-third-l w-70-m pr3-l mb3 mb0-l">
+                                <div class="br2 bg-near-white pa3 lh-title">
+                                    <div>
+                                        <h4 class="mt0 mb3"><span class="db mb1 ttu fw4 f4"> <span>Recibir</span></span></h4>
+                                        <p class="ma0 pv1">Juan Camilo Zuluaga Osorio</p>
+                                        <div></div>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="fr-l w-100 w-two-thirds-l pl2-l mb4">
+                                <div class="bg-light-gray ph3 pv2 w-50-l w-70-m mb3 fw5 br2">
+                                    <div class="f7 gray">Normal</div><span>Hasta</span> <span>29 de abril de 2020</span></div>
+                                <table class="cconf-product-table w-100">
+                                    <tbody>
+                                        <tr class="cconf-product">
+                                            <td class="v-top pv2 w3 pr3">
+                                                <a class="db w3" href="/mercedes-benz-cla-coupe-100/p" target="_blank"><img src="//movilidadco.vteximg.com.br/arquivos/ids/155414-70-70" alt="Mercedes Benz CLA Coupe"></a>
+                                            </td>
+                                            <td class="v-top pv2">
+                                                <div class="f6 lh-title mv1-ns"><a href="/mercedes-benz-cla-coupe-100/p" class="no-underline blue" target="_blank">Mercedes Benz CLA Coupe</a></div>
+                                                <div class="gray">1 <span>unidad</span>&nbsp;<span>$&nbsp;125.000.000,00</span></div>
+                                            </td>
+                                        </tr>
+                                    </tbody>
+                                </table>
+                            </div>
+                        </div>
+                        <div class="cf mt4 mt0-ns mb3"><a class="cconf-myorders-button fr mb2 ml3 w5-ns w-100 hover-no-underline dib link ba tc pv3 ph3 br2 bg-near-white hover-bg-light-gray b--light-silver near-black hover-near-black fw4" target="_self" href="/account/orders"><span>Ir a mis pedidos</span></a><a class="cconf-continue-button fr mb2 ml3 w5-ns w-100 hover-no-underline dib link ba tc pv3 ph3 br2 bg-near-white hover-bg-light-gray b--light-silver near-black hover-near-black fw4" target="_self" href="/"><span>Hacer nuevas compras</span></a></div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        // --- End Header ---
+
+        // --- Start Footer ---
+
+        .checkout-footer
+            .checkout-footer__title
+                p Medios de pago
+                img(src="/arquivos/checkout-foot-wompi.svg" alt="Cards Logo")
+            .checkout-footer__payments
+                .checkout-footer__payment
+                    img(src="/arquivos/checkout-foot-cards.svg" alt="Cards Logo")
+                .checkout-footer__payment
+                    img(src="/arquivos/checkout-foot-card-2.svg" alt="Cards Logo")
+                .checkout-footer__payment
+                    img(src="/arquivos/checkout-foot-card-1.svg" alt="Cards Logo")
+                .checkout-footer__payment
+                    img(src="/arquivos/checkout-foot-nequi.svg" alt="Cards Logo")
+                .checkout-footer__payment
+                    img(src="/arquivos/checkout-foot-t-nequi.svg" alt="Cards Logo")
+                .checkout-footer__payment
+                    img(src="/arquivos/checkout-foot-pse.svg" alt="Cards Logo")
+        include partials/footer.pug
+
+        // --- End Footer ---
+
+block afterScripts
+    script(src="node_modules/jquery/dist/jquery.min.js")
+    script(src="/files/js/bc-vendors.bundle.min.js")
+    script(src="/files/js/bc-checkoutcomfirmation.bundle.min.js")

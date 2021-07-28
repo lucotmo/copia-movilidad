@@ -1,0 +1,120 @@
+.bchome-search {
+    display: none !important;
+}
+html {
+    overflow-x: hidden;
+}
+.category {
+    // margin-top: 70px;
+    .main-filters .sub .resultado-busca-filtro {
+        height: 54px;
+        .FilterBy {
+            display: none !important;
+        }
+        .orderBy:before {
+            display: none !important;
+        }
+    }
+    .pagination {
+        display: flex !important;
+    }
+    .bc-sub-header {
+        display: block !important;
+    }
+    .content-page {
+        .store__banner {
+            margin: 7px auto 50px;
+            padding: 0px;
+            figure {
+                display: block;
+            }
+
+            @media screen and (max-width: $breakpoint-mobile) {
+                margin: 7px auto 25px;
+            }
+        }
+
+        .content-products {
+            .products__list {
+                padding: 0px;
+                .searchResultsTime {
+                    width: 100%;
+                    font-family: 'cibfont_sansbold';
+                    font-weight: 500;
+                    font-size: 32px;
+                    line-height: 32px;
+                    text-align: center;
+                    letter-spacing: -0.6px;
+                    color: $color-status-03;
+                    margin-bottom: 50px;
+
+                    @media screen and (max-width: $breakpoint-mobile) {
+                        font-size: 20px;
+                        line-height: 24px;
+                        letter-spacing: -0.375px;
+                        text-align: left;
+                        margin: 0 0 20px;
+                    }
+                }
+            }
+        }
+    }
+}
+
+.full-back .content-back .backArrow {
+    top: -111px;
+}
+h1.Big-title {
+    @include font-h-6-heading-blue-left;
+    font-family: $font-base;
+    color: $color-text-02;
+    font-size: 30px;
+    font-weight: bold;
+    letter-spacing: -0.6px;
+    line-height: 30px;
+    text-align: left;
+    margin-top: 0px;
+    margin-bottom: 0px;
+    width: 100%;
+    padding-left: 15px;
+    padding-right: 15px;
+}
+
+// MOBILE
+@media screen and (min-width: $breakpoint-mobile) {
+    .category {
+        margin-top: 0px;
+        .main-filters .searchResultsTime {
+            margin-top: 15px;
+        }
+        .map-container {
+            top: 25px;
+        }
+        .bc-sub-header {
+            display: flex !important;
+        }
+    }
+    .full-back .content-back .backArrow {
+        top: 20px;
+        background-color: transparent;
+        &:hover {
+            box-shadow: none;
+        }
+    }
+    .store__banner {
+        figure {
+            display: block;
+        }
+    }
+    h1.Big-title {
+        font-size: 40px;
+        margin-top: 40px;
+        line-height: 40px;
+        margin-bottom: 35px;
+        text-align: center;
+    }
+
+    #Busca .map-container {
+        top: 20px;
+    }
+}

@@ -1,0 +1,35 @@
+header.header
+    nav.header-main
+        include sub-header.pug
+
+    .container.m-top-1
+        .row.no-gutters.flex-acenter
+            .col-5.col-md-3.col-lg-2
+                a.logo-container(href="/")
+                    img(src="/arquivos/bc-logo.png" alt="Logo")
+
+            .col-3.offset-4.col-md-2.offset-md-7.visible-xs.visible-sm
+                #mobile-button.bc-button.bc-btn-icon-ghost.header__menu
+                    p Menú
+                    i.icon-ellipsis-v
+
+            .header__bread-crumb.col-12.visible-xs.visible-sm
+                ul
+                    li Movilidad
+
+            nav.header__nav.flex-acenter.col-12.col-lg-4
+                a(href="/#" class="header__nav__item header__nav__item--lg") Movilidad
+                a(href="/#" class="header__nav__item header__nav__item--active") Comprar
+                a(href="/#" class="header__nav__item") Financiar
+                a(href="/#" class="header__nav__item") FAQs
+
+            .header__search.col-3.visible-lg.visible-md
+                .bc-input-icon
+                    i.fenix-icon-search
+                    input(type="search" class="js-serach-bar" placeholder="Buscar")
+                    .js-search-results
+
+            .col-2.visible-lg.visible-md
+                .header__user.bc-button.bc-btn-icon-ghost
+                    i.icon-user-circle
+                    span Ingresar

@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="16px" height="16px" viewBox="0 0 16 16" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <!-- Generator: Sketch 62 (91390) - https://sketch.com -->
+    <title>Group</title>
+    <desc>Created with Sketch.</desc>
+    <defs>
+        <path d="M2.71715625,6.8656875 L0.11715625,4.2656875 C-0.039046875,4.10948438 -0.039046875,3.85621875 0.11715625,3.7 L0.682828125,3.1343125 C0.83903125,2.97809375 1.0923125,2.97809375 1.24851562,3.1343125 L3.00000391,4.88578125 L6.75148437,1.1343125 C6.9076875,0.978109375 7.16096875,0.978109375 7.31717187,1.1343125 L7.88284375,1.7 C8.03904687,1.85620313 8.03904687,2.10946875 7.88284375,2.2656875 L3.28284375,6.86570313 C3.126625,7.02190625 2.87335937,7.02190625 2.71715625,6.8656875 L2.71715625,6.8656875 Z" id="path-1"></path>
+    </defs>
+    <g id="Symbols" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <g id="UI/timeline/primary/success">
+            <g id="Group">
+                <circle id="Oval" fill="#16C98D" cx="8" cy="8" r="8"></circle>
+                <circle id="Oval" fill="#FFFFFF" cx="8" cy="8" r="7"></circle>
+                <circle id="Oval" fill="#16C98D" cx="8" cy="8" r="6"></circle>
+                <g id="iconografia/Solid/check" transform="translate(4.000000, 4.000000)">
+                    <mask id="mask-2" fill="white">
+                        <use xlink:href="#path-1"></use>
+                    </mask>
+                    <g id="Mask"></g>
+                    <g id="colores/iconos/blanco" mask="url(#mask-2)" fill="#FFFFFF" fill-rule="evenodd">
+                        <rect x="0" y="0" width="8" height="8"></rect>
+                    </g>
+                </g>
+            </g>
+        </g>
+    </g>
+</svg>

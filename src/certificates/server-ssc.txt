@@ -1,0 +1,24 @@
+[req]
+default_bits = 2048
+prompt = no
+default_md = sha256
+req_extensions = req_ext
+distinguished_name = dn
+
+[dn]
+C=CO
+ST=Bogota
+L=Bogota
+O=Vtex
+OU=Desarrollo
+emailAddress=pedro.lancheros@vtex.com.br
+CN=testmovilidadco.vtexlocal.com.br
+
+[req_ext]
+subjectAltName = @alt_names
+
+[alt_names]
+DNS.1 = testmovilidadco.vtexlocal.com.br
+DNS.2 = *.testmovilidadco.vtexlocal.com.br
+DNS.3 = testmovilidadco.vtexcommercestable.com.br
+DNS.4 = *.testmovilidadco.vtexcommercestable.com.br

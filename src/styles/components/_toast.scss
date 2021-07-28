@@ -1,0 +1,111 @@
+/*=============================================================*/
+/* Toast
+/*=============================================================*/
+
+.bc-toast {
+    animation: fade 250ms;
+    display: flex;
+    align-items: center;
+    font-family: 'Open Sans';
+    font-weight: normal;
+    font-size: 14px;
+    line-height: 18px;
+    letter-spacing: -0.2px;
+    color: $color-black;
+    max-width: 700px;
+    width: 100%;
+    padding: 16px 40px 18px 70px;
+    box-shadow: 0px 14px 20px rgba(0, 0, 0, 0.1);
+    position: fixed;
+
+    &--alert {
+        &:before {
+            content: $fenix-icon-hand;
+            font-family: "#{$icomoon-font-family}";
+            font-size: 33px;
+            color: $color-status-03;
+            height: calc(100% - 18px);
+            width: 32px;
+            background-color: $color-brand-01;
+            padding: 18px 11px 0px;
+            position: absolute;
+            left: 0px;
+            top: 0px;
+        }
+    }
+
+    &--success {
+        &:before {
+            content: $fenix-icon-ok;
+            font-family: "#{$icomoon-font-family}";
+            font-size: 33px;
+            color: $color-status-03;
+            height: calc(100% - 18px);
+            width: 32px;
+            background-color: $color-icon-07;
+            padding: 18px 11px 0px;
+            position: absolute;
+            left: 0px;
+            top: 0px;
+        }
+    }
+
+    &--error {
+        &:before {
+            content: $fenix-icon-error;
+            font-family: "#{$icomoon-font-family}";
+            font-size: 33px;
+            color: $color-status-03;
+            height: calc(100% - 18px);
+            width: 32px;
+            background-color: $color-icon-08;
+            padding: 18px 11px 0px;
+            position: absolute;
+            left: 0px;
+            top: 0px;
+        }
+    }
+
+    &--info {
+        &:before {
+            content: $fenix-icon-idea;
+            font-family: "#{$icomoon-font-family}";
+            font-size: 33px;
+            color: $color-status-03;
+            height: calc(100% - 18px);
+            width: 32px;
+            background-color: $color-icon-09;
+            padding: 18px 11px 0px;
+            position: absolute;
+            left: 0px;
+            top: 0px;
+        }
+    }
+
+    .toast-close {
+        padding: 0px;
+        position: absolute;
+        top: 16px;
+        right: 20px;
+        color: transparent;
+
+        &:before {
+            content: $fenix-icon-error;
+            font-family: "#{$icomoon-font-family}";
+            font-size: 20px;
+            font-weight: bold;
+            color: $color-text-00;
+            position: absolute;
+        }
+    }
+}
+
+/*=============================================================*/
+/* DESKTOP */
+
+// @media screen and (min-width: $breakpoint-tablet) {
+//     .bc-toast {
+//         width: 100%;
+//         max-width: 700px;
+//     }
+// }

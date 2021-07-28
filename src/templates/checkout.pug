@@ -1,0 +1,75 @@
+<!DOCTYPE html>
+html(lang='es')
+    head
+        meta(charset='UTF-8')
+        meta(http-equiv='X-UA-Compatible' content='IE=edge')
+        meta(name='viewport' content='width=device-width, initial-scale=1, maximum-scale=1')
+        link(href="/files/css/checkout6-custom.css" rel="stylesheet")
+
+    body
+        // --- Start Header ---
+
+        header.checkout-header
+            .container.container-max
+                .row.no-gutters.flex-acenter
+                    .col-3.col-lg-1
+                        .bc-button.bc-btn-icon-ghost.js-back-btn
+                            i.icon-chevron-left
+                            p Atrás
+                    .col-5.col-md-3.col-lg-2.logo-container
+                        a(href="/")
+                            img(src="/arquivos/bc-logo.png" alt="Logo")
+                    .col-3.col-lg-1
+                        a(href="/").bc-button.bc-btn-icon-ghost
+                            p Salir
+                            i.icon-sign-out1
+
+        .container.container-max.m-top-1
+            .row.no-gutters
+                p.contact-info
+                    span ¿Tienes preguntas? 
+                    b ¡Habla con nosotros!
+                    span en nuestra línea de atención al cliente 
+                    b a nivel nacional 01 9000 123 123 - Medellín 123 23 23 - Bogotá 123 23 23
+            .row.no-gutters.flex-acenter
+                .bc-stepper-three.col-12.col-lg-9
+                    .content-stepper
+                        .timeline
+                        .content-stepper__step-one.step
+                            .point
+                            .stepName Resumen de la compra
+                            .stepNameMobile Paso 1
+                        .content-stepper__step-two.step
+                            .point
+                            .stepName  Pago y envío
+                            .stepNameMobile Paso 2
+                        .content-stepper__step-three.step
+                            .point
+                            .stepName Confirmación de pedido
+                            .stepNameMobile Paso 3
+
+        // --- End Header ---
+
+        // --- Start Footer ---
+
+        .checkout-footer
+            .checkout-footer__title
+                p Medios de pago
+                img(src="/arquivos/logo-wompi.png" alt="Cards Logo")
+            .checkout-footer__payments
+                .checkout-footer__payment
+                    img(src="/arquivos/checkout-foot-cards.svg" alt="Cards Logo")
+                .checkout-footer__payment
+                    img(src="/arquivos/checkout-foot-card-2.svg" alt="Cards Logo")
+                .checkout-footer__payment
+                    img(src="/arquivos/checkout-foot-card-1.svg" alt="Cards Logo")
+                .checkout-footer__payment
+                    img(src="/arquivos/checkout-foot-nequi.svg" alt="Cards Logo")
+                .checkout-footer__payment
+                    img(src="/arquivos/checkout-foot-t-nequi.svg" alt="Cards Logo")
+                .checkout-footer__payment
+                    img(src="/arquivos/checkout-foot-pse.svg" alt="Cards Logo")
+        include partials/footer.pug
+
+        // --- End Footer ---
+

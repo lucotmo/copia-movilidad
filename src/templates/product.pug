@@ -1,0 +1,171 @@
+extends partials/layout.pug
+
+include components/bc-form.pug
+include components/bc-shelf.pug
+
+block append styles
+    link(href="files/css/bc-product.min.css" rel="stylesheet")
+
+block title
+    title Renault Zoe
+
+block content    
+    include placeholders/generales/breadcrumb.pug
+    .product
+        .containerPDP.productSection
+            .productSection__slider
+                i.expand-btn.fenix-icon-expand.js-toggle-modal&attributes({ "data-modal":"modalExpandGallery"})
+                .productSection__slider__imageFull
+                    div
+                        img(src="/arquivos/fotoprincipalPDP.jpg" alt="Cómo solicitar crédito para vehículo")
+                .productSection__slider__imageCarrusel
+                    div
+                        .product-image__thumb
+                            img(src="/arquivos/miniaturaPDP1.jpg" alt="Cómo solicitar crédito para vehículo")
+                        .product-image__thumb
+                            img(src="/arquivos/miniaturaPDP2.jpg" alt="Cómo solicitar crédito para vehículo")     
+                        .product-image__thumb
+                            img(src="/arquivos/miniaturaPDP2.jpg" alt="Cómo solicitar crédito para vehículo")     
+                        .product-image__thumb
+                            img(src="/arquivos/miniaturaPDP2.jpg" alt="Cómo solicitar crédito para vehículo")     
+                        .product-image__thumb
+                            img(src="/arquivos/miniaturaPDP2.jpg" alt="Cómo solicitar crédito para vehículo")
+                        .product-image__thumb
+                            img(src="/arquivos/miniaturaPDP2.jpg" alt="Cómo solicitar crédito para vehículo")
+                        .product-image__thumb
+                            img(src="/arquivos/miniaturaPDP2.jpg" alt="Cómo solicitar crédito para vehículo")
+                    .product-image__thumb-indicatorNumber +5
+
+            .productSection__info
+                .productSection__info__principal
+                    h1.product-name Renault Zoe Life Síncrono con Rotot Bobinado
+
+                    p.seller
+                        span Vende:
+                        button.bc-btn-ghost.nameSeller Tuyomotors S.A
+
+                .productSection__info__secondary
+                    h2.price $111.990.000
+                    .wishlistIcon
+                    .productDescription 
+                        p <strong>Renault Zoe</strong> versión LS en impecable estado, motor 1800, caja automatica tiptrónica (secuencial), rines de lujo, llantas prácticamente nuevas, luces, espejos eléctricos, elevavidrios, Alarma, Bloqueo central.
+                    .productShare
+                        button.bc-btn-ghost.js-toggle-modal&attributes({"data-modal": "shareProductWrap"})
+                            p Compartir a un amigo
+
+                .productSection__info__actionSection
+                    button.bc-btn-secundary-white.agendarCita.js-toggle-modal&attributes({"data-modal": "procesoAgendarCita"}) Agendar Cita
+                    button.bc-btn-primary.financiacion.js-credit-link Conocer financiación
+                    button.reservaOnline
+                        .bc-btn--ghost.linkReserva.js-toggle-modal&attributes({"data-modal": "procesoReservaOnline"})
+                            span.fenix-icon-info
+                            p Separa este carro online
+
+            .productSection__expand__gallery.bc-modal__wrapper
+                .bc-modal
+                    i.close-modal.fenix-icon-error.js-toggle-modal&attributes({"data-modal": "modalExpandGallery"})
+                    h3.product-name
+                    .productSection__slider.expand__gallery
+                        i.expand-btn.fenix-icon-expand
+                        .productSection__slider__imageFull
+                        .productSection__slider__imageCarrusel
+
+        .contentAttributesPrincipales
+            ul.attributesPrincipales
+                li.item(id="Condición")
+                    .contentAttribute.first
+                        span Estado
+                        p Usado
+                li.item#KM 
+                    .contentAttribute 
+                        span Kilometraje
+                        p 12.500
+                li.item(id="Transmisión")
+                    .contentAttribute
+                        span Transmisión
+                        p Mecánica
+                li.item(id="Departamento")
+                    .contentAttribute.last
+                        span Ubicación
+                        P Medellín
+
+        .containerPDP.productSection
+            .productSection__tabsMoreInfo
+                .tabs
+                    .tab.active&attributes({"data-tab": ".js-tab-basic"}) Información básica
+                    .tab&attributes({"data-tab": ".js-tab-equip"}) Equipamiento
+
+                .productSection__tabsMoreInfo__informacionBasica.js-tab-basic
+                    ul
+                        li Marca
+                            .content 
+                                img(src="/arquivos/logoMarcaPDP.png" alt="Chevrolet")     
+                        li Modelo
+                            .content 2016
+                        li Línea
+                            .content Zoe
+                        li Potencia
+                            .content 100 CV
+                        li Versión
+                            .content -
+                        li Combustible
+                            .content Gasolina
+                        li Placa
+                            .content CVC - 098
+                        li Puertas
+                            .content 3
+                        li Color
+                            .content Blanco Perla
+                        li Airbags
+                            .content 2
+
+                .productSection__tabsMoreInfo__equipamiento.js-tab-equip.hidden
+                    ul 
+                        li Frenos ABS
+                        li Aire A/C
+                        li Alarma
+                        li Espejos eléctricos
+                        li Calefacción
+                        li Vidrios eléctricos
+                        li Bloqueo central
+                        li Rines de lujo
+                        li Asientos eléctricos
+                        li Cojinería en cuero
+
+                .contentDownload.hidden
+                        h3.title Descarga esta información:
+                        button.descarga.link Peritaje
+                        button.descarga Ficha técnica
+
+            .productSection__solicitudDeFinanciacion
+                h2 Simula tu financiación
+                .productSection__solicitudDeFinanciacion__content
+                    .tabs
+                        .tab.active&attributes({"data-tab": ".js-credit"}) Crédito
+                        .tab&attributes({"data-tab": ".js-leasing"}) Leasing
+
+                    .productSection__solicitudDeFinanciacion__content__options.js-credit
+                    .productSection__solicitudDeFinanciacion__content__options.js-leasing.hidden
+
+        .actionSectionStickyMobile
+            .actionSectionStickyMobile__content
+                button.bc-btn-secundary-white.agendarCita.js-toggle-modal&attributes({"data-modal": "procesoAgendarCita"}) Agendar Cita
+                button.bc-btn-primary.financiacion.js-credit-link Financiación
+                //- .reservaOnline
+                //-     button.bc-btn--ghost.linkReserva.js-toggle-modal&attributes({"data-modal": "procesoReservaOnline"})
+                //-         span.fenix-icon-info 
+                //-         p Separa este carro online
+
+        .shelf-wrapper
+            +bc-shelf-container("Te recomendamos estos carros")
+
+    .js-make-appointment
+    .js-share-product
+    .js-reservation
+    .compare-products.js-compare-list
+
+block beforeScripts
+    include components/bc-pageloader.pug
+
+block afterScripts
+    script(src="/files/js/bc-product.bundle.min.js")

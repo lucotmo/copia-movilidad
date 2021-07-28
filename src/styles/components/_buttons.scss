@@ -1,0 +1,108 @@
+/*=============================================================*/
+/* Buttons
+/*=============================================================*/
+
+[class^="bc-btn"] {
+    appearance: none;
+    background-color: transparent;
+    border: none;
+    cursor: pointer;
+    text-transform: uppercase;
+    &:focus {
+        border: none;
+        outline: none;
+    }
+}
+
+.bc-btn-primary {
+    // @include font-h-1-heading-dark-center;
+    // box-shadow: 0 0 2px 0 rgba(0, 0, 0, 0.16), 0 1px 3px 0 rgba(0, 0, 0, 0.1);
+    // font-size: 16px;
+    // font-weight: 700;
+    // line-height: 40px;
+    background-color: $color-brand-01;
+    border-radius: 1000px;
+    border: 1px solid transparent;
+    height: 38px;
+    width: 100%;
+    text-align: center;
+    font-family: 'Open Sans';
+    font-style: normal;
+    font-weight: 600;
+    font-size: 16px;
+    line-height: 21px;
+    letter-spacing: -0.3px;
+    color: $color-status-03;
+    cursor: pointer;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
+    &:disabled {
+        background-color: #a2a4a5;
+        color: #717171;
+    }
+    &:hover:enabled {
+        background-color: #ffdb33;
+        box-shadow: 0 1px 8px 0 rgba(0, 0, 0, 0.14), 0 3px 8px 0 rgba(0, 0, 0, 0.11);
+    }
+    &:focus:enabled {
+        background-color: $color-brand-01;
+    }
+    &:active:enabled {
+        background-color: #f2c700;
+        box-shadow: 0 0 2px 0 rgba(0, 0, 0, 0.16), 0 1px 3px 0 rgba(0, 0, 0, 0.1);
+    }
+}
+
+.bc-btn-ghost,
+.bc-btn-icon-ghost {
+    @include font-link-dark-left;
+    text-align: center;
+    text-decoration: none;
+}
+
+.bc-btn-icon-ghost {
+    @include icon-element;
+    justify-content: center;
+}
+
+.bc-btn-secundary-white {
+    background-color: $color-bg-00;
+    font-size: 16px;
+    text-align: center;
+    width: 190px;
+    max-width: 240px;
+    height: 38px;
+    border-radius: 1000px;
+    border: 1px solid $color-black;
+    font-family: Open Sans;
+    font-weight: 600;
+    line-height: 21px;
+    letter-spacing: -0.3px;
+    color: $color-black;
+    // border-radius: 1000px;
+    // @include font-h-1-heading-dark-center;
+    // border: 2px solid $color-brand-03;
+    // box-shadow: 0 0 2px 0 rgba(0, 0, 0, 0.16), 0 1px 3px 0 rgba(0, 0, 0, 0.1);
+    // color: $color-text-02;
+    // font-weight: 700;
+    // height: 40px;
+    // line-height: 40px;
+    &:disabled {
+        background-color: $color-bg-00;
+        border: 1px solid $color-black;
+    }
+    &:hover:enabled {
+        box-shadow: 0 1px 8px 0 rgba(0, 0, 0, 0.14), 0 3px 8px 0 rgba(0, 0, 0, 0.11);
+        border: 1px solid $color-black;
+    }
+    &:focus:enabled {
+        box-shadow: 0 1px 8px 0 rgba(0, 0, 0, 0.14), 0 3px 8px 0 rgba(0, 0, 0, 0.11);
+        border: 1px solid $color-black;
+    }
+    &:active:enabled {
+        box-shadow: 0 0 2px 0 rgba(0, 0, 0, 0.16), 0 1px 3px 0 rgba(0, 0, 0, 0.1);
+        border: 1px solid $color-black;
+    }
+}

@@ -1,0 +1,34 @@
+// @charset "UTF-8";
+// /*============================================================================
+// Globales
+// ==============================================================================*/
+
+$range-slider-clr-secondary: rgba(186, 186, 186, 0.54);
+
+// /*================ VENDOR ================*/
+@import "../../../node_modules/toastify-js/src/toastify";
+@import "../../../node_modules/rc-slider/assets/index";
+@import "../../../node_modules/air-datepicker/dist/css/datepicker.min";
+@import "../../../node_modules/toastify-js/src/toastify";
+@import "../../../node_modules/malihu-custom-scrollbar-plugin/jquery.mCustomScrollbar";
+
+// /*================ BASE ================*/
+@import "../base/_variables.scss";
+@import "../base/_fonts.scss";
+@import "../base/_normalize.scss";
+@import "../base/_globales.scss";
+@import "../base/_responsive.scss";
+@import "../base/_mixins.scss";
+@import "../base/_keyframes.scss";
+
+// /*================ COMPONENTS ================*/
+@import "../components/_header.scss";
+@import "../components/_bc-components.scss";
+
+// /*================ BC-COMPONENTS ================*/
+@import "../vendor/_bc-commons.scss";
+@import "../vendor/_bc-footer.scss";
+@import "../vendor/_bc-header.scss";
+
+// /*================ BASE ================*/
+// @import "../base/_helpers.scss";

@@ -1,0 +1,22 @@
+// @charset "UTF-8";
+// /*============================================================================
+// Inicio
+// BC-Store in Store Combo
+// ==============================================================================*/
+
+// /*================ BASE ================*/
+@import "../base/_mixins";
+@import "../base/_margins";
+@import "../base/_utils";
+@import "../base/_variables";
+@import "../base/_responsive";
+@import "../base/keyframes";
+@import "../components/image-carousel";
+
+// /*================ COMPONENTS ================*/
+
+// /*================ PAGES ================*/
+@import "../pages/category";
+@import "../pages/_storeInStore";
+@import "../pages/_comparator";
+

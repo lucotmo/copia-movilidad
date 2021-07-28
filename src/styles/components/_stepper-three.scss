@@ -1,0 +1,148 @@
+/*=============================================================*/
+/* Stepper three fold
+/*=============================================================*/
+
+.bc-stepper-three {
+    position: relative;
+    display: block;
+    margin: 0px auto 36px;
+    // margin: 32px auto 10px;
+    .content-stepper {
+        display: flex;
+        flex-wrap: wrap;
+        flex-basis: 100%;
+        width: 100%;
+        justify-content: center;
+        .step {
+            width: 33%;
+            text-align: center;
+            align-items: center;
+        }
+        &__step-one,
+        &__step-two,
+        &__step-three {
+            z-index: 2;
+            .point {
+                width: 24px;
+                height: 24px;
+                background: $color-white;
+                border-radius: 50%;
+                border: 1px solid $color-status-03;
+                margin: 0px auto;
+                position: relative;
+
+                &::before{
+                    position: absolute;
+                    top: 3.5px;
+                    left: 0px;
+                    right: 0px;
+                    font-family: "Open Sans",Arial;
+                    font-size: 12px;
+                    line-height: 16px;
+                    color: $color-status-03;
+                }
+            }
+            &.confirmed {
+                .point {
+                    border: 1px solid $color-icon-07;
+                    background:$color-white;
+                    &::before{
+                        font-family: "#{$icomoon-font-family}";
+                        content: $fenix-icon-ok;
+                        color: $color-status-03;
+                        font-weight: 600;
+                    }
+                }
+            }
+            &.active {
+                .point {
+                    border: 1px solid transparent;
+                    background:$color-icon-07;
+                    &::before{
+                        color: $color-white;
+                    }
+                }
+            }
+            .stepNameMobile {
+                display: none;
+            }
+            .stepName {
+                display: block;
+                font-family: "Open Sans",Arial;
+                font-size: 12px;
+                line-height: 16px;
+                letter-spacing: -0.17px;
+                color: $color-black;
+                font-weight: normal;
+                white-space: nowrap;
+                margin-top: 3px;
+            }
+        }
+        &__step-one {
+            .point {
+                &::before{
+                    content: "1";
+                }
+            }
+        }
+        &__step-two {
+            &.stepName {
+               margin-left: -10%;
+            }
+
+           .point {
+                &::before{
+                    content: "2";
+                }
+            }
+        }
+        &__step-three {
+            .point {
+                &::before{
+                    content: "3";
+                }
+            }
+        }
+        .timeline {
+            border: 1px solid $color-status-03;
+            display: block;
+            position: absolute;
+            width: 65%;
+            top: 12px;
+        }
+    }
+}
+
+/*=============================================================*/
+/* MOBILE */
+
+@media screen and (max-width: $breakpoint-mobile) {
+    .bc-stepper-three {
+        margin: 0px auto 27px;
+
+        .content-stepper {
+            &__step-one,
+            &__step-two,
+            &__step-three {
+                .stepNameMobile {
+                    display: block;
+                    font-family: "Open Sans",Arial;
+                    font-size: 12px;
+                    line-height: 16px;
+                    letter-spacing: -0.17px;
+                    color: $color-black;
+                    font-weight: normal;
+                    white-space: nowrap;
+                    margin-top: 3px;
+                }
+                .stepName {
+                    display: none;
+                }
+            }
+        }
+    }
+}
+
+/*=============================================================*/
+/* DESKTOP */
+

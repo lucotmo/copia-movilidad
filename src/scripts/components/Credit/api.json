@@ -1,0 +1,417 @@
+{
+    "productId": "3",
+    "productName": "Mercedes Benz CLA Coupe test",
+    "brand": "Mercedes Benz",
+    "brandId": 2000001,
+    "brandImageUrl": null,
+    "linkText": "mercedes-benz-cla-coupe-100",
+    "productReference": "110",
+    "categoryId": "2",
+    "productTitle": "Mercedes Benz CLA Coupe",
+    "metaTagDescription": "Compra en linea este producto",
+    "releaseDate": "2020-02-15T00:00:00",
+    "clusterHighlights": {},
+    "productClusters": { "137": "Test-shelf" },
+    "searchableClusters": { "137": "Test-shelf" },
+    "categories": ["/Carros y Automóviles/Sedán/", "/Carros y Automóviles/"],
+    "categoriesIds": ["/1/2/", "/1/"],
+    "link": "https://movilidadco.myvtex.com/mercedes-benz-cla-coupe-100/p",
+    "Descripción": [
+        "Comparado con el Clase A Sedán, el nuevo Mercedes-Benz CLA Coupé propone una silueta más alargada, gracias a una pronunciada caída del techo, lo cual da como resultado una menor altura. A su vez, es más largo y ancho, ya que mide 4,67 metros de largo, 1,83 metros de ancho y 1,44 metros de alto, aunque su distancia entre ejes es igual (2,73 metros)."
+    ],
+    "Color": ["Blanco"],
+    "Peso (kg)": ["2"],
+    "Torque": ["2"],
+    "Capacidad": ["5"],
+    "Dirección": ["Electroasistida"],
+    "Tracción": ["4x2"],
+    "Seguridad": ["5"],
+    "Multimedia": ["SI"],
+    "Rines de lujo": ["SI"],
+    "Cojineria": ["Cuero"],
+    "Espejos Electricos": ["15"],
+    "Ficha técnica": [
+        "https://www.mercedes-benz.com.co/passengercars/the-brand/downloadbrochure/coupe/_jcr_content/swipeableteaserbox/par/swipeableteaser_2083397809/interactions.attachments.0.Ficha_tecnica_CLA_180.pdf"
+    ],
+    "Peritaje": [
+        "https://www.mercedes-benz.com.mx/content/dam/mb-nafta/mx/vehicles/vehicle_model_specs/catalogs/Catalogo-CLA-2019.pdf"
+    ],
+    "SOAT": ["320000"],
+    "Seguro Voluntario": ["320000"],
+    "Consumo Promedio Combustible": ["59km / Galon"],
+    "Llantas": ["1080000"],
+    "Formas de financiación": ["Crédito\nLeasing"],
+    "Precio de referencia": ["2800"],
+    "Motor (4t/2t)": ["4t"],
+    "Calefacción": ["No"],
+    "Suspensión": ["2"],
+    "Reserva": ["SI"],
+    "Valor para reservar": ["2558000"],
+    "Versión": ["CLA 180"],
+    "Contenido": [
+        "Descripción",
+        "Color",
+        "Peso (kg)",
+        "Torque",
+        "Capacidad",
+        "Dirección",
+        "Tracción",
+        "Seguridad",
+        "Multimedia",
+        "Rines de lujo",
+        "Cojineria",
+        "Espejos Electricos",
+        "Ficha técnica",
+        "Peritaje",
+        "SOAT",
+        "Seguro Voluntario",
+        "Consumo Promedio Combustible",
+        "Llantas",
+        "Formas de financiación",
+        "Precio de referencia",
+        "Motor (4t/2t)",
+        "Calefacción",
+        "Suspensión",
+        "Reserva",
+        "Valor para reservar",
+        "Versión"
+    ],
+    "Condición": ["Nuevo"],
+    "Id Seller": ["1"],
+    "Municipio": ["Cali"],
+    "Ultimo dígito placa": ["3"],
+    "Marca": ["Mercedes Benz"],
+    "Modelo": ["2020"],
+    "Categoría / Tipo de vehículo": ["Coupé"],
+    "KM": ["84000"],
+    "Transmisión": ["Automático"],
+    "Combustible": ["Gasolina"],
+    "Cilindraje (motor)": ["1.6"],
+    "ABS": ["NO"],
+    "Aire acondicionado": ["SI"],
+    "Vidrios eléctricos": ["SI"],
+    "Alarma": ["SI"],
+    "Bloqueo Central": ["SI"],
+    "Keyless access": ["SI"],
+    "Rango-KM": ["80000-90000"],
+    "Filtros": [
+        "Condición",
+        "Id Seller",
+        "Municipio",
+        "Ultimo dígito placa",
+        "Marca",
+        "Modelo",
+        "Categoría / Tipo de vehículo",
+        "KM",
+        "Transmisión",
+        "Combustible",
+        "Cilindraje (motor)",
+        "ABS",
+        "Aire acondicionado",
+        "Vidrios eléctricos",
+        "Alarma",
+        "Bloqueo Central",
+        "Keyless access",
+        "Rango-KM"
+    ],
+    "allSpecifications": [
+        "Descripción",
+        "Color",
+        "Peso (kg)",
+        "Torque",
+        "Capacidad",
+        "Dirección",
+        "Tracción",
+        "Seguridad",
+        "Multimedia",
+        "Rines de lujo",
+        "Cojineria",
+        "Espejos Electricos",
+        "Ficha técnica",
+        "Peritaje",
+        "SOAT",
+        "Seguro Voluntario",
+        "Consumo Promedio Combustible",
+        "Llantas",
+        "Formas de financiación",
+        "Precio de referencia",
+        "Motor (4t/2t)",
+        "Calefacción",
+        "Suspensión",
+        "Reserva",
+        "Valor para reservar",
+        "Versión",
+        "Condición",
+        "Id Seller",
+        "Municipio",
+        "Ultimo dígito placa",
+        "Marca",
+        "Modelo",
+        "Categoría / Tipo de vehículo",
+        "KM",
+        "Transmisión",
+        "Combustible",
+        "Cilindraje (motor)",
+        "ABS",
+        "Aire acondicionado",
+        "Vidrios eléctricos",
+        "Alarma",
+        "Bloqueo Central",
+        "Keyless access",
+        "Rango-KM"
+    ],
+    "allSpecificationsGroups": ["Contenido", "Filtros"],
+    "description": "Comparado con el Clase A Sedán, el nuevo Mercedes-Benz CLA Coupé propone una silueta más alargada, gracias a una pronunciada caída del techo, lo cual da como resultado una menor altura. A su vez, es más largo y ancho, ya que mide 4,67 metros de largo, 1,83 metros de ancho y 1,44 metros de alto, aunque su distancia entre ejes es igual (2,73 metros)",
+    "items": [
+        {
+            "itemId": "10",
+            "name": "Mercedes Benz CLA Coupe",
+            "nameComplete": "Mercedes Benz CLA Coupe test Mercedes Benz CLA Coupe",
+            "complementName": "",
+            "ean": "",
+            "referenceId": [{ "Key": "RefId", "Value": "100-1" }],
+            "measurementUnit": "un",
+            "unitMultiplier": 1,
+            "modalType": null,
+            "isKit": false,
+            "images": [
+                {
+                    "imageId": "155414",
+                    "imageLabel": "1",
+                    "imageTag": "<img src=\"~/arquivos/ids/155414-#width#-#height#/mercedes-benz_cla_250_amg_line_edition_orange_art_37_011d072609810686.jpg?v=637197121160130000\" width=\"#width#\" height=\"#height#\" alt=\"mercedes-benz_cla_250_amg_line_edition_orange_art_37_011d072609810686\" id=\"\" />",
+                    "imageUrl": "https://movilidadco.vteximg.com.br/arquivos/ids/155414/mercedes-benz_cla_250_amg_line_edition_orange_art_37_011d072609810686.jpg?v=637197121160130000",
+                    "imageText": "mercedes-benz_cla_250_amg_line_edition_orange_art_37_011d072609810686",
+                    "imageLastModified": "2020-03-13T16:01:56.0130000Z"
+                },
+                {
+                    "imageId": "155563",
+                    "imageLabel": "test2",
+                    "imageTag": "<img src=\"~/arquivos/ids/155563-#width#-#height#/450_1000.jpg?v=637211924175930000\" width=\"#width#\" height=\"#height#\" alt=\"2\" id=\"\" />",
+                    "imageUrl": "https://movilidadco.vteximg.com.br/arquivos/ids/155563/450_1000.jpg?v=637211924175930000",
+                    "imageText": "2",
+                    "imageLastModified": "2020-03-30T19:13:37.5930000Z"
+                },
+                {
+                    "imageId": "155564",
+                    "imageLabel": "test3",
+                    "imageTag": "<img src=\"~/arquivos/ids/155564-#width#-#height#/download.jpg?v=637211924602800000\" width=\"#width#\" height=\"#height#\" alt=\"3\" id=\"\" />",
+                    "imageUrl": "https://movilidadco.vteximg.com.br/arquivos/ids/155564/download.jpg?v=637211924602800000",
+                    "imageText": "3",
+                    "imageLastModified": "2020-03-30T19:14:20.2800000Z"
+                },
+                {
+                    "imageId": "155565",
+                    "imageLabel": "test4",
+                    "imageTag": "<img src=\"~/arquivos/ids/155565-#width#-#height#/Mercedes-CLA-Coupe-2020-motorpoint-23_thumb_425.jpg?v=637211927830700000\" width=\"#width#\" height=\"#height#\" alt=\"4\" id=\"\" />",
+                    "imageUrl": "https://movilidadco.vteximg.com.br/arquivos/ids/155565/Mercedes-CLA-Coupe-2020-motorpoint-23_thumb_425.jpg?v=637211927830700000",
+                    "imageText": "4",
+                    "imageLastModified": "2020-03-30T19:19:43.0700000Z"
+                },
+                {
+                    "imageId": "155566",
+                    "imageLabel": "test5",
+                    "imageTag": "<img src=\"~/arquivos/ids/155566-#width#-#height#/Nuevo-Mercedes-CLA-2019-17.jpg?v=637211928401570000\" width=\"#width#\" height=\"#height#\" alt=\"5\" id=\"\" />",
+                    "imageUrl": "https://movilidadco.vteximg.com.br/arquivos/ids/155566/Nuevo-Mercedes-CLA-2019-17.jpg?v=637211928401570000",
+                    "imageText": "5",
+                    "imageLastModified": "2020-03-30T19:20:40.1570000Z"
+                },
+                {
+                    "imageId": "155567",
+                    "imageLabel": "test6",
+                    "imageTag": "<img src=\"~/arquivos/ids/155567-#width#-#height#/images.jpg?v=637211928937530000\" width=\"#width#\" height=\"#height#\" alt=\"6\" id=\"\" />",
+                    "imageUrl": "https://movilidadco.vteximg.com.br/arquivos/ids/155567/images.jpg?v=637211928937530000",
+                    "imageText": "6",
+                    "imageLastModified": "2020-03-30T19:21:33.7530000Z"
+                }
+            ],
+            "sellers": [
+                {
+                    "sellerId": "1",
+                    "sellerName": "BANCOLOMBIA S.A",
+                    "addToCartLink": "https://movilidadco.myvtex.com/checkout/cart/add?sku=10&qty=1&seller=1&sc=1&price=12500000000&cv=7af6321646f11f586d7977d65bb5af4f_&sc=1",
+                    "sellerDefault": true,
+                    "commertialOffer": {
+                        "DeliverySlaSamplesPerRegion": { "0": { "DeliverySlaPerTypes": [], "Region": null } },
+                        "Installments": [
+                            {
+                                "Value": 125000000,
+                                "InterestRate": 0,
+                                "TotalValuePlusInterestRate": 125000000,
+                                "NumberOfInstallments": 1,
+                                "PaymentSystemName": "Vale",
+                                "PaymentSystemGroupName": "giftCardPaymentGroup",
+                                "Name": "Vale à vista"
+                            },
+                            {
+                                "Value": 125000000,
+                                "InterestRate": 0,
+                                "TotalValuePlusInterestRate": 125000000,
+                                "NumberOfInstallments": 1,
+                                "PaymentSystemName": "WompiCo",
+                                "PaymentSystemGroupName": "WompiCoPaymentGroup",
+                                "Name": "WompiCo à vista"
+                            },
+                            {
+                                "Value": 125000000,
+                                "InterestRate": 0,
+                                "TotalValuePlusInterestRate": 125000000,
+                                "NumberOfInstallments": 1,
+                                "PaymentSystemName": "Pago Anticipado",
+                                "PaymentSystemGroupName": "custom201PaymentGroupPaymentGroup",
+                                "Name": "Pago Anticipado à vista"
+                            }
+                        ],
+                        "DiscountHighLight": [],
+                        "GiftSkuIds": [],
+                        "Teasers": [],
+                        "BuyTogether": [],
+                        "ItemMetadataAttachment": [],
+                        "Price": 125000000,
+                        "ListPrice": 125000000,
+                        "PriceWithoutDiscount": 125000000,
+                        "RewardValue": 0,
+                        "PriceValidUntil": "2021-08-26T03:23:52.2065017Z",
+                        "AvailableQuantity": 910,
+                        "Tax": 0,
+                        "DeliverySlaSamples": [{ "DeliverySlaPerTypes": [], "Region": null }],
+                        "GetInfoErrorMessage": null,
+                        "CacheVersionUsedToCallCheckout": "7af6321646f11f586d7977d65bb5af4f_",
+                        "PaymentOptions": {
+                            "installmentOptions": [
+                                {
+                                    "paymentSystem": "16",
+                                    "bin": null,
+                                    "paymentName": "Vale",
+                                    "paymentGroupName": "giftCardPaymentGroup",
+                                    "value": 12500000000,
+                                    "installments": [
+                                        {
+                                            "count": 1,
+                                            "hasInterestRate": false,
+                                            "interestRate": 0,
+                                            "value": 12500000000,
+                                            "total": 12500000000,
+                                            "sellerMerchantInstallments": [
+                                                {
+                                                    "id": "MOVILIDADCO",
+                                                    "count": 1,
+                                                    "hasInterestRate": false,
+                                                    "interestRate": 0,
+                                                    "value": 12500000000,
+                                                    "total": 12500000000
+                                                }
+                                            ]
+                                        }
+                                    ]
+                                },
+                                {
+                                    "paymentSystem": "111",
+                                    "bin": null,
+                                    "paymentName": "WompiCo",
+                                    "paymentGroupName": "WompiCoPaymentGroup",
+                                    "value": 12500000000,
+                                    "installments": [
+                                        {
+                                            "count": 1,
+                                            "hasInterestRate": false,
+                                            "interestRate": 0,
+                                            "value": 12500000000,
+                                            "total": 12500000000,
+                                            "sellerMerchantInstallments": [
+                                                {
+                                                    "id": "MOVILIDADCO",
+                                                    "count": 1,
+                                                    "hasInterestRate": false,
+                                                    "interestRate": 0,
+                                                    "value": 12500000000,
+                                                    "total": 12500000000
+                                                }
+                                            ]
+                                        }
+                                    ]
+                                },
+                                {
+                                    "paymentSystem": "201",
+                                    "bin": null,
+                                    "paymentName": "Pago Anticipado",
+                                    "paymentGroupName": "custom201PaymentGroupPaymentGroup",
+                                    "value": 12500000000,
+                                    "installments": [
+                                        {
+                                            "count": 1,
+                                            "hasInterestRate": false,
+                                            "interestRate": 0,
+                                            "value": 12500000000,
+                                            "total": 12500000000,
+                                            "sellerMerchantInstallments": [
+                                                {
+                                                    "id": "MOVILIDADCO",
+                                                    "count": 1,
+                                                    "hasInterestRate": false,
+                                                    "interestRate": 0,
+                                                    "value": 12500000000,
+                                                    "total": 12500000000
+                                                }
+                                            ]
+                                        }
+                                    ]
+                                }
+                            ],
+                            "paymentSystems": [
+                                {
+                                    "id": 16,
+                                    "name": "Vale",
+                                    "groupName": "giftCardPaymentGroup",
+                                    "validator": null,
+                                    "stringId": "16",
+                                    "template": "giftCardPaymentGroup-template",
+                                    "requiresDocument": false,
+                                    "isCustom": false,
+                                    "description": null,
+                                    "requiresAuthentication": false,
+                                    "dueDate": "2020-09-02T03:22:37.7923001Z",
+                                    "availablePayments": null
+                                },
+                                {
+                                    "id": 201,
+                                    "name": "Pago Anticipado",
+                                    "groupName": "custom201PaymentGroupPaymentGroup",
+                                    "validator": null,
+                                    "stringId": "201",
+                                    "template": "custom201PaymentGroupPaymentGroup-template",
+                                    "requiresDocument": false,
+                                    "isCustom": true,
+                                    "description": "Pago Anticipado",
+                                    "requiresAuthentication": false,
+                                    "dueDate": "2020-09-05T03:22:37.7923001Z",
+                                    "availablePayments": null
+                                },
+                                {
+                                    "id": 111,
+                                    "name": "WompiCo",
+                                    "groupName": "WompiCoPaymentGroup",
+                                    "validator": null,
+                                    "stringId": "111",
+                                    "template": "WompiCoPaymentGroup-template",
+                                    "requiresDocument": false,
+                                    "isCustom": false,
+                                    "description": null,
+                                    "requiresAuthentication": false,
+                                    "dueDate": "2020-09-02T03:22:37.7923001Z",
+                                    "availablePayments": null
+                                }
+                            ],
+                            "payments": [],
+                            "giftCards": [],
+                            "giftCardMessages": [],
+                            "availableAccounts": [],
+                            "availableTokens": []
+                        }
+                    }
+                }
+            ],
+            "Videos": [],
+            "estimatedDateArrival": null
+        }
+    ]
+}

@@ -1,0 +1,1314 @@
+[
+    {
+        "Id": 58,
+        "ProductId": 23,
+        "IsActive": true,
+        "ProductName": "Chevrolet Spark",
+        "ProductRefId": "024",
+        "PackagedHeight": 0.0,
+        "PackagedLength": 0.0,
+        "PackagedWidth": 0.0,
+        "PackagedWeightKg": 0.0,
+        "Height": 0.0,
+        "Length": 0.0,
+        "Width": 0.0,
+        "WeightKg": 0.0,
+        "CubicWeight": 0.0,
+        "IsKit": false,
+        "ReleaseDate": "2020-04-09T00:00:00",
+        "RewardValue": 0.0,
+        "EstimatedDateArrival": null,
+        "ManufacturerCode": "",
+        "CommercialConditionId": 1,
+        "MeasurementUnit": "un",
+        "UnitMultiplier": 1.0,
+        "ModalType": null,
+        "KitItensSellApart": false,
+        "productCategoryIds": "/1/11/",
+        "productDescription": "Chevrolet - Spark Life 1.0 A/C",
+        "nameComplete": "Chevrolet Spark",
+        "basePrice": 18000000.0,
+        "dimension": {
+            "height": 1.0,
+            "length": 1.0,
+            "weight": 1.0,
+            "width": 1.0
+        },
+        "brandName": "Renault",
+        "skuName": "Chevrolet Spark",
+        "productSpecifications": [
+            {
+                "fieldName": "Color",
+                "fieldValues": ["Blanco"]
+            },
+            {
+                "fieldName": "Peso (kg)",
+                "fieldValues": ["3000"]
+            },
+            {
+                "fieldName": "Capacidad",
+                "fieldValues": ["5"]
+            },
+            {
+                "fieldName": "Dirección",
+                "fieldValues": ["Asistida"]
+            },
+            {
+                "fieldName": "Tracción",
+                "fieldValues": ["4x2"]
+            },
+            {
+                "fieldName": "Multimedia",
+                "fieldValues": ["Si"]
+            },
+            {
+                "fieldName": "Rines de lujo",
+                "fieldValues": ["No"]
+            },
+            {
+                "fieldName": "Cojineria",
+                "fieldValues": ["Textil"]
+            },
+            {
+                "fieldName": "Espejos Electricos",
+                "fieldValues": ["NO"]
+            },
+            {
+                "fieldName": "Ficha técnica",
+                "fieldValues": ["https://www.usadosrentingcolombia.com/file/thirdparty/usados/fichatecnica/JHV211.pdf"]
+            },
+            {
+                "fieldName": "Suspensión",
+                "fieldValues": ["h"]
+            },
+            {
+                "fieldName": "Reserva",
+                "fieldValues": ["SI"]
+            },
+            {
+                "fieldName": "Valor para reservar",
+                "fieldValues": ["1000000"]
+            },
+            {
+                "fieldName": "Versión",
+                "fieldValues": ["Life 1.0 A/C"]
+            },
+            {
+                "fieldName": "Condición",
+                "fieldValues": ["Usado"]
+            },
+            {
+                "fieldName": "Municipio",
+                "fieldValues": ["Medellín"]
+            },
+            {
+                "fieldName": "Ultimo dígito placa",
+                "fieldValues": ["1"]
+            },
+            {
+                "fieldName": "Marca",
+                "fieldValues": ["Chevrolet"]
+            },
+            {
+                "fieldName": "Modelo",
+                "fieldValues": ["2018"]
+            },
+            {
+                "fieldName": "Categoría / Tipo de vehículo",
+                "fieldValues": ["Coupé"]
+            },
+            {
+                "fieldName": "KM",
+                "fieldValues": ["33959"]
+            },
+            {
+                "fieldName": "Transmisión",
+                "fieldValues": ["Mecánica"]
+            },
+            {
+                "fieldName": "Combustible",
+                "fieldValues": ["Gasolina"]
+            },
+            {
+                "fieldName": "ABS",
+                "fieldValues": ["Si"]
+            },
+            {
+                "fieldName": "Airbags",
+                "fieldValues": ["2"]
+            },
+            {
+                "fieldName": "Aire acondicionado",
+                "fieldValues": ["Si"]
+            },
+            {
+                "fieldName": "Vidrios eléctricos",
+                "fieldValues": ["Si"]
+            },
+            {
+                "fieldName": "Alarma",
+                "fieldValues": ["No"]
+            },
+            {
+                "fieldName": "Keyless access",
+                "fieldValues": ["No"]
+            }
+        ],
+        "images": [
+            {
+                "imageName": "1",
+                "imageUrl": "https://movilidadco.vteximg.com.br/arquivos/ids/155578/ChevroletSpark-mkt-003-_2.JPG.jpg?v=637220810412730000"
+            }
+        ]
+    },
+    {
+        "Id": 63,
+        "ProductId": 24,
+        "IsActive": true,
+        "ProductName": "Ford Escape SE Turbo",
+        "ProductRefId": "031",
+        "PackagedHeight": 0.0,
+        "PackagedLength": 0.0,
+        "PackagedWidth": 0.0,
+        "PackagedWeightKg": 0.0,
+        "Height": 0.0,
+        "Length": 0.0,
+        "Width": 0.0,
+        "WeightKg": 0.0,
+        "CubicWeight": 0.0,
+        "IsKit": false,
+        "ReleaseDate": "2020-04-09T00:00:00",
+        "RewardValue": 0.0,
+        "EstimatedDateArrival": null,
+        "ManufacturerCode": "",
+        "CommercialConditionId": 1,
+        "MeasurementUnit": "un",
+        "UnitMultiplier": 1.0,
+        "ModalType": null,
+        "KitItensSellApart": false,
+        "productCategoryIds": "/1/15/",
+        "productDescription": "Ford - Escape SE 2.0 4x2 Turbo Ecoboost Automática",
+        "nameComplete": "Ford Escape SE Turbo",
+        "basePrice": 48000000.0,
+        "dimension": {
+            "height": 1.0,
+            "length": 1.0,
+            "weight": 1.0,
+            "width": 1.0
+        },
+        "brandName": "Renault",
+        "skuName": "Ford Escape SE Turbo",
+        "productSpecifications": [
+            {
+                "fieldName": "Descripción",
+                "fieldValues": ["Ford - Escape SE 2.0 4x2 Turbo Ecoboost Automática"]
+            },
+            {
+                "fieldName": "Color",
+                "fieldValues": ["Gris"]
+            },
+            {
+                "fieldName": "Peso (kg)",
+                "fieldValues": ["3000"]
+            },
+            {
+                "fieldName": "Capacidad",
+                "fieldValues": ["7"]
+            },
+            {
+                "fieldName": "Dirección",
+                "fieldValues": ["Asistida"]
+            },
+            {
+                "fieldName": "Tracción",
+                "fieldValues": ["4x4"]
+            },
+            {
+                "fieldName": "Multimedia",
+                "fieldValues": ["Si"]
+            },
+            {
+                "fieldName": "Rines de lujo",
+                "fieldValues": ["Si"]
+            },
+            {
+                "fieldName": "Cojineria",
+                "fieldValues": ["Cuero"]
+            },
+            {
+                "fieldName": "Espejos Electricos",
+                "fieldValues": ["SI"]
+            },
+            {
+                "fieldName": "Ficha técnica",
+                "fieldValues": ["https://www.usadosrentingcolombia.com/file/thirdparty/usados/fichatecnica/IEX304.pdf"]
+            },
+            {
+                "fieldName": "Suspensión",
+                "fieldValues": ["H"]
+            },
+            {
+                "fieldName": "Reserva",
+                "fieldValues": ["No"]
+            },
+            {
+                "fieldName": "Valor para reservar",
+                "fieldValues": ["1620000"]
+            },
+            {
+                "fieldName": "Versión",
+                "fieldValues": ["SE 2.0 4x2 Turbo Ecoboost"]
+            },
+            {
+                "fieldName": "Condición",
+                "fieldValues": ["Usado"]
+            },
+            {
+                "fieldName": "Municipio",
+                "fieldValues": ["Medellín"]
+            },
+            {
+                "fieldName": "Ultimo dígito placa",
+                "fieldValues": ["4"]
+            },
+            {
+                "fieldName": "Marca",
+                "fieldValues": ["Ford"]
+            },
+            {
+                "fieldName": "Modelo",
+                "fieldValues": ["2015"]
+            },
+            {
+                "fieldName": "Categoría / Tipo de vehículo",
+                "fieldValues": ["Camioneta"]
+            },
+            {
+                "fieldName": "KM",
+                "fieldValues": ["73133"]
+            },
+            {
+                "fieldName": "Transmisión",
+                "fieldValues": ["Automático"]
+            },
+            {
+                "fieldName": "Combustible",
+                "fieldValues": ["Gasolina"]
+            },
+            {
+                "fieldName": "ABS",
+                "fieldValues": ["Si"]
+            },
+            {
+                "fieldName": "Airbags",
+                "fieldValues": ["5"]
+            },
+            {
+                "fieldName": "Vidrios eléctricos",
+                "fieldValues": ["Si"]
+            },
+            {
+                "fieldName": "Alarma",
+                "fieldValues": ["Si"]
+            },
+            {
+                "fieldName": "Bloqueo Central",
+                "fieldValues": ["Si"]
+            },
+            {
+                "fieldName": "Keyless access",
+                "fieldValues": ["No"]
+            }
+        ],
+        "images": [
+            {
+                "imageName": "1",
+                "imageUrl": "https://movilidadco.vteximg.com.br/arquivos/ids/155588/FordEscapeSETurbo-mkt-010-_2.JPG.jpg?v=637221370110170000"
+            }
+        ]
+    },
+    {
+        "Id": 58,
+        "ProductId": 23,
+        "IsActive": true,
+        "ProductName": "Chevrolet Spark",
+        "ProductRefId": "024",
+        "PackagedHeight": 0.0,
+        "PackagedLength": 0.0,
+        "PackagedWidth": 0.0,
+        "PackagedWeightKg": 0.0,
+        "Height": 0.0,
+        "Length": 0.0,
+        "Width": 0.0,
+        "WeightKg": 0.0,
+        "CubicWeight": 0.0,
+        "IsKit": false,
+        "ReleaseDate": "2020-04-09T00:00:00",
+        "RewardValue": 0.0,
+        "EstimatedDateArrival": null,
+        "ManufacturerCode": "",
+        "CommercialConditionId": 1,
+        "MeasurementUnit": "un",
+        "UnitMultiplier": 1.0,
+        "ModalType": null,
+        "KitItensSellApart": false,
+        "productCategoryIds": "/1/11/",
+        "productDescription": "Chevrolet - Spark Life 1.0 A/C",
+        "nameComplete": "Chevrolet Spark",
+        "basePrice": 18000000.0,
+        "dimension": {
+            "height": 1.0,
+            "length": 1.0,
+            "weight": 1.0,
+            "width": 1.0
+        },
+        "brandName": "Renault",
+        "skuName": "Chevrolet Spark",
+        "productSpecifications": [
+            {
+                "fieldName": "Color",
+                "fieldValues": ["Blanco"]
+            },
+            {
+                "fieldName": "Peso (kg)",
+                "fieldValues": ["3000"]
+            },
+            {
+                "fieldName": "Capacidad",
+                "fieldValues": ["5"]
+            },
+            {
+                "fieldName": "Dirección",
+                "fieldValues": ["Asistida"]
+            },
+            {
+                "fieldName": "Tracción",
+                "fieldValues": ["4x2"]
+            },
+            {
+                "fieldName": "Multimedia",
+                "fieldValues": ["Si"]
+            },
+            {
+                "fieldName": "Rines de lujo",
+                "fieldValues": ["No"]
+            },
+            {
+                "fieldName": "Cojineria",
+                "fieldValues": ["Textil"]
+            },
+            {
+                "fieldName": "Espejos Electricos",
+                "fieldValues": ["NO"]
+            },
+            {
+                "fieldName": "Ficha técnica",
+                "fieldValues": ["https://www.usadosrentingcolombia.com/file/thirdparty/usados/fichatecnica/JHV211.pdf"]
+            },
+            {
+                "fieldName": "Suspensión",
+                "fieldValues": ["h"]
+            },
+            {
+                "fieldName": "Reserva",
+                "fieldValues": ["SI"]
+            },
+            {
+                "fieldName": "Valor para reservar",
+                "fieldValues": ["1000000"]
+            },
+            {
+                "fieldName": "Versión",
+                "fieldValues": ["Life 1.0 A/C"]
+            },
+            {
+                "fieldName": "Condición",
+                "fieldValues": ["Usado"]
+            },
+            {
+                "fieldName": "Municipio",
+                "fieldValues": ["Medellín"]
+            },
+            {
+                "fieldName": "Ultimo dígito placa",
+                "fieldValues": ["1"]
+            },
+            {
+                "fieldName": "Marca",
+                "fieldValues": ["Chevrolet"]
+            },
+            {
+                "fieldName": "Modelo",
+                "fieldValues": ["2018"]
+            },
+            {
+                "fieldName": "Categoría / Tipo de vehículo",
+                "fieldValues": ["Coupé"]
+            },
+            {
+                "fieldName": "KM",
+                "fieldValues": ["33959"]
+            },
+            {
+                "fieldName": "Transmisión",
+                "fieldValues": ["Mecánica"]
+            },
+            {
+                "fieldName": "Combustible",
+                "fieldValues": ["Gasolina"]
+            },
+            {
+                "fieldName": "ABS",
+                "fieldValues": ["Si"]
+            },
+            {
+                "fieldName": "Airbags",
+                "fieldValues": ["2"]
+            },
+            {
+                "fieldName": "Aire acondicionado",
+                "fieldValues": ["Si"]
+            },
+            {
+                "fieldName": "Vidrios eléctricos",
+                "fieldValues": ["Si"]
+            },
+            {
+                "fieldName": "Alarma",
+                "fieldValues": ["No"]
+            },
+            {
+                "fieldName": "Keyless access",
+                "fieldValues": ["No"]
+            }
+        ],
+        "images": [
+            {
+                "imageName": "1",
+                "imageUrl": "https://movilidadco.vteximg.com.br/arquivos/ids/155578/ChevroletSpark-mkt-003-_2.JPG.jpg?v=637220810412730000"
+            }
+        ]
+    },
+    {
+        "Id": 63,
+        "ProductId": 24,
+        "IsActive": true,
+        "ProductName": "Ford Escape SE Turbo",
+        "ProductRefId": "031",
+        "PackagedHeight": 0.0,
+        "PackagedLength": 0.0,
+        "PackagedWidth": 0.0,
+        "PackagedWeightKg": 0.0,
+        "Height": 0.0,
+        "Length": 0.0,
+        "Width": 0.0,
+        "WeightKg": 0.0,
+        "CubicWeight": 0.0,
+        "IsKit": false,
+        "ReleaseDate": "2020-04-09T00:00:00",
+        "RewardValue": 0.0,
+        "EstimatedDateArrival": null,
+        "ManufacturerCode": "",
+        "CommercialConditionId": 1,
+        "MeasurementUnit": "un",
+        "UnitMultiplier": 1.0,
+        "ModalType": null,
+        "KitItensSellApart": false,
+        "productCategoryIds": "/1/15/",
+        "productDescription": "Ford - Escape SE 2.0 4x2 Turbo Ecoboost Automática",
+        "nameComplete": "Ford Escape SE Turbo",
+        "basePrice": 48000000.0,
+        "dimension": {
+            "height": 1.0,
+            "length": 1.0,
+            "weight": 1.0,
+            "width": 1.0
+        },
+        "brandName": "Renault",
+        "skuName": "Ford Escape SE Turbo",
+        "productSpecifications": [
+            {
+                "fieldName": "Descripción",
+                "fieldValues": ["Ford - Escape SE 2.0 4x2 Turbo Ecoboost Automática"]
+            },
+            {
+                "fieldName": "Color",
+                "fieldValues": ["Gris"]
+            },
+            {
+                "fieldName": "Peso (kg)",
+                "fieldValues": ["3000"]
+            },
+            {
+                "fieldName": "Capacidad",
+                "fieldValues": ["7"]
+            },
+            {
+                "fieldName": "Dirección",
+                "fieldValues": ["Asistida"]
+            },
+            {
+                "fieldName": "Tracción",
+                "fieldValues": ["4x4"]
+            },
+            {
+                "fieldName": "Multimedia",
+                "fieldValues": ["Si"]
+            },
+            {
+                "fieldName": "Rines de lujo",
+                "fieldValues": ["Si"]
+            },
+            {
+                "fieldName": "Cojineria",
+                "fieldValues": ["Cuero"]
+            },
+            {
+                "fieldName": "Espejos Electricos",
+                "fieldValues": ["SI"]
+            },
+            {
+                "fieldName": "Ficha técnica",
+                "fieldValues": ["https://www.usadosrentingcolombia.com/file/thirdparty/usados/fichatecnica/IEX304.pdf"]
+            },
+            {
+                "fieldName": "Suspensión",
+                "fieldValues": ["H"]
+            },
+            {
+                "fieldName": "Reserva",
+                "fieldValues": ["No"]
+            },
+            {
+                "fieldName": "Valor para reservar",
+                "fieldValues": ["1620000"]
+            },
+            {
+                "fieldName": "Versión",
+                "fieldValues": ["SE 2.0 4x2 Turbo Ecoboost"]
+            },
+            {
+                "fieldName": "Condición",
+                "fieldValues": ["Usado"]
+            },
+            {
+                "fieldName": "Municipio",
+                "fieldValues": ["Medellín"]
+            },
+            {
+                "fieldName": "Ultimo dígito placa",
+                "fieldValues": ["4"]
+            },
+            {
+                "fieldName": "Marca",
+                "fieldValues": ["Ford"]
+            },
+            {
+                "fieldName": "Modelo",
+                "fieldValues": ["2015"]
+            },
+            {
+                "fieldName": "Categoría / Tipo de vehículo",
+                "fieldValues": ["Camioneta"]
+            },
+            {
+                "fieldName": "KM",
+                "fieldValues": ["73133"]
+            },
+            {
+                "fieldName": "Transmisión",
+                "fieldValues": ["Automático"]
+            },
+            {
+                "fieldName": "Combustible",
+                "fieldValues": ["Gasolina"]
+            },
+            {
+                "fieldName": "ABS",
+                "fieldValues": ["Si"]
+            },
+            {
+                "fieldName": "Airbags",
+                "fieldValues": ["5"]
+            },
+            {
+                "fieldName": "Vidrios eléctricos",
+                "fieldValues": ["Si"]
+            },
+            {
+                "fieldName": "Alarma",
+                "fieldValues": ["Si"]
+            },
+            {
+                "fieldName": "Bloqueo Central",
+                "fieldValues": ["Si"]
+            },
+            {
+                "fieldName": "Keyless access",
+                "fieldValues": ["No"]
+            }
+        ],
+        "images": [
+            {
+                "imageName": "1",
+                "imageUrl": "https://movilidadco.vteximg.com.br/arquivos/ids/155588/FordEscapeSETurbo-mkt-010-_2.JPG.jpg?v=637221370110170000"
+            }
+        ]
+    },
+    {
+        "Id": 58,
+        "ProductId": 23,
+        "IsActive": true,
+        "ProductName": "Chevrolet Spark",
+        "ProductRefId": "024",
+        "PackagedHeight": 0.0,
+        "PackagedLength": 0.0,
+        "PackagedWidth": 0.0,
+        "PackagedWeightKg": 0.0,
+        "Height": 0.0,
+        "Length": 0.0,
+        "Width": 0.0,
+        "WeightKg": 0.0,
+        "CubicWeight": 0.0,
+        "IsKit": false,
+        "ReleaseDate": "2020-04-09T00:00:00",
+        "RewardValue": 0.0,
+        "EstimatedDateArrival": null,
+        "ManufacturerCode": "",
+        "CommercialConditionId": 1,
+        "MeasurementUnit": "un",
+        "UnitMultiplier": 1.0,
+        "ModalType": null,
+        "KitItensSellApart": false,
+        "productCategoryIds": "/1/11/",
+        "productDescription": "Chevrolet - Spark Life 1.0 A/C",
+        "nameComplete": "Chevrolet Spark",
+        "basePrice": 18000000.0,
+        "dimension": {
+            "height": 1.0,
+            "length": 1.0,
+            "weight": 1.0,
+            "width": 1.0
+        },
+        "brandName": "Renault",
+        "skuName": "Chevrolet Spark",
+        "productSpecifications": [
+            {
+                "fieldName": "Color",
+                "fieldValues": ["Blanco"]
+            },
+            {
+                "fieldName": "Peso (kg)",
+                "fieldValues": ["3000"]
+            },
+            {
+                "fieldName": "Capacidad",
+                "fieldValues": ["5"]
+            },
+            {
+                "fieldName": "Dirección",
+                "fieldValues": ["Asistida"]
+            },
+            {
+                "fieldName": "Tracción",
+                "fieldValues": ["4x2"]
+            },
+            {
+                "fieldName": "Multimedia",
+                "fieldValues": ["Si"]
+            },
+            {
+                "fieldName": "Rines de lujo",
+                "fieldValues": ["No"]
+            },
+            {
+                "fieldName": "Cojineria",
+                "fieldValues": ["Textil"]
+            },
+            {
+                "fieldName": "Espejos Electricos",
+                "fieldValues": ["NO"]
+            },
+            {
+                "fieldName": "Ficha técnica",
+                "fieldValues": ["https://www.usadosrentingcolombia.com/file/thirdparty/usados/fichatecnica/JHV211.pdf"]
+            },
+            {
+                "fieldName": "Suspensión",
+                "fieldValues": ["h"]
+            },
+            {
+                "fieldName": "Reserva",
+                "fieldValues": ["SI"]
+            },
+            {
+                "fieldName": "Valor para reservar",
+                "fieldValues": ["1000000"]
+            },
+            {
+                "fieldName": "Versión",
+                "fieldValues": ["Life 1.0 A/C"]
+            },
+            {
+                "fieldName": "Condición",
+                "fieldValues": ["Usado"]
+            },
+            {
+                "fieldName": "Municipio",
+                "fieldValues": ["Medellín"]
+            },
+            {
+                "fieldName": "Ultimo dígito placa",
+                "fieldValues": ["1"]
+            },
+            {
+                "fieldName": "Marca",
+                "fieldValues": ["Chevrolet"]
+            },
+            {
+                "fieldName": "Modelo",
+                "fieldValues": ["2018"]
+            },
+            {
+                "fieldName": "Categoría / Tipo de vehículo",
+                "fieldValues": ["Coupé"]
+            },
+            {
+                "fieldName": "KM",
+                "fieldValues": ["33959"]
+            },
+            {
+                "fieldName": "Transmisión",
+                "fieldValues": ["Mecánica"]
+            },
+            {
+                "fieldName": "Combustible",
+                "fieldValues": ["Gasolina"]
+            },
+            {
+                "fieldName": "ABS",
+                "fieldValues": ["Si"]
+            },
+            {
+                "fieldName": "Airbags",
+                "fieldValues": ["2"]
+            },
+            {
+                "fieldName": "Aire acondicionado",
+                "fieldValues": ["Si"]
+            },
+            {
+                "fieldName": "Vidrios eléctricos",
+                "fieldValues": ["Si"]
+            },
+            {
+                "fieldName": "Alarma",
+                "fieldValues": ["No"]
+            },
+            {
+                "fieldName": "Keyless access",
+                "fieldValues": ["No"]
+            }
+        ],
+        "images": [
+            {
+                "imageName": "1",
+                "imageUrl": "https://movilidadco.vteximg.com.br/arquivos/ids/155578/ChevroletSpark-mkt-003-_2.JPG.jpg?v=637220810412730000"
+            }
+        ]
+    },
+    {
+        "Id": 63,
+        "ProductId": 24,
+        "IsActive": true,
+        "ProductName": "Ford Escape SE Turbo",
+        "ProductRefId": "031",
+        "PackagedHeight": 0.0,
+        "PackagedLength": 0.0,
+        "PackagedWidth": 0.0,
+        "PackagedWeightKg": 0.0,
+        "Height": 0.0,
+        "Length": 0.0,
+        "Width": 0.0,
+        "WeightKg": 0.0,
+        "CubicWeight": 0.0,
+        "IsKit": false,
+        "ReleaseDate": "2020-04-09T00:00:00",
+        "RewardValue": 0.0,
+        "EstimatedDateArrival": null,
+        "ManufacturerCode": "",
+        "CommercialConditionId": 1,
+        "MeasurementUnit": "un",
+        "UnitMultiplier": 1.0,
+        "ModalType": null,
+        "KitItensSellApart": false,
+        "productCategoryIds": "/1/15/",
+        "productDescription": "Ford - Escape SE 2.0 4x2 Turbo Ecoboost Automática",
+        "nameComplete": "Ford Escape SE Turbo",
+        "basePrice": 48000000.0,
+        "dimension": {
+            "height": 1.0,
+            "length": 1.0,
+            "weight": 1.0,
+            "width": 1.0
+        },
+        "brandName": "Renault",
+        "skuName": "Ford Escape SE Turbo",
+        "productSpecifications": [
+            {
+                "fieldName": "Descripción",
+                "fieldValues": ["Ford - Escape SE 2.0 4x2 Turbo Ecoboost Automática"]
+            },
+            {
+                "fieldName": "Color",
+                "fieldValues": ["Gris"]
+            },
+            {
+                "fieldName": "Peso (kg)",
+                "fieldValues": ["3000"]
+            },
+            {
+                "fieldName": "Capacidad",
+                "fieldValues": ["7"]
+            },
+            {
+                "fieldName": "Dirección",
+                "fieldValues": ["Asistida"]
+            },
+            {
+                "fieldName": "Tracción",
+                "fieldValues": ["4x4"]
+            },
+            {
+                "fieldName": "Multimedia",
+                "fieldValues": ["Si"]
+            },
+            {
+                "fieldName": "Rines de lujo",
+                "fieldValues": ["Si"]
+            },
+            {
+                "fieldName": "Cojineria",
+                "fieldValues": ["Cuero"]
+            },
+            {
+                "fieldName": "Espejos Electricos",
+                "fieldValues": ["SI"]
+            },
+            {
+                "fieldName": "Ficha técnica",
+                "fieldValues": ["https://www.usadosrentingcolombia.com/file/thirdparty/usados/fichatecnica/IEX304.pdf"]
+            },
+            {
+                "fieldName": "Suspensión",
+                "fieldValues": ["H"]
+            },
+            {
+                "fieldName": "Reserva",
+                "fieldValues": ["No"]
+            },
+            {
+                "fieldName": "Valor para reservar",
+                "fieldValues": ["1620000"]
+            },
+            {
+                "fieldName": "Versión",
+                "fieldValues": ["SE 2.0 4x2 Turbo Ecoboost"]
+            },
+            {
+                "fieldName": "Condición",
+                "fieldValues": ["Usado"]
+            },
+            {
+                "fieldName": "Municipio",
+                "fieldValues": ["Medellín"]
+            },
+            {
+                "fieldName": "Ultimo dígito placa",
+                "fieldValues": ["4"]
+            },
+            {
+                "fieldName": "Marca",
+                "fieldValues": ["Ford"]
+            },
+            {
+                "fieldName": "Modelo",
+                "fieldValues": ["2015"]
+            },
+            {
+                "fieldName": "Categoría / Tipo de vehículo",
+                "fieldValues": ["Camioneta"]
+            },
+            {
+                "fieldName": "KM",
+                "fieldValues": ["73133"]
+            },
+            {
+                "fieldName": "Transmisión",
+                "fieldValues": ["Automático"]
+            },
+            {
+                "fieldName": "Combustible",
+                "fieldValues": ["Gasolina"]
+            },
+            {
+                "fieldName": "ABS",
+                "fieldValues": ["Si"]
+            },
+            {
+                "fieldName": "Airbags",
+                "fieldValues": ["5"]
+            },
+            {
+                "fieldName": "Vidrios eléctricos",
+                "fieldValues": ["Si"]
+            },
+            {
+                "fieldName": "Alarma",
+                "fieldValues": ["Si"]
+            },
+            {
+                "fieldName": "Bloqueo Central",
+                "fieldValues": ["Si"]
+            },
+            {
+                "fieldName": "Keyless access",
+                "fieldValues": ["No"]
+            }
+        ],
+        "images": [
+            {
+                "imageName": "1",
+                "imageUrl": "https://movilidadco.vteximg.com.br/arquivos/ids/155588/FordEscapeSETurbo-mkt-010-_2.JPG.jpg?v=637221370110170000"
+            }
+        ]
+    },
+    {
+        "Id": 58,
+        "ProductId": 23,
+        "IsActive": true,
+        "ProductName": "Chevrolet Spark",
+        "ProductRefId": "024",
+        "PackagedHeight": 0.0,
+        "PackagedLength": 0.0,
+        "PackagedWidth": 0.0,
+        "PackagedWeightKg": 0.0,
+        "Height": 0.0,
+        "Length": 0.0,
+        "Width": 0.0,
+        "WeightKg": 0.0,
+        "CubicWeight": 0.0,
+        "IsKit": false,
+        "ReleaseDate": "2020-04-09T00:00:00",
+        "RewardValue": 0.0,
+        "EstimatedDateArrival": null,
+        "ManufacturerCode": "",
+        "CommercialConditionId": 1,
+        "MeasurementUnit": "un",
+        "UnitMultiplier": 1.0,
+        "ModalType": null,
+        "KitItensSellApart": false,
+        "productCategoryIds": "/1/11/",
+        "productDescription": "Chevrolet - Spark Life 1.0 A/C",
+        "nameComplete": "Chevrolet Spark",
+        "basePrice": 18000000.0,
+        "dimension": {
+            "height": 1.0,
+            "length": 1.0,
+            "weight": 1.0,
+            "width": 1.0
+        },
+        "brandName": "Renault",
+        "skuName": "Chevrolet Spark",
+        "productSpecifications": [
+            {
+                "fieldName": "Color",
+                "fieldValues": ["Blanco"]
+            },
+            {
+                "fieldName": "Peso (kg)",
+                "fieldValues": ["3000"]
+            },
+            {
+                "fieldName": "Capacidad",
+                "fieldValues": ["5"]
+            },
+            {
+                "fieldName": "Dirección",
+                "fieldValues": ["Asistida"]
+            },
+            {
+                "fieldName": "Tracción",
+                "fieldValues": ["4x2"]
+            },
+            {
+                "fieldName": "Multimedia",
+                "fieldValues": ["Si"]
+            },
+            {
+                "fieldName": "Rines de lujo",
+                "fieldValues": ["No"]
+            },
+            {
+                "fieldName": "Cojineria",
+                "fieldValues": ["Textil"]
+            },
+            {
+                "fieldName": "Espejos Electricos",
+                "fieldValues": ["NO"]
+            },
+            {
+                "fieldName": "Ficha técnica",
+                "fieldValues": ["https://www.usadosrentingcolombia.com/file/thirdparty/usados/fichatecnica/JHV211.pdf"]
+            },
+            {
+                "fieldName": "Suspensión",
+                "fieldValues": ["h"]
+            },
+            {
+                "fieldName": "Reserva",
+                "fieldValues": ["SI"]
+            },
+            {
+                "fieldName": "Valor para reservar",
+                "fieldValues": ["1000000"]
+            },
+            {
+                "fieldName": "Versión",
+                "fieldValues": ["Life 1.0 A/C"]
+            },
+            {
+                "fieldName": "Condición",
+                "fieldValues": ["Usado"]
+            },
+            {
+                "fieldName": "Municipio",
+                "fieldValues": ["Medellín"]
+            },
+            {
+                "fieldName": "Ultimo dígito placa",
+                "fieldValues": ["1"]
+            },
+            {
+                "fieldName": "Marca",
+                "fieldValues": ["Chevrolet"]
+            },
+            {
+                "fieldName": "Modelo",
+                "fieldValues": ["2018"]
+            },
+            {
+                "fieldName": "Categoría / Tipo de vehículo",
+                "fieldValues": ["Coupé"]
+            },
+            {
+                "fieldName": "KM",
+                "fieldValues": ["33959"]
+            },
+            {
+                "fieldName": "Transmisión",
+                "fieldValues": ["Mecánica"]
+            },
+            {
+                "fieldName": "Combustible",
+                "fieldValues": ["Gasolina"]
+            },
+            {
+                "fieldName": "ABS",
+                "fieldValues": ["Si"]
+            },
+            {
+                "fieldName": "Airbags",
+                "fieldValues": ["2"]
+            },
+            {
+                "fieldName": "Aire acondicionado",
+                "fieldValues": ["Si"]
+            },
+            {
+                "fieldName": "Vidrios eléctricos",
+                "fieldValues": ["Si"]
+            },
+            {
+                "fieldName": "Alarma",
+                "fieldValues": ["No"]
+            },
+            {
+                "fieldName": "Keyless access",
+                "fieldValues": ["No"]
+            }
+        ],
+        "images": [
+            {
+                "imageName": "1",
+                "imageUrl": "https://movilidadco.vteximg.com.br/arquivos/ids/155578/ChevroletSpark-mkt-003-_2.JPG.jpg?v=637220810412730000"
+            }
+        ]
+    },
+    {
+        "Id": 63,
+        "ProductId": 24,
+        "IsActive": true,
+        "ProductName": "Ford Escape SE Turbo",
+        "ProductRefId": "031",
+        "PackagedHeight": 0.0,
+        "PackagedLength": 0.0,
+        "PackagedWidth": 0.0,
+        "PackagedWeightKg": 0.0,
+        "Height": 0.0,
+        "Length": 0.0,
+        "Width": 0.0,
+        "WeightKg": 0.0,
+        "CubicWeight": 0.0,
+        "IsKit": false,
+        "ReleaseDate": "2020-04-09T00:00:00",
+        "RewardValue": 0.0,
+        "EstimatedDateArrival": null,
+        "ManufacturerCode": "",
+        "CommercialConditionId": 1,
+        "MeasurementUnit": "un",
+        "UnitMultiplier": 1.0,
+        "ModalType": null,
+        "KitItensSellApart": false,
+        "productCategoryIds": "/1/15/",
+        "productDescription": "Ford - Escape SE 2.0 4x2 Turbo Ecoboost Automática",
+        "nameComplete": "Ford Escape SE Turbo",
+        "basePrice": 48000000.0,
+        "dimension": {
+            "height": 1.0,
+            "length": 1.0,
+            "weight": 1.0,
+            "width": 1.0
+        },
+        "brandName": "Renault",
+        "skuName": "Ford Escape SE Turbo",
+        "productSpecifications": [
+            {
+                "fieldName": "Descripción",
+                "fieldValues": ["Ford - Escape SE 2.0 4x2 Turbo Ecoboost Automática"]
+            },
+            {
+                "fieldName": "Color",
+                "fieldValues": ["Gris"]
+            },
+            {
+                "fieldName": "Peso (kg)",
+                "fieldValues": ["3000"]
+            },
+            {
+                "fieldName": "Capacidad",
+                "fieldValues": ["7"]
+            },
+            {
+                "fieldName": "Dirección",
+                "fieldValues": ["Asistida"]
+            },
+            {
+                "fieldName": "Tracción",
+                "fieldValues": ["4x4"]
+            },
+            {
+                "fieldName": "Multimedia",
+                "fieldValues": ["Si"]
+            },
+            {
+                "fieldName": "Rines de lujo",
+                "fieldValues": ["Si"]
+            },
+            {
+                "fieldName": "Cojineria",
+                "fieldValues": ["Cuero"]
+            },
+            {
+                "fieldName": "Espejos Electricos",
+                "fieldValues": ["SI"]
+            },
+            {
+                "fieldName": "Ficha técnica",
+                "fieldValues": ["https://www.usadosrentingcolombia.com/file/thirdparty/usados/fichatecnica/IEX304.pdf"]
+            },
+            {
+                "fieldName": "Suspensión",
+                "fieldValues": ["H"]
+            },
+            {
+                "fieldName": "Reserva",
+                "fieldValues": ["No"]
+            },
+            {
+                "fieldName": "Valor para reservar",
+                "fieldValues": ["1620000"]
+            },
+            {
+                "fieldName": "Versión",
+                "fieldValues": ["SE 2.0 4x2 Turbo Ecoboost"]
+            },
+            {
+                "fieldName": "Condición",
+                "fieldValues": ["Usado"]
+            },
+            {
+                "fieldName": "Municipio",
+                "fieldValues": ["Medellín"]
+            },
+            {
+                "fieldName": "Ultimo dígito placa",
+                "fieldValues": ["4"]
+            },
+            {
+                "fieldName": "Marca",
+                "fieldValues": ["Ford"]
+            },
+            {
+                "fieldName": "Modelo",
+                "fieldValues": ["2015"]
+            },
+            {
+                "fieldName": "Categoría / Tipo de vehículo",
+                "fieldValues": ["Camioneta"]
+            },
+            {
+                "fieldName": "KM",
+                "fieldValues": ["73133"]
+            },
+            {
+                "fieldName": "Transmisión",
+                "fieldValues": ["Automático"]
+            },
+            {
+                "fieldName": "Combustible",
+                "fieldValues": ["Gasolina"]
+            },
+            {
+                "fieldName": "ABS",
+                "fieldValues": ["Si"]
+            },
+            {
+                "fieldName": "Airbags",
+                "fieldValues": ["5"]
+            },
+            {
+                "fieldName": "Vidrios eléctricos",
+                "fieldValues": ["Si"]
+            },
+            {
+                "fieldName": "Alarma",
+                "fieldValues": ["Si"]
+            },
+            {
+                "fieldName": "Bloqueo Central",
+                "fieldValues": ["Si"]
+            },
+            {
+                "fieldName": "Keyless access",
+                "fieldValues": ["No"]
+            }
+        ],
+        "images": [
+            {
+                "imageName": "1",
+                "imageUrl": "https://movilidadco.vteximg.com.br/arquivos/ids/155588/FordEscapeSETurbo-mkt-010-_2.JPG.jpg?v=637221370110170000"
+            }
+        ]
+    }
+]

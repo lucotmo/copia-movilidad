@@ -1,0 +1,19 @@
+// @charset "UTF-8";
+// /*============================================================================
+// Inicio
+// BC-Home Combo
+// ==============================================================================*/
+
+// /*================ BASE ================*/
+@import "../base/_mixins";
+@import "../base/_margins";
+@import "../base/_utils";
+@import "../base/_variables";
+@import "../base/_responsive"; 
+@import "../components/image-carousel";
+
+// /*================ COMPONENTS ================*/
+
+// /*================ PAGES ================*/
+@import "../pages/_product";
+@import "../pages/_comparator";

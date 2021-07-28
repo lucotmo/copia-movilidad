@@ -1,0 +1,20 @@
+include bc-form.pug
+
+mixin bc-search(id)
+    .container
+        .bc-search.m-bottom-4(id=id)
+            .row.js-advanced-search.hidden
+            .row.no-gutters.js-simple-search
+                .col-10.col-lg-2.m-right-auto.m-left-auto.m-top-2
+                    .js-bc-slider
+                .col-11.col-lg-3.m-right-auto.m-left-auto
+                    +bc-type-select("js-vType")
+                .col-11.col-lg-3.m-right-auto.m-left-auto
+                    +bc-select("Marca", "Todas", "js-vBrand")
+                .col-9.col-lg-2.m-right-auto.m-left-auto.m-top-2
+                    button.bc-btn-primary Buscar
+                    button.bc-btn.m-top-3 Borrar filtros
+                .col-10.col-lg-11.m-right-auto.m-left-auto.m-top-2
+                    .bc-search__adv-search.bc-btn-icon-ghost.js-toggle-search
+                        p Búsqueda avanzada
+                        i.fenix-icon-arrow2-down

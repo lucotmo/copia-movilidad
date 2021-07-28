@@ -1,0 +1,18 @@
+// @charset "UTF-8";
+// /*============================================================================
+// Inicio
+// BC-Error page Combo
+// ==============================================================================*/
+
+// /*================ BASE ================*/
+@import "../base/_mixins";
+@import "../base/_margins";
+@import "../base/_utils";
+@import "../base/_variables";
+@import "../base/_responsive";
+@import "../base/keyframes";
+
+// /*================ COMPONENTS ================*/
+
+// /*================ PAGES ================*/
+@import "../pages/_errorPage";

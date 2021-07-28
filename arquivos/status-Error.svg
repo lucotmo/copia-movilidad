@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="16px" height="16px" viewBox="0 0 16 16" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <!-- Generator: Sketch 62 (91390) - https://sketch.com -->
+    <title>Group</title>
+    <desc>Created with Sketch.</desc>
+    <defs>
+        <path d="M6.71709845,7.83419689 L7.83419689,6.71709845 C8.02901554,6.52227979 8.02901554,6.20932642 7.83419689,6.01450777 L5.81968912,4 L7.83419689,1.98549223 C8.02901554,1.79067358 8.02901554,1.47772021 7.83419689,1.28290155 L6.71709845,0.165803109 C6.52227979,-0.029015544 6.20932642,-0.029015544 6.01450777,0.165803109 L4,2.18031088 L1.98549223,0.165803109 C1.79067358,-0.029015544 1.47772021,-0.029015544 1.28290155,0.165803109 L0.165803109,1.28290155 C-0.029015544,1.47772021 -0.029015544,1.79067358 0.165803109,1.98549223 L2.18031088,4 L0.165803109,6.01450777 C-0.029015544,6.20932642 -0.029015544,6.52227979 0.165803109,6.71709845 L1.28290155,7.83419689 C1.47772021,8.02901554 1.79067358,8.02901554 1.98549223,7.83419689 L4,5.81968912 L6.01450777,7.83419689 C6.20725389,8.02694301 6.52227979,8.02694301 6.71709845,7.83419689 Z" id="path-1"></path>
+    </defs>
+    <g id="Symbols" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <g id="UI/timeline/primary/error">
+            <g id="Group">
+                <circle id="Oval" fill="#FA5E5B" cx="8" cy="8" r="8"></circle>
+                <circle id="Oval" fill="#FFFFFF" cx="8" cy="8" r="7"></circle>
+                <circle id="Oval" fill="#FA5E5B" cx="8" cy="8" r="6"></circle>
+                <g id="iconografia/Solid/times" transform="translate(4.000000, 4.000000)">
+                    <mask id="mask-2" fill="white">
+                        <use xlink:href="#path-1"></use>
+                    </mask>
+                    <g id="Mask"></g>
+                    <g id="colores/iconos/blanco" mask="url(#mask-2)" fill="#FFFFFF" fill-rule="evenodd">
+                        <rect x="0" y="0" width="8" height="8"></rect>
+                    </g>
+                </g>
+            </g>
+        </g>
+    </g>
+</svg>

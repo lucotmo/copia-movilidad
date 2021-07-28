@@ -1,0 +1,198 @@
+extends partials/layout.pug
+
+block append styles
+    link(href="files/css/bc-comparatorProducts.min.css" rel="stylesheet")
+
+block title
+    title Bancolombia Movilidad
+
+block content  
+    .bc-sub-header.container
+        .breadcrumb
+            ul
+                li 
+                    a(href="#") TU 360
+                li 
+                    a(href="/") p TU 360 Movilidad
+                li.last
+                    p Buscar vehículo
+        .search-bar__wrapper.js-search-bar
+    .comparator
+        .content-page
+            .sticky-top-comparator.sticky
+                .sticky-content
+                    p Puedes comparar hasta 3 vehículos
+                    i.icon-times.close
+            .content-comparator.container
+                .swipeMobile
+                    a(href="#").return-page-swipe
+                a(href="/").link-return-page
+                    .icon
+                    p.return-link Volver a buscar
+                .content-products-comparator 
+                    .product-column       
+                        .header-comparator
+                            .product-link-delete-mobile
+                                p Eliminar
+                                span.icon
+                            .product-img
+                                img(src="../arquivos/img-compador-resultado-demo.jpg", alt="")
+                            .product-link-delete
+                                p Eliminar
+                                span.icon
+                            .product-info-select
+                                .product-content-specs
+                                    .product-status
+                                        p Nuevo
+                                    .product-brand-name
+                                        p Renault
+                                    .product-specs
+                                        div Zoe
+                                        div.last 15.456 km
+                                .product-brand-logo
+                                    img(src="../arquivos/logo-marca-comparador.jpg", alt="")
+                        .content-specs-table
+                            .specs-labels-table
+                                .specs-product-labels
+                                    .specs-label Precio
+                                    .specs-product $120.000.000
+                                .specs-product-labels
+                                    .specs-label Kilometraje
+                                    .specs-product 120.000 Km
+                                .specs-product-labels
+                                    .specs-label Transmisión
+                                    .specs-product Mecánica
+                                .specs-product-labels
+                                    .specs-label Combustible
+                                    .specs-product Híbrido
+                                .specs-product-labels
+                                    .specs-label Motor
+                                    .specs-product 1.2 Litros   
+                            .specs-equipment-table   
+                                .specs-equipment-status 
+                                    p Freno ABS
+                                    div.none
+                                .specs-equipment-status 
+                                    p Aire acondicionado
+                                    div.checked
+                                .specs-equipment-status 
+                                    p Vidrios eléctricos
+                                    div.checked
+                                .specs-equipment-status 
+                                    p Bloqueo central
+                                    div.none
+                        .product-page-btn.mobileSettings
+                            button.bc-btn-secundary-white.product-page-comparator Ver detalle
+                    span.line
+                    .product-column       
+                        .header-comparator.mobileSettings
+                            .product-link-delete-mobile
+                                a(href="#") Eliminar
+                                span.icon
+                            .product-img
+                                img(src="../arquivos/img-compador-resultado-demo.jpg", alt="")
+                            .product-link-delete
+                                a(href="#") Eliminar
+                                span.icon
+                            .product-info-select
+                                .product-content-specs
+                                    .product-status
+                                        p Nuevo
+                                    .product-brand-name
+                                        p Renault
+                                    .product-specs
+                                        div Zoe
+                                        div.last 15.456 km
+                                .product-brand-logo
+                                    img(src="../arquivos/logo-marca-comparador.jpg", alt="")
+                        .content-specs-table.mobileSettings
+                            .specs-labels-table
+                                .specs-product-labels
+                                    .specs-label Precio
+                                    .specs-product $120.000.000
+                                .specs-product-labels
+                                    .specs-label Kilometraje
+                                    .specs-product 120.000 Km
+                                .specs-product-labels
+                                    .specs-label Transmisión
+                                    .specs-product Mecánica
+                                .specs-product-labels
+                                    .specs-label Combustible
+                                    .specs-product Híbrido
+                                .specs-product-labels
+                                    .specs-label Motor
+                                    .specs-product 1.2 Litros   
+                            .specs-equipment-table   
+                                .specs-equipment-status 
+                                    p Freno ABS
+                                    div.none
+                                .specs-equipment-status 
+                                    p Aire acondicionado
+                                    div.checked
+                                .specs-equipment-status 
+                                    p Vidrios eléctricos
+                                    div.checked
+                                .specs-equipment-status 
+                                    p Bloqueo central
+                                    div.none
+                        .product-page-btn
+                            button.bc-btn-secundary-white.product-page-comparator Ver detalle
+                    span.line.last
+                    .product-column.noMobile       
+                        .header-comparator
+                            .product-img
+                                //- img(src="../arquivos/img-compador-resultado-demo.jpg", alt="")
+                                .product-no-img-content
+                                    img(src="../arquivos/img-no-comparador.jpg", alt="")                                    
+                                    a(href="#").link-return-img Agregar producto a comparar
+                            .product-link-delete
+                                a(href="#") Eliminar
+                                span.icon
+                            .product-info-select
+                                .product-content-specs
+                                    .product-status
+                                        p Nuevo
+                                    .product-brand-name
+                                        p Renault
+                                    .product-specs
+                                        div Zoe
+                                        div.last 15.456 km
+                                .product-brand-logo
+                                    img(src="../arquivos/logo-marca-comparador.jpg", alt="")
+                        .content-specs-table
+                            .specs-labels-table
+                                .specs-product-labels
+                                    .specs-label Precio
+                                    .specs-product 
+                                .specs-product-labels
+                                    .specs-label Kilometraje
+                                    .specs-product 
+                                .specs-product-labels
+                                    .specs-label Transmisión
+                                    .specs-product 
+                                .specs-product-labels
+                                    .specs-label Combustible
+                                    .specs-product 
+                                .specs-product-labels
+                                    .specs-label Motor
+                                    .specs-product   
+                            .specs-equipment-table   
+                                .specs-equipment-status 
+                                    p 
+                                    div
+                                .specs-equipment-status 
+                                    p 
+                                    div
+                                .specs-equipment-status 
+                                    p 
+                                    div
+                                .specs-equipment-status 
+                                    p
+                                    div
+                        .product-page-btn
+                            button.bc-btn-secundary-white.product-page-comparator Ver detalle
+                    
+block beforeScripts
+    include components/bc-pageloader.pug
+block afterScripts
+    script(src="/files/js/bc-comparator.bundle.min.js")

@@ -1,0 +1,23 @@
+/*=============================================================*/
+/* Spinner
+/*=============================================================*/
+
+.bc-spinner {
+    height: 150px;
+    width: 150px;
+    .spinner {
+        animation: spin 1.2s linear infinite;
+        border: 5px solid $color-status-03;
+        border-left-color: transparent;
+        border-radius: 50%;
+        box-sizing: border-box;
+        display: block;
+        height: 40px;
+        margin: 8px auto;
+        width: 40px;
+    }
+    p {
+        @include font-small-dark-center;
+        font-size: 14px;
+    }
+}

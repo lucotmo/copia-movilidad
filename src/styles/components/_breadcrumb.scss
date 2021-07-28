@@ -1,0 +1,131 @@
+/*=============================================================*/
+/* Breadcrumb
+/*=============================================================*/
+@import "../base/_fonts.scss";
+
+.breadcrumb {
+    color: $color-black;
+    font-size: 13px;
+    display: block;
+    position: relative;
+    font-family: 'Open Sans', Arial;
+    font-size: 12px;
+    font-weight: 400;
+    letter-spacing: -0.17px;
+    line-height: 16px;
+    margin-top: 10px;
+    margin-bottom: 10px;
+    a,
+    p {
+        color: #808285;
+        display: inline-block;
+        margin: 0;
+        /* text-transform: capitalize; */
+    }
+    p {
+        cursor: default;
+    }
+    a {
+        &:visited {
+            color: #808285;
+        }
+        // &:hover {
+        //     text-decoration: underline;
+        // }
+    }
+    li {
+        display: inline-block;
+        position: relative;
+        margin-right: 6px;
+        &:after {
+            content: $fenix-icon-arrow-right;
+            font-family: "#{$icomoon-font-family}";
+            font-size: 10px;
+            color: $color-status-02;
+            margin-left: 6px;
+        }
+        &.last {
+            display: inline-block;
+            position: relative;
+            margin-right: 0;
+            font-weight: 600;
+            p, a {
+                color: #292929;
+            }
+            &:after {
+                content: "";
+                margin-left: 0;
+            }
+        }
+    }
+}
+
+.breadCrumb {
+    display: flex;
+    flex-wrap: wrap;
+    margin: 25px auto;
+    padding: 0px 15px;
+    .bread-crumb {
+        padding-right: 15px;
+        padding-left: 15px;
+        margin-top: 25px;
+        margin-bottom: 20px;
+        margin-right: auto;
+        color: #a7a9ac;
+        font-size: 13px;
+        display: block;
+        position: relative;
+        font-family: 'Open Sans', Arial;
+        font-size: 14px;
+        line-height: 18px;
+        ul {
+            display: flex;
+            li {
+                strong {
+                    font-weight: inherit;
+                }
+                a,
+                a:hover,
+                a:active,
+                a:visited {
+                    color: #808285;
+                    //font-weight: lighter !important;
+                    // &:hover {
+                    //     border-bottom: 1px solid #292929;
+                    // }
+                }
+                &::after {
+                    content: $fenix-icon-arrow-right;
+                    font-family: "#{$icomoon-font-family}";
+                    font-size: 10px;
+                    color: $color-status-02;
+                    padding: 10px;
+                }
+                &:last-child {
+                    font-weight: 600;
+                    color: #808285;
+                    &::after {
+                        content: "";
+                    }
+                }
+            }
+        }
+    }
+}
+
+/*=============================================================*/
+/* DESKTOP */
+
+// @media screen and (min-width: $breakpoint-tablet) {
+//     .breadcrumb {
+//         margin-top: 50px !important;
+//         margin-bottom: 10px !important;
+//     }
+// }
+
+@media screen and (min-width: $breakpoint-desktop) {
+    .breadcrumb {
+        margin-top: 30px;
+        margin-bottom: 24px;
+    }
+}

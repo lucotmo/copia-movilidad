@@ -1,0 +1,74 @@
+/*=============================================================*/
+/* Quantity selector
+/*=============================================================*/
+
+.bc-quantity {
+    display: flex;
+    flex-wrap: wrap;
+    padding: 18px 0 10px 10px;
+    align-items: center;
+    &__label {
+        @include font-small-gray-01-left;
+        flex: 0 0 100%;
+        font-size: 14px;
+        margin-bottom: 5px;
+    }
+
+    &__count {
+        font-family: 'Open Sans';
+        font-weight: bold;
+        font-size: 24px;
+        line-height: 26px;
+        letter-spacing: -0.0045em;
+        text-align: center;
+        color: $color-text-00;
+        flex: 0 0 50%;
+        max-width: 50%;
+        height: auto;
+        padding: 0px;
+        margin: 0px auto;
+        
+        @media screen and (max-width: $breakpoint-middle-mobilePDP) {
+            max-width: 30%;
+        }
+    }
+
+    &__btn {
+        border-radius: 50%;
+        background-color: $color-brand-01;
+        font-size: 14px;
+        height: 32px;
+        width: 32px;
+        font-weight: lighter;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        line-height: 0;
+        position: relative;
+        padding: 6px;
+
+        &.--disabled {
+            background-color: rgba(116, 119, 121, 0.65);
+        }
+
+        [class^="icon"] {
+            pointer-events: none;
+            margin-left: 1px;
+            flex-basis: 100%;
+        }
+        .icon-minus {
+            &:before {
+                /* left: 0.7px;
+                top: 0.8px; */
+                position: relative;
+            }
+        }
+        .icon-plus {
+            &:before {
+                position: relative;
+                /* top: 0.8px;
+                left: 0.1px; */
+            }
+        }
+    }
+}

@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="48px" height="48px" viewBox="0 0 48 48" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <!-- Generator: Sketch 62 (91390) - https://sketch.com -->
+    <title>iconografia/marca/off/tarjeta-credito</title>
+    <desc>Created with Sketch.</desc>
+    <defs>
+        <polygon id="path-1" points="0.0004 0.3 40.39 0.3 40.39 31 0.0004 31"></polygon>
+    </defs>
+    <g id="iconografia/marca/off/tarjeta-credito" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <g id="Page-1" transform="translate(4.000000, 8.000000)">
+            <polygon id="Fill-1" fill="#5C5C60" points="14.367 22.0952 28.903 22.0952 28.903 19.6712 14.367 19.6712"></polygon>
+            <polygon id="Fill-2" fill="#5C5C60" points="14.367 25.8162 19.213 25.8162 19.213 23.3942 14.367 23.3942"></polygon>
+            <g id="Group-8" transform="translate(0.000000, 0.700200)">
+                <path d="M11.4019,18.8203 L6.2079,18.8203 C5.7539,18.8203 5.38589797,19.1883 5.38589797,19.6423 L5.38589797,24.8363 C5.3849,25.2913 5.7539,25.6593 6.2079,25.6593 L11.4019,25.6593 C11.8559,25.6593 12.2239,25.2913 12.2239,24.8363 L12.2239,19.6423 C12.2239,19.1883 11.8559,18.8203 11.4019,18.8203" id="Fill-3" fill="#5C5C60"></path>
+                <g id="Group-7">
+                    <mask id="mask-2" fill="white">
+                        <use xlink:href="#path-1"></use>
+                    </mask>
+                    <g id="Clip-6"></g>
+                    <path d="M34.7314,29.373 L5.6594,29.373 C3.4364,29.373 1.6274,27.564 1.6274,25.341 L1.6274,13.227 L38.7634,13.227 L38.7634,25.341 C38.7634,27.564 36.9544,29.373 34.7314,29.373 M5.6594,1.927 L34.7314,1.927 C36.9544,1.927 38.7634,3.735 38.7634,5.958 L38.7634,8.381 L1.6274,8.381 L1.6274,5.959 C1.6274,3.735 3.4364,1.927 5.6594,1.927 M34.7314,0.3 L5.6594,0.3 C2.5394,0.3 0.0004,2.839 0.0004,5.959 L0.0004,25.341 C0.0004,28.461 2.5394,31 5.6594,31 L34.7314,31 C37.8514,31 40.3904,28.461 40.3904,25.341 L40.3904,5.958 C40.3904,2.838 37.8514,0.3 34.7314,0.3" id="Fill-5" fill="#5C5C60" mask="url(#mask-2)"></path>
+                </g>
+            </g>
+        </g>
+    </g>
+</svg>

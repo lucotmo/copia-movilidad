@@ -1,0 +1,97 @@
+extends partials/layout.pug
+
+include components/bc-form.pug
+include components/bc-shelf.pug
+include components/bc-search.pug 
+
+block append styles
+    link(href="files/css/bc-localizator.min.css" rel="stylesheet")
+
+block title
+    title Bancolombia Movilidad
+
+block vars
+    - bodyClass = 'localizador';
+
+block content  
+  .content-page
+      <div class="breadCrumb container">
+        <div class="bread-crumb">
+          <ul>
+            <li><a title="movilidadco" href="/">Movilidad</a></li>
+            <li class="last"><strong><a title="Sedán">Localizador de concesionarios</a></strong></li>
+          </ul>
+        </div>
+      </div>
+      <section class="container full">
+          <div class="boxLocalizador">
+              <div class="boxInfo">
+                  <h1><i class="icon"></i>Localizador de concesionarios</h1>
+                  <p>Selecciona la ubicación y elige un concesionario para ver toda la información.</p>
+                  <div class="form">
+                    <div class="selectPais">                  
+                    </div>
+                    <div class="selectCiudad">
+                      <div class="bc-select__wrapper">
+                        <div class="bc-select selected" data-filter="">
+                          <label class="bc-select__label">Selecciona una ciudad</label>
+                          <div class="bc-select__input">
+                            <p>Seleccionar</p>
+                            <i class="fenix-icon-arrow2-down"></i>
+                          </div>
+                          //- <div class="bc-select__options row">
+                          //-   <div class="bc-select__option col-12">Todas</div>
+                          //-   <div class="bc-select__option col-12">Opcion 1 larga larga</div>
+                          //-   <div class="bc-select__option col-12">Opcion 1 larga larga</div>
+                          //-   <div class="bc-select__option col-12">Opcion 1 larga </div>
+                          //-   <div class="bc-select__option col-12">Opcion 1 larga larga</div>
+                          //-   <div class="bc-select__option col-12">Opcion 1 larga larga vez</div>
+                          //-   <div class="bc-select__option col-12">Opcion 1 larga larga</div>
+                          //-   <div class="bc-select__option col-12">Opcion 1 larga </div>
+                          //-   <div class="bc-select__option col-12">Opcion 1 larga larga</div>
+                          //-   <div class="bc-select__option col-12">Opcion 1 larga </div>
+                          //-   <div class="bc-select__option col-12">Opcion 1 larga larga</div>
+                          //-   <div class="bc-select__option col-12">Opcion 1 larga </div>
+                          //-   <div class="bc-select__option col-12">Opcion 1 </div>
+                          //-   <div class="bc-select__option col-12">Opcion 1 larga </div>
+                          //- </div>
+                        </div>
+                      </div>
+                    </div>
+
+                    <div class="selectStore">
+                      <div class="bc-select__wrapper">
+                        <div class="bc-select selected" data-filter="">
+                          <label class="bc-select__label">Selecciona un concesionario</label>
+                          <div class="bc-select__input">
+                            <p>Todas</p>
+                            <i class="fenix-icon-arrow2-down"></i>
+                          </div>
+                        </div>
+                      </div>
+                    </div>
+
+                  </div>
+                  <div class="infoTienda">
+                    //- <h3 class="nombre">Autolarte Palacé - Concesionario Chevrolet</h3>
+                    //- <ul class="info">
+                    //-   <li><i class="location"></i>Av. Palacé #32 16, Medellín, Antioquia</li>
+                    //-   <li><i class="telfone"></i>(4) 4449545</li>
+                    //-   <li><i class="times"></i>Lunes A Sabado 10:00 a.m. A 08:00 p.m. Domingos y Festivos 11:00 a.m A 07:00 p.m.</li>
+                    //-   <li><i class="star"></i><div class="title-sub">Marcas en este concesionario:</div></li> 
+                    //-   <li class="brands"><span>Chevrolet</span>, <span>Renault</span>, <span>Nissan</span> </li> 
+                    //- </ul>
+                  </div>
+              </div>
+              <div class="boxMapa">
+              </div>
+          </div>
+      </section> 
+
+block beforeScripts
+    include components/bc-pageloader.pug
+
+block afterScripts
+    script(src="/files/js/bc-store-data.js")
+    script(src="/files/js/bc-storeLocator.bundle.min.js")
+    script(src="/files/js/bc-localizator.bundle.min.js")

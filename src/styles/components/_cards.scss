@@ -1,0 +1,22 @@
+/*=============================================================*/
+/* Cards
+/*=============================================================*/
+
+.card-title {
+    color: $color-text-03;
+    font-family: Open Sans;
+    font-size: 24px;
+    font-weight: 700;
+}
+
+.card-subtitle {
+    color: $color-text-04;
+    font-size: 16px;
+    font-weight: 700;
+    text-transform: uppercase;
+}
+
+.card-description {
+    font-size: 14px;
+    max-width: 265px;
+}

@@ -1,0 +1,19 @@
+// @charset "UTF-8";
+// /*============================================================================
+// Inicio
+// BC-Category Combo
+// ==============================================================================*/
+
+// /*================ BASE ================*/
+@import "../base/_mixins";
+@import "../base/_margins";
+@import "../base/_utils";
+@import "../base/_variables";
+@import "../base/_responsive";
+@import "../base/keyframes";
+@import "../components/spinner";
+@import "../components/image-carousel";
+
+// /*================ COMPONENTS ================*/
+// /*================ PAGES ================*/
+@import "../pages/_recomended";

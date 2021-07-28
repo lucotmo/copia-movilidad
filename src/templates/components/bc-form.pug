@@ -1,0 +1,43 @@
+mixin bc-checkbox(label, className="" name="bc-checkbox-#{label}", id)
+    .bc-checkbox(class=className)
+        input(id=id type="checkbox" name=name class="bc-checkbox__input")
+        .bc-checkbox__checkmark
+            i.icon-check
+        label(for=name class="bc-checkbox__label")=label
+
+mixin bc-select(label, placeholder, className="", options= [])
+    .bc-select__wrapper 
+        .bc-select(class=className)&attributes({"data-selected": null})
+            label.bc-select__label= label
+            .bc-select__input
+                p= placeholder
+                i.fenix-icon-arrow2-down
+            .bc-select__options
+                each _option in options
+                    .bc-select__option.col-12&attributes({"data-value": _option.value})= _option.text
+
+mixin bc-type-select(className="")
+    -var defaultTypeOptions =[{name: "sedan", label: "Sedán"}, {name: "suv", label: "SUV"}, {name: "coupe", label: "Coupé"}, {name: "minivan", label: "Minivan"}, {name: "hatchback", label: "Hatchback"}, {name: "pickup", label: "Pickup"}]
+
+    .bc-select__wrapper
+        .bc-select.bc-select-type(class=className)
+            label.bc-select__label Tipo de vehículo
+            .bc-select__input
+                p Todos
+                i.fenix-icon-arrow2-down
+            .bc-select__options.row
+                each typeOption in defaultTypeOptions
+                    .bc-select__option.col-6.col-md-12.d-flex
+                        .bc-checkbox.bc-checkbox-type
+                            input(type="checkbox" name="op-" + typeOption.name class="bc-checkbox__input")
+                            .bc-checkbox__checkmark.visible-lg
+                                i.icon-check
+                            label(for="op-" + typeOption.name class="bc-checkbox__label")= typeOption.label
+                            div(class="fenix-icon-" + typeOption.name)
+
+mixin bc-select-text(label, placeholder, className="")
+    .bc-select__wrapper 
+        .bc-select(class=className)&attributes({"data-selected": null})
+            label.bc-select__label= label
+            .bc-select__input       
+                p= placeholder
